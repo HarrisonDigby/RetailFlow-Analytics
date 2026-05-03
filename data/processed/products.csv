@@ -1,0 +1,17 @@
+product_id,product_name,category,unit_price,unit_cost,unit_margin
+1,T-Shirt,Clothing,58.46,32.61,25.85
+2,Hoodie,Clothing,40.62,17.51,23.11
+3,Jeans,Clothing,87.18,51.96,35.22
+4,Jacket,Clothing,58.85,34.76,24.09
+5,Resistance Bands,Fitness,111.48,69.76,41.72
+6,Yoga Mat,Fitness,78.01,45.36,32.65
+7,Protein Shaker,Fitness,112.57,56.15,56.42
+8,Gym Gloves,Fitness,68.99,39.78,29.21
+9,Desk Lamp,Home,109.74,70.16,39.58
+10,Storage Box,Home,16.0,6.53,9.47
+11,Mug,Home,42.45,25.99,16.46
+12,Notebook,Home,71.75,32.36,39.39
+13,Wireless Mouse,Electronics,21.93,12.96,8.97
+14,Keyboard,Electronics,86.37,58.73,27.64
+15,USB-C Cable,Electronics,64.05,33.49,30.56
+16,Phone Stand,Electronics,17.01,6.19,10.82

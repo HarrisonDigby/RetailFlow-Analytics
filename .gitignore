@@ -4,11 +4,11 @@ __pycache__/
 .venv/
 venv/
 
-# Processed/generated outputs
-data/processed/
-
 # Environment variables / secrets
 .env
+
+# Large temporary files
+tmp/
 
 # OS/editor
 .DS_Store
