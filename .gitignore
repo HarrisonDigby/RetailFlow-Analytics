@@ -4,8 +4,7 @@ __pycache__/
 .venv/
 venv/
 
-# Local data
-data/raw/
+# Processed/generated outputs
 data/processed/
 
 # Environment variables / secrets

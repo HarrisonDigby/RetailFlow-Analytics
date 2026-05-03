@@ -1,0 +1,2001 @@
+order_id,customer_id,product_id,order_date,channel,quantity,unit_price,status
+1,321,7,2025-06-15,eBay,4,112.57,completed
+2,489,12,2025-04-28,Website,1,71.75,completed
+3,244,14,2025-01-21,Amazon,5,86.37,refunded
+4,387,1,2025-11-30,Offline Trade,5,58.46,completed
+5,97,5,2025-10-27,Offline Trade,2,111.48,refunded
+6,142,15,2025-08-29,eBay,1,64.05,refunded
+7,358,3,2025-06-14,Website,3,87.18,completed
+8,319,3,2025-07-30,Offline Trade,3,87.18,completed
+9,232,15,2025-10-09,Website,4,64.05,refunded
+10,354,15,2025-06-11,eBay,1,64.05,completed
+11,71,8,2025-07-26,Website,1,68.99,cancelled
+12,454,6,2025-07-31,Website,4,78.01,completed
+13,146,2,2025-07-05,Offline Trade,5,40.62,refunded
+14,369,2,2025-04-15,eBay,1,40.62,cancelled
+15,336,4,2025-05-28,Offline Trade,2,58.85,refunded
+16,141,1,2025-01-15,Amazon,1,58.46,completed
+17,435,9,2025-10-10,Website,3,109.74,cancelled
+18,499,12,2025-02-17,Amazon,4,71.75,completed
+19,274,3,2025-03-02,Amazon,4,87.18,refunded
+20,104,15,2025-09-18,eBay,3,64.05,refunded
+21,448,12,2025-08-30,Amazon,4,71.75,refunded
+22,160,1,2025-03-16,Offline Trade,5,58.46,completed
+23,274,6,2025-09-18,Amazon,5,78.01,completed
+24,450,16,2025-08-01,eBay,3,17.01,cancelled
+25,247,13,2025-01-02,eBay,3,21.93,completed
+26,82,6,2025-10-24,Offline Trade,5,78.01,completed
+27,183,4,2025-10-03,Offline Trade,4,58.85,completed
+28,12,5,2025-10-10,Offline Trade,3,111.48,refunded
+29,273,2,2025-04-07,Amazon,3,40.62,cancelled
+30,351,15,2025-04-30,Offline Trade,4,64.05,completed
+31,318,9,2025-08-31,Offline Trade,3,109.74,refunded
+32,472,16,2025-09-11,Website,2,17.01,completed
+33,317,10,2025-10-30,eBay,5,16.0,completed
+34,165,5,2025-02-21,Offline Trade,4,111.48,completed
+35,98,5,2025-07-29,Amazon,2,111.48,completed
+36,263,3,2025-05-16,eBay,4,87.18,cancelled
+37,316,6,2025-11-29,Website,4,78.01,completed
+38,293,3,2025-07-14,eBay,5,87.18,refunded
+39,6,11,2025-01-19,Website,5,42.45,completed
+40,348,16,2025-04-27,Website,3,17.01,refunded
+41,411,15,2025-11-21,Website,1,64.05,refunded
+42,167,3,2025-12-22,eBay,2,87.18,completed
+43,242,11,2025-06-16,Website,1,42.45,completed
+44,263,13,2025-07-11,Offline Trade,3,21.93,completed
+45,12,8,2025-09-29,Offline Trade,2,68.99,cancelled
+46,469,5,2025-03-29,Amazon,2,111.48,completed
+47,187,10,2025-07-15,Amazon,5,16.0,refunded
+48,243,2,2025-03-15,Amazon,5,40.62,refunded
+49,499,14,2025-08-24,eBay,3,86.37,completed
+50,453,15,2025-05-28,Amazon,4,64.05,completed
+51,319,1,2025-06-26,eBay,4,58.46,refunded
+52,76,5,2025-08-22,eBay,3,111.48,completed
+53,450,15,2025-09-05,Website,4,64.05,completed
+54,484,10,2025-10-20,eBay,4,16.0,cancelled
+55,183,2,2025-12-25,eBay,3,40.62,completed
+56,287,11,2025-05-21,Website,4,42.45,cancelled
+57,335,16,2025-11-07,Offline Trade,1,17.01,completed
+58,115,16,2025-11-07,eBay,2,17.01,completed
+59,60,5,2025-11-14,eBay,2,111.48,completed
+60,215,10,2025-11-18,Website,1,16.0,completed
+61,280,15,2025-01-18,eBay,4,64.05,completed
+62,103,5,2025-06-01,eBay,1,111.48,refunded
+63,208,2,2025-04-13,Amazon,2,40.62,cancelled
+64,150,8,2025-09-29,eBay,3,68.99,completed
+65,342,4,2025-09-04,eBay,3,58.85,completed
+66,317,13,2025-08-28,Website,1,21.93,completed
+67,173,15,2025-12-13,Offline Trade,2,64.05,cancelled
+68,103,1,2025-02-16,Offline Trade,3,58.46,completed
+69,198,10,2025-10-02,Website,3,16.0,refunded
+70,363,7,2025-12-11,eBay,3,112.57,cancelled
+71,28,7,2025-11-23,eBay,4,112.57,completed
+72,148,1,2025-08-30,Website,2,58.46,cancelled
+73,329,16,2025-06-17,Amazon,5,17.01,completed
+74,203,15,2025-12-25,eBay,4,64.05,refunded
+75,230,5,2025-03-13,Website,1,111.48,completed
+76,326,1,2025-09-10,Website,3,58.46,completed
+77,97,13,2025-10-03,Amazon,2,21.93,refunded
+78,455,9,2025-07-09,Offline Trade,4,109.74,cancelled
+79,468,6,2025-08-01,Website,2,78.01,refunded
+80,229,16,2025-07-28,eBay,5,17.01,completed
+81,325,1,2025-04-22,Offline Trade,3,58.46,refunded
+82,385,9,2025-07-05,Website,2,109.74,completed
+83,62,10,2025-11-27,eBay,5,16.0,completed
+84,168,12,2025-05-22,Amazon,4,71.75,completed
+85,131,2,2025-02-16,Amazon,4,40.62,cancelled
+86,219,6,2025-01-26,eBay,1,78.01,completed
+87,334,16,2025-10-17,Amazon,2,17.01,completed
+88,79,13,2025-04-17,Amazon,5,21.93,completed
+89,100,5,2025-03-17,Website,3,111.48,completed
+90,46,12,2025-03-08,eBay,2,71.75,completed
+91,191,16,2025-12-05,Website,1,17.01,completed
+92,368,10,2025-07-03,Amazon,1,16.0,cancelled
+93,160,4,2025-01-09,Amazon,3,58.85,completed
+94,325,12,2025-03-06,Offline Trade,1,71.75,cancelled
+95,337,6,2025-02-02,Offline Trade,1,78.01,refunded
+96,66,11,2025-09-20,Website,3,42.45,refunded
+97,370,12,2025-04-24,Website,5,71.75,cancelled
+98,383,13,2025-08-23,Website,3,21.93,completed
+99,82,5,2025-07-25,Offline Trade,4,111.48,completed
+100,206,16,2025-12-31,Offline Trade,4,17.01,completed
+101,349,11,2025-06-14,Amazon,1,42.45,completed
+102,309,2,2025-05-21,eBay,2,40.62,refunded
+103,200,8,2025-09-29,eBay,5,68.99,refunded
+104,209,6,2025-11-06,Offline Trade,5,78.01,completed
+105,232,12,2025-12-02,Amazon,1,71.75,refunded
+106,184,2,2025-04-27,Offline Trade,4,40.62,completed
+107,110,4,2025-07-24,Offline Trade,4,58.85,completed
+108,284,13,2025-08-07,eBay,3,21.93,completed
+109,213,12,2025-03-20,Offline Trade,3,71.75,completed
+110,283,8,2025-02-13,Website,1,68.99,refunded
+111,345,16,2025-07-10,Amazon,1,17.01,cancelled
+112,189,7,2025-10-28,eBay,1,112.57,completed
+113,458,10,2025-07-01,Offline Trade,4,16.0,completed
+114,99,10,2025-11-04,eBay,3,16.0,completed
+115,301,16,2025-10-23,Amazon,1,17.01,completed
+116,362,13,2025-04-25,Website,4,21.93,completed
+117,345,16,2025-07-08,Website,5,17.01,completed
+118,224,10,2025-04-26,Offline Trade,5,16.0,cancelled
+119,28,10,2025-11-11,Website,5,16.0,cancelled
+120,102,4,2025-01-15,Amazon,3,58.85,completed
+121,58,10,2025-06-23,eBay,3,16.0,completed
+122,373,8,2025-03-15,Offline Trade,2,68.99,completed
+123,266,5,2025-11-21,Website,2,111.48,completed
+124,229,10,2025-04-21,Offline Trade,5,16.0,refunded
+125,330,15,2025-06-24,Amazon,4,64.05,completed
+126,174,2,2025-06-16,Website,3,40.62,completed
+127,172,12,2025-03-22,Website,2,71.75,completed
+128,60,4,2025-08-15,Offline Trade,3,58.85,refunded
+129,91,13,2025-08-15,Offline Trade,5,21.93,completed
+130,114,1,2025-09-20,Website,2,58.46,completed
+131,245,1,2025-02-26,eBay,4,58.46,cancelled
+132,466,7,2025-09-27,eBay,4,112.57,completed
+133,209,2,2025-07-22,Website,2,40.62,completed
+134,5,2,2025-06-04,Amazon,2,40.62,completed
+135,422,5,2025-05-29,eBay,3,111.48,completed
+136,158,13,2025-09-12,Offline Trade,1,21.93,completed
+137,161,6,2025-07-14,Amazon,2,78.01,cancelled
+138,25,9,2025-12-09,eBay,5,109.74,completed
+139,95,5,2025-01-22,Offline Trade,4,111.48,completed
+140,95,9,2025-02-09,eBay,4,109.74,cancelled
+141,308,5,2025-10-21,Offline Trade,4,111.48,refunded
+142,476,8,2025-02-28,Offline Trade,3,68.99,completed
+143,89,12,2025-03-29,Offline Trade,3,71.75,completed
+144,179,14,2025-08-12,Website,1,86.37,completed
+145,439,1,2025-10-29,Offline Trade,4,58.46,cancelled
+146,425,5,2025-07-22,eBay,1,111.48,completed
+147,39,10,2025-06-20,Amazon,2,16.0,completed
+148,371,14,2025-11-21,Website,5,86.37,cancelled
+149,97,3,2025-04-10,eBay,5,87.18,completed
+150,139,12,2025-05-01,Website,2,71.75,completed
+151,302,15,2025-04-12,Amazon,3,64.05,cancelled
+152,197,5,2025-12-02,Website,2,111.48,completed
+153,19,15,2025-08-26,Offline Trade,4,64.05,cancelled
+154,388,1,2025-06-15,eBay,5,58.46,completed
+155,146,16,2025-02-04,Offline Trade,4,17.01,refunded
+156,29,11,2025-05-21,Website,3,42.45,completed
+157,490,5,2025-02-07,eBay,5,111.48,refunded
+158,213,7,2025-01-20,Website,4,112.57,completed
+159,397,15,2025-02-09,Website,3,64.05,cancelled
+160,30,1,2025-09-17,Offline Trade,5,58.46,refunded
+161,385,2,2025-10-11,Website,5,40.62,refunded
+162,65,15,2025-11-30,Amazon,5,64.05,completed
+163,99,3,2025-09-01,Amazon,5,87.18,completed
+164,237,5,2025-02-22,eBay,4,111.48,completed
+165,179,6,2025-11-27,Amazon,5,78.01,completed
+166,294,13,2025-12-29,Offline Trade,2,21.93,refunded
+167,170,7,2025-09-25,Amazon,5,112.57,completed
+168,255,8,2025-05-25,Offline Trade,3,68.99,refunded
+169,47,9,2025-12-14,Website,3,109.74,completed
+170,64,3,2025-06-18,Website,1,87.18,cancelled
+171,493,10,2025-05-26,eBay,4,16.0,cancelled
+172,259,10,2025-06-20,Website,2,16.0,cancelled
+173,499,16,2025-06-29,eBay,2,17.01,refunded
+174,27,15,2025-11-01,Website,2,64.05,completed
+175,91,11,2025-07-12,eBay,5,42.45,completed
+176,124,2,2025-02-17,Offline Trade,5,40.62,cancelled
+177,94,1,2025-01-10,eBay,3,58.46,completed
+178,311,3,2025-04-20,eBay,2,87.18,refunded
+179,482,6,2025-04-26,Amazon,2,78.01,completed
+180,254,1,2025-06-01,Website,1,58.46,cancelled
+181,389,1,2025-09-27,Website,5,58.46,completed
+182,410,12,2025-03-09,Offline Trade,5,71.75,completed
+183,109,1,2025-04-03,Amazon,2,58.46,refunded
+184,157,10,2025-07-30,eBay,1,16.0,completed
+185,360,5,2025-11-09,eBay,4,111.48,refunded
+186,322,1,2025-10-01,Amazon,2,58.46,completed
+187,259,3,2025-04-10,eBay,4,87.18,cancelled
+188,268,1,2025-08-25,eBay,4,58.46,refunded
+189,88,14,2025-09-28,Offline Trade,5,86.37,completed
+190,229,13,2025-11-06,Amazon,2,21.93,completed
+191,3,16,2025-11-25,Offline Trade,1,17.01,completed
+192,398,7,2025-02-22,Website,5,112.57,completed
+193,261,8,2025-03-24,eBay,1,68.99,refunded
+194,202,8,2025-03-17,Offline Trade,5,68.99,completed
+195,328,7,2025-08-19,eBay,2,112.57,completed
+196,124,8,2025-01-28,Offline Trade,4,68.99,cancelled
+197,70,10,2025-05-01,Offline Trade,3,16.0,completed
+198,218,6,2025-04-25,Website,3,78.01,completed
+199,276,6,2025-11-29,eBay,1,78.01,completed
+200,271,14,2025-01-20,eBay,2,86.37,refunded
+201,134,1,2025-12-28,Offline Trade,2,58.46,refunded
+202,412,10,2025-01-03,Website,5,16.0,completed
+203,482,8,2025-04-21,Amazon,3,68.99,cancelled
+204,465,8,2025-09-28,Offline Trade,5,68.99,completed
+205,448,11,2025-05-02,eBay,3,42.45,completed
+206,157,10,2025-05-03,Offline Trade,1,16.0,cancelled
+207,211,1,2025-02-02,Website,4,58.46,refunded
+208,153,9,2025-10-02,Website,5,109.74,cancelled
+209,14,8,2025-05-04,Amazon,5,68.99,completed
+210,163,11,2025-01-01,eBay,4,42.45,completed
+211,118,7,2025-08-02,Amazon,5,112.57,completed
+212,148,4,2025-07-04,Website,5,58.85,cancelled
+213,485,15,2025-09-17,Website,5,64.05,refunded
+214,153,5,2025-01-23,Offline Trade,4,111.48,completed
+215,459,8,2025-01-09,eBay,3,68.99,completed
+216,59,9,2025-05-04,Website,3,109.74,cancelled
+217,23,7,2025-03-10,Website,3,112.57,completed
+218,216,4,2025-06-23,Amazon,5,58.85,refunded
+219,33,9,2025-11-20,Amazon,4,109.74,completed
+220,102,11,2025-08-23,Website,1,42.45,completed
+221,409,7,2025-01-23,Amazon,2,112.57,completed
+222,123,4,2025-06-08,Offline Trade,3,58.85,cancelled
+223,106,8,2025-05-10,Website,4,68.99,completed
+224,218,11,2025-07-02,Website,3,42.45,completed
+225,149,9,2025-03-05,eBay,3,109.74,refunded
+226,13,11,2025-08-14,Offline Trade,4,42.45,completed
+227,271,1,2025-09-12,Offline Trade,2,58.46,completed
+228,52,1,2025-05-17,Website,5,58.46,refunded
+229,239,7,2025-08-09,Amazon,1,112.57,cancelled
+230,309,15,2025-06-14,Website,3,64.05,completed
+231,191,1,2025-12-05,eBay,3,58.46,completed
+232,479,16,2025-11-05,Offline Trade,4,17.01,completed
+233,314,10,2025-06-29,Offline Trade,4,16.0,completed
+234,49,7,2025-11-11,Offline Trade,3,112.57,completed
+235,366,1,2025-02-08,Offline Trade,1,58.46,completed
+236,185,3,2025-12-14,Amazon,5,87.18,completed
+237,167,16,2025-11-08,Offline Trade,2,17.01,completed
+238,316,4,2025-02-04,Amazon,2,58.85,completed
+239,316,8,2025-07-16,Website,3,68.99,cancelled
+240,396,2,2025-12-14,Offline Trade,2,40.62,completed
+241,86,7,2025-08-16,Website,3,112.57,cancelled
+242,334,15,2025-09-29,eBay,2,64.05,refunded
+243,85,9,2025-11-29,eBay,3,109.74,completed
+244,444,10,2025-01-14,Amazon,1,16.0,refunded
+245,334,5,2025-07-18,Website,5,111.48,completed
+246,229,3,2025-12-27,Offline Trade,3,87.18,completed
+247,119,12,2025-05-27,Offline Trade,5,71.75,completed
+248,282,8,2025-03-11,Website,1,68.99,refunded
+249,307,13,2025-08-16,Website,2,21.93,completed
+250,310,12,2025-12-30,Website,3,71.75,cancelled
+251,100,16,2025-05-29,eBay,5,17.01,completed
+252,43,12,2025-07-05,Amazon,2,71.75,completed
+253,143,12,2025-03-13,Amazon,2,71.75,refunded
+254,49,5,2025-07-04,eBay,1,111.48,refunded
+255,131,2,2025-03-08,Website,5,40.62,completed
+256,386,16,2025-07-23,Offline Trade,3,17.01,cancelled
+257,415,14,2025-07-29,Website,4,86.37,completed
+258,120,5,2025-11-25,Website,3,111.48,refunded
+259,79,6,2025-12-15,eBay,4,78.01,completed
+260,313,3,2025-11-24,Amazon,5,87.18,completed
+261,108,3,2025-09-15,Website,4,87.18,completed
+262,191,1,2025-03-20,eBay,5,58.46,completed
+263,244,16,2025-06-15,Amazon,2,17.01,completed
+264,180,10,2025-05-26,Website,5,16.0,completed
+265,33,1,2025-11-22,eBay,2,58.46,completed
+266,272,7,2025-11-11,Website,3,112.57,cancelled
+267,265,12,2025-10-31,Amazon,2,71.75,completed
+268,295,16,2025-11-06,eBay,5,17.01,cancelled
+269,347,9,2025-01-15,Website,1,109.74,completed
+270,474,2,2025-05-16,Amazon,5,40.62,cancelled
+271,213,14,2025-11-13,Website,4,86.37,refunded
+272,353,12,2025-05-29,eBay,5,71.75,refunded
+273,153,9,2025-12-17,Offline Trade,2,109.74,completed
+274,280,8,2025-02-07,Website,4,68.99,completed
+275,377,7,2025-08-01,Offline Trade,4,112.57,refunded
+276,265,11,2025-06-24,Amazon,2,42.45,completed
+277,483,14,2025-06-26,Offline Trade,3,86.37,completed
+278,368,13,2025-09-21,Website,3,21.93,completed
+279,403,9,2025-08-27,Website,2,109.74,completed
+280,346,13,2025-05-07,Amazon,4,21.93,completed
+281,55,8,2025-05-29,Offline Trade,1,68.99,cancelled
+282,492,10,2025-05-08,Amazon,4,16.0,completed
+283,114,10,2025-06-10,Amazon,5,16.0,completed
+284,363,9,2025-09-21,Offline Trade,4,109.74,refunded
+285,445,1,2025-09-12,Website,3,58.46,completed
+286,486,15,2025-09-16,Offline Trade,4,64.05,completed
+287,250,15,2025-10-26,eBay,2,64.05,completed
+288,100,3,2025-05-25,Offline Trade,1,87.18,cancelled
+289,426,10,2025-05-27,Website,4,16.0,completed
+290,290,16,2025-03-10,eBay,4,17.01,completed
+291,252,11,2025-07-07,Website,4,42.45,refunded
+292,451,6,2025-10-19,Amazon,1,78.01,completed
+293,384,13,2025-05-28,Website,5,21.93,refunded
+294,446,12,2025-08-19,eBay,5,71.75,cancelled
+295,151,14,2025-03-02,Amazon,5,86.37,completed
+296,298,16,2025-07-11,eBay,4,17.01,cancelled
+297,473,9,2025-03-15,Amazon,3,109.74,cancelled
+298,358,4,2025-07-25,Website,5,58.85,completed
+299,58,1,2025-03-12,eBay,1,58.46,refunded
+300,189,7,2025-08-22,Amazon,5,112.57,cancelled
+301,190,16,2025-03-13,eBay,5,17.01,cancelled
+302,381,14,2025-03-25,Offline Trade,3,86.37,cancelled
+303,368,5,2025-10-31,eBay,3,111.48,cancelled
+304,328,14,2025-09-30,Offline Trade,5,86.37,cancelled
+305,401,5,2025-09-01,Website,3,111.48,completed
+306,53,3,2025-12-11,Website,3,87.18,refunded
+307,69,2,2025-06-07,Website,5,40.62,cancelled
+308,99,2,2025-05-16,Amazon,4,40.62,completed
+309,159,16,2025-09-03,Amazon,5,17.01,cancelled
+310,490,14,2025-07-14,Amazon,5,86.37,completed
+311,381,16,2025-10-21,Website,1,17.01,completed
+312,376,15,2025-08-14,eBay,1,64.05,refunded
+313,218,14,2025-07-31,Amazon,2,86.37,refunded
+314,69,13,2025-11-10,Offline Trade,5,21.93,completed
+315,346,8,2025-09-23,Amazon,2,68.99,cancelled
+316,385,12,2025-12-06,Offline Trade,3,71.75,cancelled
+317,404,3,2025-06-10,Amazon,4,87.18,refunded
+318,183,9,2025-06-25,eBay,5,109.74,completed
+319,204,1,2025-09-05,Amazon,5,58.46,completed
+320,63,15,2025-10-13,eBay,3,64.05,completed
+321,83,16,2025-05-28,Amazon,3,17.01,refunded
+322,212,16,2025-09-03,eBay,3,17.01,cancelled
+323,100,15,2025-05-28,Website,3,64.05,cancelled
+324,420,15,2025-07-14,Offline Trade,5,64.05,completed
+325,394,8,2025-05-29,Website,2,68.99,completed
+326,411,13,2025-06-27,Offline Trade,1,21.93,completed
+327,174,2,2025-04-20,Amazon,4,40.62,cancelled
+328,417,12,2025-10-15,eBay,3,71.75,completed
+329,7,12,2025-11-12,Amazon,1,71.75,completed
+330,463,6,2025-12-09,Amazon,1,78.01,completed
+331,404,1,2025-02-21,Offline Trade,1,58.46,completed
+332,116,4,2025-02-21,Amazon,4,58.85,completed
+333,389,7,2025-03-22,Offline Trade,5,112.57,refunded
+334,397,9,2025-11-30,Amazon,4,109.74,completed
+335,48,9,2025-05-27,Website,3,109.74,completed
+336,430,15,2025-04-29,Website,5,64.05,completed
+337,334,12,2025-04-01,Website,4,71.75,refunded
+338,53,6,2025-04-06,eBay,4,78.01,completed
+339,197,16,2025-06-02,Website,1,17.01,completed
+340,128,4,2025-08-21,Offline Trade,3,58.85,completed
+341,66,3,2025-08-28,eBay,5,87.18,completed
+342,477,12,2025-06-19,Amazon,1,71.75,refunded
+343,263,13,2025-04-06,Website,3,21.93,completed
+344,444,12,2025-10-18,Amazon,3,71.75,completed
+345,202,8,2025-11-24,Offline Trade,5,68.99,refunded
+346,145,3,2025-06-17,Website,5,87.18,refunded
+347,389,7,2025-04-05,Amazon,1,112.57,refunded
+348,29,5,2025-05-08,Website,3,111.48,completed
+349,252,15,2025-05-01,Offline Trade,4,64.05,completed
+350,72,9,2025-06-04,Website,3,109.74,completed
+351,72,14,2025-12-21,Amazon,3,86.37,completed
+352,38,6,2025-08-27,eBay,1,78.01,completed
+353,8,2,2025-12-18,eBay,4,40.62,completed
+354,167,1,2025-07-08,Amazon,3,58.46,completed
+355,469,5,2025-09-02,Amazon,2,111.48,refunded
+356,420,7,2025-07-11,Offline Trade,5,112.57,cancelled
+357,165,9,2025-10-03,Amazon,4,109.74,completed
+358,347,11,2025-02-11,Offline Trade,5,42.45,cancelled
+359,412,1,2025-02-09,Website,3,58.46,completed
+360,481,13,2025-09-16,Amazon,5,21.93,cancelled
+361,53,8,2025-03-18,Amazon,5,68.99,completed
+362,221,14,2025-08-15,Website,5,86.37,completed
+363,480,13,2025-09-08,Website,5,21.93,cancelled
+364,178,16,2025-01-29,Offline Trade,4,17.01,completed
+365,173,15,2025-08-01,Offline Trade,5,64.05,cancelled
+366,336,10,2025-10-14,Offline Trade,1,16.0,completed
+367,190,13,2025-07-22,eBay,1,21.93,completed
+368,77,2,2025-10-24,Website,2,40.62,completed
+369,450,6,2025-06-26,Website,4,78.01,cancelled
+370,385,7,2025-02-05,Offline Trade,1,112.57,completed
+371,285,15,2025-07-29,Amazon,3,64.05,completed
+372,361,12,2025-07-11,Offline Trade,4,71.75,refunded
+373,113,6,2025-07-12,Website,4,78.01,cancelled
+374,472,5,2025-12-01,eBay,2,111.48,completed
+375,295,9,2025-10-03,Offline Trade,2,109.74,cancelled
+376,453,2,2025-04-25,Website,2,40.62,completed
+377,170,4,2025-08-26,Offline Trade,3,58.85,cancelled
+378,476,12,2025-04-28,Amazon,4,71.75,refunded
+379,452,8,2025-03-21,eBay,3,68.99,completed
+380,35,10,2025-01-17,Offline Trade,1,16.0,cancelled
+381,78,13,2025-05-04,Amazon,1,21.93,completed
+382,270,16,2025-11-01,Website,1,17.01,refunded
+383,456,4,2025-12-11,Website,5,58.85,completed
+384,231,10,2025-07-25,Offline Trade,1,16.0,completed
+385,76,6,2025-04-22,Website,5,78.01,completed
+386,183,6,2025-05-29,Amazon,5,78.01,cancelled
+387,257,16,2025-10-23,eBay,3,17.01,completed
+388,359,1,2025-03-15,Amazon,3,58.46,refunded
+389,324,3,2025-05-21,Website,3,87.18,cancelled
+390,82,3,2025-03-31,Offline Trade,5,87.18,cancelled
+391,334,14,2025-01-25,eBay,4,86.37,refunded
+392,160,15,2025-06-13,Offline Trade,5,64.05,refunded
+393,323,15,2025-06-03,Offline Trade,2,64.05,completed
+394,394,1,2025-08-31,Amazon,5,58.46,completed
+395,139,15,2025-12-29,Amazon,3,64.05,refunded
+396,230,8,2025-10-15,Offline Trade,1,68.99,refunded
+397,241,9,2025-09-29,Amazon,5,109.74,refunded
+398,486,7,2025-05-11,Amazon,2,112.57,completed
+399,18,16,2025-08-19,eBay,1,17.01,completed
+400,341,14,2025-04-08,Website,5,86.37,completed
+401,246,9,2025-12-11,Website,4,109.74,completed
+402,450,11,2025-10-28,Amazon,2,42.45,refunded
+403,221,14,2025-06-20,eBay,2,86.37,completed
+404,379,6,2025-04-08,Website,2,78.01,refunded
+405,480,6,2025-12-23,Amazon,2,78.01,refunded
+406,106,9,2025-10-10,eBay,2,109.74,completed
+407,43,9,2025-08-27,eBay,4,109.74,completed
+408,404,2,2025-07-04,Offline Trade,3,40.62,refunded
+409,117,16,2025-08-29,eBay,1,17.01,completed
+410,100,10,2025-06-10,Offline Trade,3,16.0,completed
+411,492,3,2025-04-24,Amazon,5,87.18,completed
+412,206,14,2025-10-11,Offline Trade,3,86.37,completed
+413,184,15,2025-04-11,eBay,2,64.05,completed
+414,193,13,2025-10-19,Amazon,4,21.93,refunded
+415,181,4,2025-12-02,eBay,5,58.85,completed
+416,286,5,2025-11-25,Offline Trade,4,111.48,refunded
+417,243,13,2025-06-30,Amazon,2,21.93,completed
+418,462,12,2025-09-08,Amazon,5,71.75,cancelled
+419,482,13,2025-09-26,Website,1,21.93,completed
+420,39,3,2025-01-04,Offline Trade,1,87.18,completed
+421,59,15,2025-02-04,Amazon,2,64.05,completed
+422,219,16,2025-09-16,Offline Trade,2,17.01,completed
+423,64,7,2025-11-13,Offline Trade,1,112.57,refunded
+424,363,4,2025-01-04,Offline Trade,1,58.85,completed
+425,161,12,2025-09-29,eBay,1,71.75,cancelled
+426,486,8,2025-01-09,Offline Trade,3,68.99,completed
+427,9,9,2025-02-19,Amazon,1,109.74,completed
+428,326,14,2025-11-14,eBay,2,86.37,completed
+429,416,3,2025-07-23,Website,3,87.18,completed
+430,276,4,2025-08-24,Amazon,4,58.85,completed
+431,455,4,2025-12-17,Website,3,58.85,completed
+432,377,5,2025-07-27,Offline Trade,1,111.48,refunded
+433,468,10,2025-09-01,Website,5,16.0,completed
+434,457,3,2025-02-12,Offline Trade,2,87.18,refunded
+435,482,14,2025-10-17,Website,3,86.37,cancelled
+436,116,12,2025-04-28,Amazon,1,71.75,cancelled
+437,80,6,2025-05-19,Website,4,78.01,completed
+438,466,10,2025-10-06,Website,3,16.0,completed
+439,177,4,2025-01-09,Amazon,3,58.85,cancelled
+440,25,9,2025-12-31,Offline Trade,2,109.74,completed
+441,421,15,2025-03-25,Amazon,3,64.05,cancelled
+442,22,12,2025-12-13,eBay,4,71.75,refunded
+443,8,16,2025-12-19,Website,2,17.01,cancelled
+444,247,11,2025-01-28,Website,3,42.45,refunded
+445,271,9,2025-02-08,eBay,2,109.74,cancelled
+446,447,2,2025-11-01,Offline Trade,5,40.62,completed
+447,469,8,2025-11-21,eBay,1,68.99,refunded
+448,149,8,2025-04-27,eBay,4,68.99,cancelled
+449,460,3,2025-08-10,Amazon,4,87.18,cancelled
+450,139,2,2025-02-13,eBay,4,40.62,completed
+451,173,5,2025-02-12,eBay,1,111.48,completed
+452,148,11,2025-12-31,Amazon,4,42.45,refunded
+453,188,1,2025-07-04,Website,3,58.46,completed
+454,117,14,2025-06-07,Offline Trade,1,86.37,completed
+455,119,1,2025-02-22,Amazon,3,58.46,completed
+456,39,13,2025-08-09,Offline Trade,2,21.93,cancelled
+457,181,3,2025-09-20,Offline Trade,5,87.18,completed
+458,46,6,2025-02-15,eBay,1,78.01,cancelled
+459,327,15,2025-11-02,eBay,1,64.05,refunded
+460,98,11,2025-05-30,Offline Trade,1,42.45,refunded
+461,78,15,2025-10-14,Amazon,1,64.05,cancelled
+462,238,4,2025-03-28,Offline Trade,5,58.85,completed
+463,176,3,2025-05-18,eBay,2,87.18,completed
+464,315,10,2025-03-16,Website,4,16.0,completed
+465,59,11,2025-05-22,Offline Trade,4,42.45,completed
+466,224,2,2025-02-09,eBay,4,40.62,completed
+467,159,10,2025-11-17,Offline Trade,2,16.0,cancelled
+468,100,8,2025-04-11,Offline Trade,5,68.99,completed
+469,392,13,2025-06-05,Website,2,21.93,refunded
+470,104,14,2025-11-14,Offline Trade,3,86.37,completed
+471,183,9,2025-06-21,Offline Trade,4,109.74,cancelled
+472,110,5,2025-06-03,eBay,2,111.48,cancelled
+473,409,2,2025-09-03,eBay,2,40.62,completed
+474,181,14,2025-06-13,eBay,4,86.37,refunded
+475,226,8,2025-05-05,eBay,5,68.99,refunded
+476,85,15,2025-07-21,eBay,3,64.05,completed
+477,310,2,2025-04-13,Amazon,5,40.62,cancelled
+478,199,6,2025-08-25,Amazon,1,78.01,refunded
+479,439,1,2025-12-21,Website,3,58.46,refunded
+480,296,15,2025-03-13,eBay,4,64.05,completed
+481,143,11,2025-12-04,Amazon,3,42.45,refunded
+482,283,5,2025-02-07,Offline Trade,4,111.48,cancelled
+483,487,15,2025-10-26,Offline Trade,4,64.05,cancelled
+484,349,9,2025-12-21,Offline Trade,5,109.74,cancelled
+485,471,1,2025-07-04,Website,1,58.46,completed
+486,438,6,2025-12-03,eBay,2,78.01,completed
+487,227,2,2025-01-23,Offline Trade,5,40.62,completed
+488,429,9,2025-02-24,Website,4,109.74,completed
+489,454,10,2025-04-24,Amazon,3,16.0,refunded
+490,180,16,2025-07-20,Offline Trade,3,17.01,cancelled
+491,151,8,2025-03-19,eBay,5,68.99,completed
+492,375,3,2025-02-23,eBay,4,87.18,refunded
+493,405,10,2025-03-01,Amazon,1,16.0,completed
+494,197,14,2025-06-25,Offline Trade,3,86.37,completed
+495,275,11,2025-09-05,eBay,5,42.45,refunded
+496,57,6,2025-08-13,Offline Trade,1,78.01,completed
+497,120,3,2025-06-03,Website,1,87.18,completed
+498,272,5,2025-06-25,Website,1,111.48,completed
+499,295,7,2025-09-22,Amazon,2,112.57,cancelled
+500,258,4,2025-06-19,Offline Trade,2,58.85,refunded
+501,73,8,2025-07-27,Amazon,2,68.99,completed
+502,436,3,2025-07-22,Website,4,87.18,cancelled
+503,394,2,2025-08-19,Offline Trade,2,40.62,refunded
+504,487,8,2025-12-27,Amazon,1,68.99,completed
+505,278,10,2025-12-27,Website,3,16.0,cancelled
+506,243,7,2025-10-02,Amazon,1,112.57,completed
+507,73,5,2025-04-11,Offline Trade,3,111.48,completed
+508,341,8,2025-12-10,Offline Trade,3,68.99,cancelled
+509,290,15,2025-11-02,Offline Trade,3,64.05,cancelled
+510,201,1,2025-10-28,Website,4,58.46,completed
+511,252,2,2025-08-23,Amazon,3,40.62,completed
+512,398,9,2025-10-30,Website,5,109.74,completed
+513,113,13,2025-03-02,Amazon,3,21.93,completed
+514,347,16,2025-04-04,eBay,1,17.01,completed
+515,328,9,2025-07-18,Offline Trade,5,109.74,cancelled
+516,388,4,2025-10-22,Offline Trade,2,58.85,refunded
+517,467,7,2025-09-07,Amazon,2,112.57,cancelled
+518,205,15,2025-09-08,eBay,2,64.05,completed
+519,489,5,2025-06-11,Offline Trade,2,111.48,cancelled
+520,117,8,2025-07-03,Website,1,68.99,refunded
+521,209,1,2025-04-10,Offline Trade,2,58.46,cancelled
+522,252,15,2025-12-01,Offline Trade,5,64.05,refunded
+523,360,4,2025-08-01,Offline Trade,4,58.85,refunded
+524,159,12,2025-02-12,Website,2,71.75,completed
+525,77,6,2025-01-17,eBay,3,78.01,completed
+526,65,11,2025-05-28,Amazon,5,42.45,refunded
+527,68,3,2025-09-11,Website,5,87.18,cancelled
+528,281,3,2025-05-18,eBay,1,87.18,cancelled
+529,364,10,2025-08-14,Amazon,1,16.0,refunded
+530,159,1,2025-12-01,Amazon,1,58.46,completed
+531,184,2,2025-08-19,eBay,1,40.62,completed
+532,489,7,2025-08-13,Website,1,112.57,completed
+533,453,11,2025-10-29,eBay,2,42.45,cancelled
+534,146,14,2025-03-26,Amazon,4,86.37,completed
+535,80,4,2025-01-31,eBay,2,58.85,cancelled
+536,296,15,2025-11-02,Amazon,3,64.05,completed
+537,13,13,2025-05-29,eBay,3,21.93,cancelled
+538,182,5,2025-03-11,Offline Trade,1,111.48,completed
+539,59,11,2025-12-02,Amazon,3,42.45,completed
+540,166,10,2025-03-16,eBay,2,16.0,completed
+541,226,3,2025-09-08,Amazon,4,87.18,cancelled
+542,154,6,2025-11-18,Offline Trade,3,78.01,refunded
+543,413,16,2025-02-08,Website,4,17.01,refunded
+544,24,6,2025-05-23,eBay,5,78.01,refunded
+545,297,6,2025-06-17,Website,4,78.01,completed
+546,113,13,2025-11-22,eBay,4,21.93,completed
+547,459,12,2025-07-23,Amazon,5,71.75,refunded
+548,427,15,2025-09-11,eBay,2,64.05,completed
+549,110,10,2025-06-22,Amazon,3,16.0,cancelled
+550,115,9,2025-06-25,Website,4,109.74,completed
+551,331,10,2025-11-17,Offline Trade,1,16.0,completed
+552,311,11,2025-03-22,Offline Trade,1,42.45,refunded
+553,250,2,2025-08-08,Amazon,1,40.62,completed
+554,118,13,2025-03-23,eBay,3,21.93,completed
+555,138,10,2025-05-09,Website,3,16.0,completed
+556,42,6,2025-01-27,Offline Trade,2,78.01,completed
+557,389,12,2025-08-08,Website,2,71.75,completed
+558,373,2,2025-04-20,Offline Trade,1,40.62,completed
+559,488,10,2025-10-31,Amazon,2,16.0,cancelled
+560,192,4,2025-01-05,Website,4,58.85,completed
+561,55,13,2025-08-05,Amazon,1,21.93,refunded
+562,308,13,2025-04-28,Offline Trade,1,21.93,completed
+563,282,9,2025-02-22,eBay,1,109.74,completed
+564,316,2,2025-03-12,Offline Trade,3,40.62,completed
+565,364,6,2025-02-05,Website,2,78.01,cancelled
+566,377,11,2025-08-14,eBay,2,42.45,completed
+567,214,1,2025-07-30,Offline Trade,2,58.46,completed
+568,20,4,2025-02-21,Amazon,1,58.85,completed
+569,20,12,2025-07-16,eBay,5,71.75,refunded
+570,230,12,2025-03-13,Amazon,3,71.75,completed
+571,254,10,2025-05-08,eBay,1,16.0,completed
+572,471,11,2025-04-16,Amazon,3,42.45,refunded
+573,111,3,2025-11-27,Website,3,87.18,completed
+574,460,3,2025-07-17,Website,4,87.18,completed
+575,86,1,2025-11-23,Website,4,58.46,cancelled
+576,242,14,2025-07-04,eBay,1,86.37,completed
+577,232,1,2025-10-19,Offline Trade,4,58.46,completed
+578,217,9,2025-12-16,Amazon,5,109.74,refunded
+579,28,3,2025-01-09,Website,1,87.18,completed
+580,87,7,2025-04-21,Website,3,112.57,completed
+581,155,2,2025-09-17,eBay,4,40.62,cancelled
+582,144,9,2025-08-05,Offline Trade,4,109.74,completed
+583,88,9,2025-10-03,Amazon,5,109.74,completed
+584,32,5,2025-06-08,Website,1,111.48,cancelled
+585,268,7,2025-03-21,eBay,2,112.57,refunded
+586,244,15,2025-11-21,Website,5,64.05,completed
+587,357,9,2025-05-03,Website,4,109.74,completed
+588,252,3,2025-08-11,Website,1,87.18,refunded
+589,92,6,2025-11-08,Website,5,78.01,completed
+590,487,13,2025-03-03,Website,2,21.93,completed
+591,167,14,2025-03-25,Offline Trade,1,86.37,completed
+592,194,9,2025-09-22,eBay,5,109.74,completed
+593,388,2,2025-03-06,eBay,3,40.62,completed
+594,166,15,2025-06-21,Offline Trade,1,64.05,completed
+595,130,13,2025-02-02,eBay,5,21.93,cancelled
+596,394,16,2025-09-12,Offline Trade,1,17.01,cancelled
+597,349,5,2025-01-29,Offline Trade,3,111.48,cancelled
+598,23,4,2025-07-08,Amazon,2,58.85,completed
+599,498,10,2025-10-21,Website,1,16.0,completed
+600,149,14,2025-01-02,Website,5,86.37,completed
+601,235,12,2025-01-24,Offline Trade,2,71.75,completed
+602,95,1,2025-03-18,Amazon,4,58.46,completed
+603,333,2,2025-12-02,Offline Trade,5,40.62,completed
+604,36,12,2025-05-08,Offline Trade,3,71.75,completed
+605,137,3,2025-02-09,eBay,3,87.18,completed
+606,279,15,2025-12-11,Website,5,64.05,completed
+607,158,13,2025-09-22,Website,2,21.93,refunded
+608,34,12,2025-08-27,eBay,1,71.75,completed
+609,442,11,2025-02-14,Offline Trade,3,42.45,completed
+610,103,14,2025-04-13,eBay,3,86.37,cancelled
+611,324,13,2025-11-15,Amazon,3,21.93,refunded
+612,111,3,2025-10-30,Offline Trade,3,87.18,completed
+613,368,13,2025-05-06,Amazon,5,21.93,completed
+614,1,2,2025-01-13,Amazon,4,40.62,cancelled
+615,102,5,2025-11-22,Website,3,111.48,completed
+616,467,4,2025-12-03,Offline Trade,1,58.85,completed
+617,204,9,2025-04-16,Amazon,1,109.74,refunded
+618,223,3,2025-01-31,Amazon,4,87.18,completed
+619,337,9,2025-01-23,Amazon,1,109.74,cancelled
+620,26,15,2025-12-25,eBay,4,64.05,refunded
+621,433,12,2025-10-25,Website,1,71.75,cancelled
+622,355,4,2025-11-23,Offline Trade,2,58.85,completed
+623,238,10,2025-10-18,Website,5,16.0,refunded
+624,15,16,2025-05-02,eBay,2,17.01,completed
+625,255,5,2025-07-21,eBay,3,111.48,completed
+626,213,9,2025-05-20,Amazon,4,109.74,completed
+627,322,8,2025-03-11,Website,2,68.99,completed
+628,154,3,2025-03-26,Offline Trade,1,87.18,refunded
+629,149,2,2025-07-28,Website,3,40.62,cancelled
+630,403,16,2025-04-17,Offline Trade,3,17.01,completed
+631,127,5,2025-05-16,Website,4,111.48,completed
+632,267,16,2025-12-18,eBay,2,17.01,cancelled
+633,430,2,2025-04-21,eBay,1,40.62,completed
+634,301,13,2025-12-31,Amazon,1,21.93,completed
+635,288,2,2025-09-20,Website,4,40.62,completed
+636,283,4,2025-03-31,Website,3,58.85,refunded
+637,292,7,2025-10-12,Amazon,4,112.57,completed
+638,221,7,2025-02-22,Amazon,4,112.57,completed
+639,382,10,2025-02-01,Amazon,1,16.0,completed
+640,102,8,2025-07-25,eBay,2,68.99,completed
+641,284,2,2025-10-28,eBay,5,40.62,completed
+642,273,10,2025-02-03,Amazon,1,16.0,refunded
+643,304,10,2025-02-17,eBay,2,16.0,completed
+644,98,14,2025-08-25,Website,1,86.37,completed
+645,335,1,2025-08-10,Offline Trade,5,58.46,refunded
+646,234,10,2025-07-15,Offline Trade,1,16.0,completed
+647,325,6,2025-04-20,Amazon,3,78.01,completed
+648,109,12,2025-08-17,Amazon,3,71.75,completed
+649,243,10,2025-11-14,Amazon,5,16.0,completed
+650,300,11,2025-07-30,Offline Trade,4,42.45,completed
+651,117,3,2025-05-24,Offline Trade,1,87.18,completed
+652,192,15,2025-04-13,Amazon,4,64.05,cancelled
+653,413,9,2025-07-15,eBay,1,109.74,refunded
+654,354,5,2025-09-06,eBay,5,111.48,cancelled
+655,228,13,2025-06-14,Offline Trade,5,21.93,completed
+656,379,5,2025-01-14,eBay,2,111.48,cancelled
+657,134,15,2025-01-16,eBay,2,64.05,completed
+658,329,3,2025-09-29,eBay,4,87.18,cancelled
+659,125,9,2025-03-23,Website,2,109.74,completed
+660,331,5,2025-05-17,Website,2,111.48,completed
+661,272,9,2025-07-18,eBay,5,109.74,completed
+662,349,13,2025-05-02,eBay,2,21.93,completed
+663,481,4,2025-01-15,eBay,5,58.85,cancelled
+664,65,10,2025-03-14,Amazon,5,16.0,refunded
+665,251,7,2025-06-08,Amazon,5,112.57,refunded
+666,23,9,2025-02-16,Website,1,109.74,completed
+667,242,11,2025-04-23,Website,5,42.45,cancelled
+668,301,12,2025-01-01,eBay,4,71.75,cancelled
+669,397,8,2025-03-08,eBay,2,68.99,completed
+670,55,5,2025-01-31,Website,3,111.48,completed
+671,405,16,2025-12-27,Amazon,5,17.01,completed
+672,372,11,2025-07-06,Website,5,42.45,completed
+673,149,1,2025-10-28,Website,4,58.46,completed
+674,221,9,2025-06-15,Amazon,3,109.74,completed
+675,260,9,2025-11-24,Offline Trade,4,109.74,completed
+676,20,16,2025-12-29,eBay,2,17.01,completed
+677,80,2,2025-03-31,Offline Trade,5,40.62,completed
+678,291,14,2025-03-07,Amazon,3,86.37,completed
+679,25,2,2025-07-20,Website,5,40.62,completed
+680,315,6,2025-06-12,Amazon,5,78.01,cancelled
+681,302,9,2025-09-12,Amazon,1,109.74,completed
+682,358,3,2025-05-02,eBay,1,87.18,completed
+683,15,6,2025-11-22,Website,2,78.01,completed
+684,122,16,2025-01-06,eBay,4,17.01,completed
+685,454,14,2025-12-21,Website,2,86.37,completed
+686,108,1,2025-02-25,Website,3,58.46,completed
+687,305,10,2025-08-13,Offline Trade,4,16.0,completed
+688,379,8,2025-09-10,Offline Trade,4,68.99,completed
+689,404,2,2025-07-12,Website,5,40.62,refunded
+690,297,4,2025-11-30,Amazon,5,58.85,completed
+691,500,12,2025-02-07,Website,4,71.75,completed
+692,221,14,2025-06-13,eBay,1,86.37,completed
+693,164,4,2025-06-25,Amazon,1,58.85,refunded
+694,292,7,2025-02-08,Website,2,112.57,completed
+695,95,10,2025-11-11,Offline Trade,5,16.0,completed
+696,216,10,2025-12-01,Amazon,4,16.0,cancelled
+697,421,7,2025-03-22,Website,4,112.57,completed
+698,302,10,2025-04-16,Amazon,3,16.0,refunded
+699,245,8,2025-10-04,eBay,5,68.99,completed
+700,434,3,2025-05-02,Website,3,87.18,completed
+701,384,1,2025-10-20,Offline Trade,4,58.46,completed
+702,338,11,2025-07-04,Website,1,42.45,refunded
+703,497,10,2025-05-31,Offline Trade,1,16.0,completed
+704,288,2,2025-01-14,Amazon,1,40.62,completed
+705,383,16,2025-02-11,Offline Trade,3,17.01,completed
+706,281,4,2025-07-23,Offline Trade,3,58.85,refunded
+707,263,1,2025-02-16,Offline Trade,3,58.46,completed
+708,15,13,2025-07-15,eBay,3,21.93,completed
+709,464,16,2025-01-23,eBay,4,17.01,refunded
+710,487,9,2025-05-15,Amazon,4,109.74,completed
+711,426,9,2025-02-01,Amazon,5,109.74,completed
+712,393,5,2025-12-09,eBay,1,111.48,cancelled
+713,257,9,2025-10-29,Amazon,4,109.74,cancelled
+714,255,6,2025-07-18,Offline Trade,1,78.01,cancelled
+715,312,13,2025-10-21,Amazon,4,21.93,refunded
+716,200,10,2025-02-10,Offline Trade,3,16.0,completed
+717,126,11,2025-10-20,Amazon,5,42.45,completed
+718,303,8,2025-03-30,Amazon,4,68.99,completed
+719,68,3,2025-03-06,Website,2,87.18,refunded
+720,220,1,2025-12-16,Offline Trade,1,58.46,completed
+721,238,15,2025-11-01,eBay,2,64.05,completed
+722,38,4,2025-02-14,Offline Trade,1,58.85,cancelled
+723,16,15,2025-10-10,eBay,4,64.05,completed
+724,327,7,2025-08-23,Website,5,112.57,cancelled
+725,200,7,2025-09-25,Offline Trade,5,112.57,completed
+726,428,11,2025-03-18,Amazon,4,42.45,cancelled
+727,394,12,2025-10-26,Website,5,71.75,completed
+728,455,13,2025-02-21,eBay,5,21.93,cancelled
+729,313,2,2025-07-30,eBay,3,40.62,refunded
+730,370,6,2025-10-20,Offline Trade,4,78.01,completed
+731,425,13,2025-05-22,Offline Trade,2,21.93,completed
+732,85,10,2025-11-08,Offline Trade,5,16.0,completed
+733,380,6,2025-06-19,Amazon,4,78.01,completed
+734,118,6,2025-05-18,eBay,4,78.01,completed
+735,375,7,2025-06-05,eBay,3,112.57,completed
+736,326,16,2025-12-23,Website,4,17.01,completed
+737,322,3,2025-06-03,Offline Trade,2,87.18,completed
+738,197,6,2025-08-02,Website,3,78.01,completed
+739,35,1,2025-04-19,Offline Trade,4,58.46,refunded
+740,301,6,2025-07-11,Website,5,78.01,cancelled
+741,459,14,2025-02-03,eBay,2,86.37,cancelled
+742,253,12,2025-03-11,Website,4,71.75,completed
+743,222,7,2025-04-13,Website,2,112.57,completed
+744,434,1,2025-08-22,Website,1,58.46,completed
+745,194,9,2025-05-21,eBay,2,109.74,refunded
+746,202,8,2025-07-23,Website,5,68.99,completed
+747,129,1,2025-07-10,Offline Trade,2,58.46,cancelled
+748,136,1,2025-04-01,Offline Trade,4,58.46,cancelled
+749,488,7,2025-06-29,eBay,5,112.57,completed
+750,174,14,2025-12-19,Website,3,86.37,completed
+751,2,4,2025-07-17,Website,1,58.85,completed
+752,291,15,2025-04-20,Amazon,5,64.05,completed
+753,20,15,2025-05-18,Offline Trade,2,64.05,cancelled
+754,109,13,2025-12-16,Website,1,21.93,refunded
+755,220,5,2025-11-28,Amazon,2,111.48,cancelled
+756,245,3,2025-04-25,eBay,1,87.18,cancelled
+757,386,7,2025-12-31,eBay,3,112.57,refunded
+758,27,14,2025-06-28,Offline Trade,4,86.37,completed
+759,462,11,2025-08-27,eBay,2,42.45,cancelled
+760,201,1,2025-07-23,Website,5,58.46,completed
+761,439,8,2025-12-06,eBay,5,68.99,cancelled
+762,255,2,2025-11-08,eBay,5,40.62,completed
+763,166,8,2025-09-04,Website,1,68.99,completed
+764,25,6,2025-11-24,eBay,3,78.01,completed
+765,244,7,2025-12-02,eBay,3,112.57,completed
+766,31,6,2025-09-22,Amazon,2,78.01,completed
+767,122,2,2025-07-26,eBay,5,40.62,completed
+768,84,6,2025-12-02,Offline Trade,1,78.01,completed
+769,86,3,2025-08-03,Offline Trade,3,87.18,refunded
+770,258,16,2025-10-26,Amazon,1,17.01,completed
+771,33,11,2025-12-18,Offline Trade,2,42.45,completed
+772,266,10,2025-06-03,Amazon,5,16.0,cancelled
+773,194,13,2025-05-31,Website,2,21.93,refunded
+774,478,1,2025-05-13,Amazon,2,58.46,completed
+775,2,9,2025-04-24,eBay,1,109.74,completed
+776,423,14,2025-08-04,eBay,3,86.37,completed
+777,383,10,2025-10-27,eBay,3,16.0,refunded
+778,30,3,2025-08-29,Website,1,87.18,cancelled
+779,81,5,2025-11-14,Website,5,111.48,refunded
+780,140,3,2025-09-14,Website,2,87.18,refunded
+781,451,15,2025-06-02,Offline Trade,5,64.05,completed
+782,485,4,2025-03-12,Amazon,2,58.85,completed
+783,109,6,2025-10-19,Offline Trade,4,78.01,completed
+784,228,13,2025-04-03,Website,3,21.93,refunded
+785,360,8,2025-11-20,Amazon,3,68.99,completed
+786,190,8,2025-01-03,Offline Trade,1,68.99,completed
+787,475,16,2025-03-28,Amazon,2,17.01,refunded
+788,421,7,2025-03-08,Offline Trade,1,112.57,refunded
+789,429,5,2025-08-08,Offline Trade,4,111.48,refunded
+790,236,11,2025-01-20,Amazon,1,42.45,completed
+791,397,11,2025-06-14,Amazon,1,42.45,completed
+792,396,7,2025-11-17,Amazon,1,112.57,completed
+793,83,6,2025-06-09,Amazon,3,78.01,completed
+794,457,16,2025-09-15,eBay,4,17.01,completed
+795,283,11,2025-01-24,eBay,1,42.45,completed
+796,352,4,2025-09-24,eBay,4,58.85,refunded
+797,402,13,2025-06-25,Offline Trade,2,21.93,completed
+798,79,2,2025-03-26,Offline Trade,2,40.62,completed
+799,177,11,2025-04-25,Amazon,2,42.45,completed
+800,243,10,2025-10-29,Amazon,1,16.0,completed
+801,296,4,2025-12-31,Website,3,58.85,refunded
+802,17,14,2025-10-01,Website,3,86.37,cancelled
+803,395,15,2025-12-05,Website,1,64.05,completed
+804,204,3,2025-12-20,Website,1,87.18,refunded
+805,234,12,2025-07-14,Website,4,71.75,cancelled
+806,219,6,2025-08-31,Amazon,3,78.01,completed
+807,365,14,2025-06-04,Offline Trade,1,86.37,completed
+808,275,2,2025-05-19,Amazon,5,40.62,refunded
+809,91,12,2025-09-19,Website,1,71.75,completed
+810,309,6,2025-02-24,Offline Trade,1,78.01,completed
+811,110,10,2025-04-13,eBay,5,16.0,cancelled
+812,473,1,2025-07-03,Offline Trade,2,58.46,completed
+813,488,11,2025-01-21,Offline Trade,2,42.45,completed
+814,436,1,2025-06-19,Amazon,4,58.46,completed
+815,270,7,2025-12-10,Website,1,112.57,completed
+816,160,6,2025-12-09,Offline Trade,5,78.01,completed
+817,315,2,2025-09-19,Website,1,40.62,completed
+818,297,6,2025-11-26,Amazon,3,78.01,refunded
+819,426,2,2025-05-16,Offline Trade,3,40.62,completed
+820,201,1,2025-03-31,Website,1,58.46,completed
+821,319,5,2025-12-13,eBay,3,111.48,refunded
+822,222,5,2025-02-18,Website,1,111.48,completed
+823,270,10,2025-12-06,Amazon,2,16.0,completed
+824,240,1,2025-08-13,eBay,3,58.46,completed
+825,282,12,2025-06-25,Amazon,3,71.75,completed
+826,445,10,2025-07-24,Offline Trade,4,16.0,completed
+827,291,15,2025-12-20,Offline Trade,4,64.05,refunded
+828,118,16,2025-02-27,Amazon,2,17.01,completed
+829,231,11,2025-02-23,Offline Trade,2,42.45,cancelled
+830,40,8,2025-10-19,Offline Trade,4,68.99,completed
+831,237,16,2025-07-14,eBay,5,17.01,cancelled
+832,42,7,2025-12-17,Amazon,1,112.57,refunded
+833,249,3,2025-02-27,Offline Trade,4,87.18,refunded
+834,150,9,2025-02-02,eBay,1,109.74,completed
+835,312,12,2025-12-27,Amazon,1,71.75,completed
+836,279,16,2025-09-25,Website,5,17.01,refunded
+837,188,7,2025-09-04,eBay,2,112.57,refunded
+838,63,13,2025-10-13,Website,2,21.93,completed
+839,445,4,2025-09-16,Offline Trade,2,58.85,refunded
+840,27,13,2025-02-08,Offline Trade,2,21.93,completed
+841,365,2,2025-06-19,eBay,2,40.62,completed
+842,134,9,2025-04-25,Offline Trade,5,109.74,refunded
+843,129,3,2025-02-10,Offline Trade,2,87.18,refunded
+844,365,2,2025-08-18,Website,5,40.62,refunded
+845,403,7,2025-06-11,Website,4,112.57,refunded
+846,100,15,2025-02-22,Offline Trade,1,64.05,refunded
+847,392,15,2025-10-13,Website,1,64.05,completed
+848,313,3,2025-11-13,eBay,5,87.18,cancelled
+849,373,8,2025-04-16,Offline Trade,5,68.99,completed
+850,4,2,2025-01-28,Amazon,3,40.62,refunded
+851,214,15,2025-10-14,Offline Trade,3,64.05,completed
+852,202,9,2025-02-28,Website,4,109.74,completed
+853,187,13,2025-06-24,eBay,1,21.93,completed
+854,470,7,2025-09-25,eBay,5,112.57,completed
+855,336,16,2025-03-26,Offline Trade,1,17.01,completed
+856,291,9,2025-02-24,eBay,4,109.74,cancelled
+857,167,16,2025-04-07,Website,2,17.01,refunded
+858,252,9,2025-08-23,Amazon,2,109.74,completed
+859,253,7,2025-08-01,Website,1,112.57,cancelled
+860,495,2,2025-08-19,Offline Trade,1,40.62,cancelled
+861,178,2,2025-03-10,Offline Trade,5,40.62,completed
+862,439,8,2025-01-25,Offline Trade,5,68.99,cancelled
+863,65,9,2025-09-18,Amazon,4,109.74,cancelled
+864,128,7,2025-03-07,Website,2,112.57,refunded
+865,120,15,2025-11-07,eBay,5,64.05,cancelled
+866,64,6,2025-08-03,Amazon,4,78.01,completed
+867,347,4,2025-06-25,eBay,4,58.85,refunded
+868,238,2,2025-03-12,Offline Trade,2,40.62,cancelled
+869,485,5,2025-06-03,eBay,5,111.48,cancelled
+870,242,15,2025-04-13,Amazon,2,64.05,cancelled
+871,154,10,2025-12-18,eBay,3,16.0,completed
+872,139,5,2025-09-15,eBay,2,111.48,completed
+873,479,14,2025-10-15,Offline Trade,3,86.37,cancelled
+874,50,12,2025-12-08,Offline Trade,5,71.75,cancelled
+875,66,4,2025-08-05,Website,3,58.85,cancelled
+876,133,8,2025-01-13,Offline Trade,1,68.99,completed
+877,450,2,2025-12-10,Website,1,40.62,completed
+878,175,3,2025-03-24,eBay,3,87.18,completed
+879,183,13,2025-02-01,eBay,2,21.93,completed
+880,347,10,2025-01-17,eBay,5,16.0,refunded
+881,62,11,2025-11-12,Amazon,1,42.45,cancelled
+882,114,16,2025-05-02,eBay,4,17.01,completed
+883,495,10,2025-07-18,Offline Trade,4,16.0,completed
+884,261,1,2025-01-28,Website,5,58.46,completed
+885,447,6,2025-11-14,Offline Trade,2,78.01,completed
+886,408,12,2025-10-29,Amazon,3,71.75,completed
+887,117,7,2025-08-18,Amazon,3,112.57,completed
+888,240,4,2025-03-30,Website,2,58.85,refunded
+889,96,15,2025-08-08,eBay,1,64.05,cancelled
+890,98,3,2025-03-08,Amazon,3,87.18,cancelled
+891,338,11,2025-01-03,eBay,3,42.45,refunded
+892,266,2,2025-01-21,Amazon,2,40.62,completed
+893,413,4,2025-01-27,eBay,5,58.85,refunded
+894,371,4,2025-10-09,eBay,5,58.85,completed
+895,475,10,2025-09-27,Amazon,3,16.0,completed
+896,217,15,2025-02-04,Amazon,5,64.05,refunded
+897,138,6,2025-10-02,Offline Trade,5,78.01,completed
+898,191,1,2025-04-24,Amazon,3,58.46,completed
+899,149,5,2025-07-04,eBay,3,111.48,completed
+900,326,8,2025-09-29,Offline Trade,5,68.99,cancelled
+901,439,4,2025-02-28,eBay,1,58.85,refunded
+902,239,12,2025-11-25,Amazon,2,71.75,completed
+903,475,1,2025-07-15,Website,3,58.46,refunded
+904,119,11,2025-10-04,eBay,3,42.45,completed
+905,381,4,2025-07-11,Offline Trade,5,58.85,refunded
+906,24,3,2025-06-01,Amazon,1,87.18,completed
+907,199,12,2025-02-12,Website,5,71.75,completed
+908,403,12,2025-10-01,Website,5,71.75,completed
+909,472,10,2025-12-10,Amazon,2,16.0,refunded
+910,343,7,2025-04-16,Offline Trade,1,112.57,completed
+911,273,10,2025-01-13,Offline Trade,2,16.0,completed
+912,471,14,2025-02-14,Website,1,86.37,completed
+913,416,8,2025-05-09,Website,2,68.99,cancelled
+914,152,7,2025-05-13,Offline Trade,2,112.57,refunded
+915,418,6,2025-11-19,Offline Trade,4,78.01,refunded
+916,399,13,2025-01-09,Offline Trade,3,21.93,completed
+917,346,2,2025-01-04,Website,5,40.62,cancelled
+918,409,2,2025-12-25,Website,1,40.62,completed
+919,426,2,2025-02-24,eBay,5,40.62,completed
+920,93,15,2025-02-14,eBay,5,64.05,refunded
+921,471,7,2025-07-22,Website,4,112.57,refunded
+922,226,4,2025-10-01,Amazon,2,58.85,completed
+923,485,13,2025-10-07,eBay,4,21.93,completed
+924,183,3,2025-12-13,eBay,3,87.18,completed
+925,320,16,2025-10-12,Amazon,5,17.01,completed
+926,132,2,2025-01-03,Offline Trade,1,40.62,cancelled
+927,268,5,2025-02-13,eBay,5,111.48,completed
+928,42,7,2025-04-19,Offline Trade,3,112.57,cancelled
+929,440,16,2025-03-24,Amazon,2,17.01,completed
+930,409,2,2025-05-10,Amazon,5,40.62,completed
+931,270,3,2025-12-10,Website,2,87.18,cancelled
+932,169,16,2025-11-27,Website,4,17.01,completed
+933,421,4,2025-05-09,Website,1,58.85,completed
+934,168,11,2025-09-07,eBay,5,42.45,completed
+935,24,13,2025-12-10,Amazon,2,21.93,completed
+936,4,15,2025-11-14,Website,3,64.05,completed
+937,398,11,2025-09-06,Offline Trade,3,42.45,completed
+938,402,1,2025-12-04,eBay,5,58.46,cancelled
+939,328,9,2025-10-17,eBay,2,109.74,completed
+940,370,8,2025-03-28,Website,4,68.99,completed
+941,404,11,2025-04-24,Offline Trade,2,42.45,completed
+942,407,9,2025-03-10,eBay,3,109.74,refunded
+943,417,11,2025-08-17,eBay,4,42.45,completed
+944,491,14,2025-10-10,Website,4,86.37,completed
+945,220,12,2025-02-11,eBay,5,71.75,completed
+946,430,2,2025-04-11,eBay,5,40.62,completed
+947,320,11,2025-01-10,Website,1,42.45,cancelled
+948,209,16,2025-07-27,Amazon,5,17.01,completed
+949,208,5,2025-05-14,Offline Trade,5,111.48,completed
+950,478,5,2025-07-20,Amazon,3,111.48,cancelled
+951,333,11,2025-03-10,Offline Trade,3,42.45,cancelled
+952,317,10,2025-02-16,Offline Trade,5,16.0,completed
+953,271,9,2025-01-06,Amazon,5,109.74,cancelled
+954,407,8,2025-09-21,Amazon,2,68.99,refunded
+955,280,9,2025-04-02,Amazon,2,109.74,refunded
+956,383,15,2025-01-21,Amazon,3,64.05,refunded
+957,220,4,2025-02-02,eBay,2,58.85,completed
+958,54,10,2025-01-22,Amazon,2,16.0,cancelled
+959,220,3,2025-07-18,Offline Trade,3,87.18,refunded
+960,312,2,2025-01-21,eBay,1,40.62,completed
+961,104,1,2025-11-21,eBay,5,58.46,completed
+962,156,15,2025-10-06,Amazon,5,64.05,refunded
+963,372,6,2025-07-07,Website,4,78.01,cancelled
+964,228,15,2025-07-12,Amazon,3,64.05,cancelled
+965,392,9,2025-06-30,eBay,4,109.74,refunded
+966,85,10,2025-11-06,Website,4,16.0,cancelled
+967,482,7,2025-08-14,Amazon,2,112.57,completed
+968,394,10,2025-09-21,eBay,1,16.0,completed
+969,144,4,2025-04-06,Amazon,2,58.85,completed
+970,68,13,2025-03-02,Amazon,5,21.93,refunded
+971,38,10,2025-02-28,Offline Trade,3,16.0,refunded
+972,414,12,2025-04-18,Amazon,4,71.75,refunded
+973,434,9,2025-05-05,Website,1,109.74,completed
+974,257,8,2025-10-31,Amazon,5,68.99,completed
+975,10,8,2025-01-21,Amazon,5,68.99,completed
+976,49,12,2025-05-13,Amazon,2,71.75,cancelled
+977,80,1,2025-11-03,Website,4,58.46,completed
+978,12,5,2025-04-21,Offline Trade,1,111.48,cancelled
+979,148,6,2025-09-04,Amazon,4,78.01,completed
+980,309,14,2025-11-04,Amazon,4,86.37,cancelled
+981,379,16,2025-11-16,eBay,2,17.01,completed
+982,391,4,2025-08-21,Website,3,58.85,completed
+983,114,8,2025-07-17,Amazon,4,68.99,completed
+984,327,1,2025-04-14,Offline Trade,1,58.46,completed
+985,363,4,2025-02-19,Amazon,5,58.85,refunded
+986,260,8,2025-11-04,Website,5,68.99,cancelled
+987,22,14,2025-03-02,Website,5,86.37,refunded
+988,26,15,2025-11-05,Website,2,64.05,refunded
+989,53,13,2025-08-04,eBay,5,21.93,completed
+990,72,11,2025-08-08,Amazon,5,42.45,refunded
+991,447,1,2025-06-29,Website,4,58.46,refunded
+992,81,2,2025-05-11,Offline Trade,2,40.62,completed
+993,483,5,2025-05-26,Offline Trade,1,111.48,completed
+994,415,13,2025-01-03,Website,2,21.93,cancelled
+995,378,4,2025-03-02,Website,5,58.85,refunded
+996,393,7,2025-12-19,eBay,2,112.57,refunded
+997,295,2,2025-02-24,Amazon,3,40.62,refunded
+998,116,15,2025-05-10,eBay,5,64.05,cancelled
+999,4,5,2025-10-17,eBay,4,111.48,cancelled
+1000,133,5,2025-12-15,Offline Trade,3,111.48,completed
+1001,204,13,2025-10-10,Offline Trade,4,21.93,completed
+1002,452,9,2025-10-14,Offline Trade,3,109.74,completed
+1003,384,14,2025-10-23,eBay,3,86.37,refunded
+1004,117,16,2025-12-04,Website,2,17.01,completed
+1005,22,10,2025-12-25,Amazon,4,16.0,completed
+1006,466,4,2025-09-18,Offline Trade,2,58.85,completed
+1007,207,6,2025-11-11,Website,5,78.01,completed
+1008,478,16,2025-11-22,Website,4,17.01,completed
+1009,221,14,2025-08-30,Offline Trade,2,86.37,completed
+1010,85,4,2025-05-15,Amazon,1,58.85,completed
+1011,217,14,2025-11-08,Website,1,86.37,refunded
+1012,367,5,2025-11-11,eBay,4,111.48,cancelled
+1013,481,10,2025-03-31,Offline Trade,1,16.0,refunded
+1014,63,9,2025-04-14,eBay,1,109.74,completed
+1015,287,2,2025-11-03,Amazon,1,40.62,cancelled
+1016,33,12,2025-12-12,Website,2,71.75,completed
+1017,197,11,2025-12-02,Website,2,42.45,completed
+1018,304,16,2025-05-22,Offline Trade,1,17.01,completed
+1019,365,6,2025-07-27,Amazon,4,78.01,cancelled
+1020,76,4,2025-12-27,Website,1,58.85,completed
+1021,327,15,2025-05-26,eBay,5,64.05,completed
+1022,138,9,2025-04-26,Amazon,3,109.74,refunded
+1023,55,2,2025-10-22,Website,4,40.62,completed
+1024,415,14,2025-07-28,Website,2,86.37,cancelled
+1025,26,10,2025-09-15,eBay,1,16.0,completed
+1026,270,2,2025-09-20,eBay,1,40.62,cancelled
+1027,428,5,2025-05-09,Offline Trade,5,111.48,refunded
+1028,253,10,2025-09-05,Amazon,5,16.0,completed
+1029,456,3,2025-12-15,Offline Trade,4,87.18,cancelled
+1030,408,8,2025-09-04,Website,1,68.99,completed
+1031,418,13,2025-07-15,Amazon,1,21.93,completed
+1032,362,5,2025-07-31,eBay,3,111.48,cancelled
+1033,185,5,2025-01-05,eBay,5,111.48,completed
+1034,97,3,2025-02-17,Offline Trade,3,87.18,completed
+1035,413,13,2025-10-11,Amazon,1,21.93,refunded
+1036,372,7,2025-07-01,Amazon,3,112.57,cancelled
+1037,466,10,2025-04-04,Amazon,3,16.0,refunded
+1038,111,9,2025-05-01,Amazon,2,109.74,completed
+1039,443,12,2025-04-28,Amazon,2,71.75,completed
+1040,62,13,2025-07-02,Amazon,5,21.93,completed
+1041,365,10,2025-02-10,Offline Trade,1,16.0,cancelled
+1042,434,16,2025-10-05,Website,1,17.01,refunded
+1043,179,11,2025-11-14,eBay,3,42.45,refunded
+1044,102,14,2025-05-21,Offline Trade,5,86.37,completed
+1045,368,5,2025-05-24,Offline Trade,5,111.48,completed
+1046,419,1,2025-03-07,Website,5,58.46,cancelled
+1047,271,13,2025-09-02,Website,4,21.93,cancelled
+1048,440,1,2025-07-21,Amazon,3,58.46,refunded
+1049,427,2,2025-12-24,Offline Trade,1,40.62,completed
+1050,99,10,2025-01-07,Amazon,1,16.0,refunded
+1051,322,12,2025-02-21,eBay,5,71.75,completed
+1052,148,7,2025-05-13,Amazon,5,112.57,cancelled
+1053,248,16,2025-05-02,eBay,3,17.01,refunded
+1054,101,4,2025-06-25,eBay,5,58.85,completed
+1055,493,6,2025-08-06,Amazon,4,78.01,refunded
+1056,448,15,2025-07-06,Offline Trade,3,64.05,completed
+1057,218,9,2025-04-03,Amazon,4,109.74,cancelled
+1058,185,7,2025-02-21,eBay,2,112.57,completed
+1059,288,13,2025-08-10,Offline Trade,5,21.93,completed
+1060,55,7,2025-03-18,Offline Trade,2,112.57,completed
+1061,23,3,2025-08-04,Offline Trade,2,87.18,completed
+1062,22,3,2025-10-01,eBay,5,87.18,refunded
+1063,463,15,2025-05-09,Website,3,64.05,refunded
+1064,317,2,2025-12-20,Amazon,1,40.62,completed
+1065,368,10,2025-05-11,Offline Trade,2,16.0,completed
+1066,251,5,2025-06-21,eBay,4,111.48,completed
+1067,261,2,2025-10-14,eBay,3,40.62,completed
+1068,380,2,2025-07-30,Website,1,40.62,completed
+1069,160,16,2025-04-12,Amazon,5,17.01,completed
+1070,341,11,2025-06-16,Offline Trade,3,42.45,refunded
+1071,483,14,2025-07-15,eBay,1,86.37,refunded
+1072,428,14,2025-03-27,eBay,2,86.37,refunded
+1073,420,14,2025-10-20,Offline Trade,5,86.37,completed
+1074,160,3,2025-03-24,eBay,1,87.18,completed
+1075,291,2,2025-06-12,eBay,3,40.62,completed
+1076,61,7,2025-11-27,Offline Trade,5,112.57,completed
+1077,313,4,2025-07-05,Offline Trade,4,58.85,refunded
+1078,117,1,2025-04-05,Website,2,58.46,completed
+1079,260,2,2025-12-05,eBay,2,40.62,completed
+1080,208,10,2025-03-27,Offline Trade,2,16.0,completed
+1081,66,8,2025-02-02,Offline Trade,1,68.99,cancelled
+1082,473,14,2025-01-14,Offline Trade,1,86.37,cancelled
+1083,394,16,2025-02-23,eBay,1,17.01,cancelled
+1084,423,13,2025-02-13,Offline Trade,2,21.93,completed
+1085,414,15,2025-05-07,eBay,2,64.05,refunded
+1086,319,15,2025-03-09,Amazon,2,64.05,completed
+1087,193,7,2025-12-06,eBay,1,112.57,completed
+1088,145,4,2025-08-28,eBay,4,58.85,cancelled
+1089,102,3,2025-03-11,Amazon,4,87.18,cancelled
+1090,262,8,2025-08-22,Offline Trade,5,68.99,cancelled
+1091,309,9,2025-06-08,eBay,5,109.74,refunded
+1092,443,5,2025-04-27,Website,5,111.48,refunded
+1093,134,2,2025-07-07,Offline Trade,3,40.62,completed
+1094,4,12,2025-06-05,Website,2,71.75,completed
+1095,321,5,2025-03-11,eBay,5,111.48,completed
+1096,183,11,2025-10-01,Website,4,42.45,refunded
+1097,147,16,2025-06-03,Website,4,17.01,refunded
+1098,276,5,2025-11-02,Amazon,3,111.48,completed
+1099,314,11,2025-07-11,Amazon,5,42.45,refunded
+1100,182,9,2025-08-12,Offline Trade,5,109.74,completed
+1101,470,7,2025-11-27,Offline Trade,2,112.57,refunded
+1102,344,12,2025-05-15,Website,2,71.75,refunded
+1103,37,11,2025-09-22,eBay,2,42.45,completed
+1104,298,2,2025-05-18,Offline Trade,5,40.62,completed
+1105,285,2,2025-04-04,Amazon,1,40.62,completed
+1106,111,11,2025-11-23,Offline Trade,1,42.45,cancelled
+1107,249,4,2025-05-20,Offline Trade,4,58.85,completed
+1108,293,7,2025-01-10,Amazon,3,112.57,completed
+1109,161,14,2025-01-12,Amazon,5,86.37,completed
+1110,376,8,2025-05-18,Amazon,3,68.99,refunded
+1111,28,2,2025-04-30,Website,1,40.62,completed
+1112,282,3,2025-09-10,Amazon,1,87.18,completed
+1113,223,15,2025-06-09,Offline Trade,4,64.05,completed
+1114,208,2,2025-12-23,Website,4,40.62,completed
+1115,34,16,2025-03-16,Website,1,17.01,completed
+1116,344,8,2025-02-06,Offline Trade,4,68.99,completed
+1117,8,12,2025-05-09,Offline Trade,2,71.75,completed
+1118,70,4,2025-05-08,Offline Trade,1,58.85,refunded
+1119,17,15,2025-01-18,Amazon,2,64.05,refunded
+1120,465,5,2025-09-24,Amazon,1,111.48,refunded
+1121,493,14,2025-12-15,eBay,4,86.37,completed
+1122,383,5,2025-11-19,Website,2,111.48,cancelled
+1123,466,6,2025-03-04,eBay,5,78.01,refunded
+1124,313,15,2025-04-12,eBay,3,64.05,completed
+1125,274,12,2025-02-27,Amazon,2,71.75,refunded
+1126,171,7,2025-01-08,Amazon,3,112.57,completed
+1127,62,6,2025-03-03,Offline Trade,5,78.01,completed
+1128,81,14,2025-01-22,Offline Trade,1,86.37,cancelled
+1129,110,1,2025-07-10,Website,2,58.46,completed
+1130,211,5,2025-09-13,Website,2,111.48,cancelled
+1131,369,14,2025-11-17,Website,3,86.37,completed
+1132,325,3,2025-11-27,Amazon,3,87.18,cancelled
+1133,293,15,2025-03-06,Offline Trade,1,64.05,completed
+1134,357,10,2025-10-13,eBay,3,16.0,refunded
+1135,192,9,2025-01-11,Offline Trade,2,109.74,completed
+1136,348,6,2025-05-09,Website,2,78.01,refunded
+1137,356,15,2025-10-14,eBay,4,64.05,cancelled
+1138,186,7,2025-04-08,Amazon,4,112.57,cancelled
+1139,295,12,2025-06-15,Offline Trade,3,71.75,completed
+1140,444,8,2025-10-11,Amazon,5,68.99,completed
+1141,437,3,2025-03-21,Offline Trade,5,87.18,completed
+1142,327,7,2025-10-05,eBay,3,112.57,refunded
+1143,482,12,2025-11-23,Offline Trade,1,71.75,completed
+1144,30,13,2025-11-14,eBay,1,21.93,cancelled
+1145,345,7,2025-06-14,Website,2,112.57,cancelled
+1146,221,6,2025-04-08,Offline Trade,4,78.01,cancelled
+1147,313,14,2025-11-10,eBay,2,86.37,completed
+1148,223,14,2025-11-25,eBay,4,86.37,completed
+1149,392,16,2025-09-25,Website,1,17.01,completed
+1150,171,12,2025-04-02,Website,2,71.75,completed
+1151,472,4,2025-09-06,Amazon,1,58.85,completed
+1152,103,1,2025-10-20,Offline Trade,1,58.46,refunded
+1153,254,10,2025-11-16,eBay,5,16.0,completed
+1154,88,10,2025-04-24,Website,3,16.0,completed
+1155,131,14,2025-12-02,Offline Trade,2,86.37,completed
+1156,168,6,2025-11-24,Website,4,78.01,completed
+1157,293,8,2025-08-01,eBay,5,68.99,completed
+1158,240,4,2025-05-17,Website,5,58.85,completed
+1159,416,1,2025-02-09,Amazon,3,58.46,cancelled
+1160,464,7,2025-02-21,Amazon,1,112.57,cancelled
+1161,182,5,2025-04-08,Amazon,4,111.48,cancelled
+1162,229,12,2025-10-19,Amazon,2,71.75,cancelled
+1163,85,10,2025-08-01,Website,5,16.0,cancelled
+1164,94,13,2025-12-12,Offline Trade,3,21.93,refunded
+1165,435,4,2025-03-27,Amazon,1,58.85,cancelled
+1166,51,10,2025-09-16,eBay,4,16.0,completed
+1167,362,6,2025-11-04,Offline Trade,5,78.01,completed
+1168,286,9,2025-10-09,eBay,3,109.74,completed
+1169,348,3,2025-11-21,Offline Trade,4,87.18,completed
+1170,259,5,2025-05-04,Amazon,5,111.48,refunded
+1171,209,15,2025-05-11,eBay,5,64.05,refunded
+1172,404,13,2025-07-23,Website,4,21.93,completed
+1173,38,16,2025-11-02,Website,3,17.01,cancelled
+1174,118,10,2025-06-04,Website,2,16.0,completed
+1175,32,13,2025-04-20,eBay,2,21.93,completed
+1176,347,7,2025-10-11,Amazon,3,112.57,completed
+1177,296,13,2025-08-24,eBay,1,21.93,completed
+1178,405,7,2025-05-16,eBay,2,112.57,cancelled
+1179,366,16,2025-04-30,eBay,2,17.01,completed
+1180,230,11,2025-10-20,Offline Trade,1,42.45,cancelled
+1181,319,8,2025-02-09,eBay,2,68.99,refunded
+1182,365,9,2025-09-07,Website,2,109.74,cancelled
+1183,339,13,2025-01-20,Offline Trade,3,21.93,completed
+1184,208,12,2025-06-21,eBay,1,71.75,refunded
+1185,23,7,2025-03-03,Amazon,4,112.57,cancelled
+1186,78,9,2025-11-21,Offline Trade,1,109.74,completed
+1187,55,8,2025-09-26,Website,3,68.99,completed
+1188,413,2,2025-10-17,Amazon,5,40.62,completed
+1189,187,5,2025-12-24,Amazon,5,111.48,completed
+1190,220,14,2025-12-11,Offline Trade,1,86.37,refunded
+1191,46,1,2025-10-22,Website,5,58.46,completed
+1192,162,2,2025-05-29,Offline Trade,4,40.62,completed
+1193,442,12,2025-06-22,Website,2,71.75,refunded
+1194,113,2,2025-01-26,Offline Trade,5,40.62,completed
+1195,210,15,2025-07-24,Offline Trade,1,64.05,completed
+1196,366,8,2025-09-04,Amazon,2,68.99,refunded
+1197,220,7,2025-11-30,Amazon,4,112.57,cancelled
+1198,44,10,2025-09-26,Amazon,5,16.0,completed
+1199,65,7,2025-05-17,Offline Trade,1,112.57,completed
+1200,313,3,2025-02-15,Website,5,87.18,refunded
+1201,453,11,2025-07-07,eBay,4,42.45,completed
+1202,424,5,2025-06-26,Website,3,111.48,completed
+1203,322,14,2025-06-29,Offline Trade,2,86.37,cancelled
+1204,44,15,2025-08-14,Website,2,64.05,completed
+1205,452,6,2025-12-17,eBay,2,78.01,completed
+1206,232,14,2025-02-27,Website,1,86.37,completed
+1207,428,2,2025-03-17,eBay,5,40.62,completed
+1208,420,15,2025-12-22,Website,3,64.05,completed
+1209,282,14,2025-08-30,Website,4,86.37,completed
+1210,481,5,2025-10-03,Amazon,2,111.48,completed
+1211,406,8,2025-09-25,eBay,5,68.99,cancelled
+1212,12,14,2025-11-15,Amazon,4,86.37,completed
+1213,172,7,2025-10-26,Website,4,112.57,completed
+1214,325,16,2025-01-31,eBay,2,17.01,completed
+1215,241,15,2025-05-19,Website,5,64.05,refunded
+1216,150,8,2025-02-04,Offline Trade,1,68.99,completed
+1217,300,15,2025-02-25,Website,3,64.05,completed
+1218,441,5,2025-04-29,Offline Trade,4,111.48,cancelled
+1219,261,1,2025-06-11,Offline Trade,1,58.46,cancelled
+1220,1,13,2025-02-15,Amazon,5,21.93,completed
+1221,377,12,2025-08-23,Website,5,71.75,completed
+1222,28,12,2025-09-29,eBay,2,71.75,completed
+1223,385,4,2025-07-21,Amazon,4,58.85,completed
+1224,15,6,2025-12-17,eBay,3,78.01,completed
+1225,348,11,2025-05-01,eBay,3,42.45,completed
+1226,339,12,2025-07-18,Website,3,71.75,cancelled
+1227,433,8,2025-04-26,Amazon,3,68.99,completed
+1228,85,13,2025-12-03,Amazon,4,21.93,completed
+1229,217,14,2025-09-24,Amazon,4,86.37,refunded
+1230,261,1,2025-10-21,Amazon,2,58.46,refunded
+1231,420,1,2025-11-06,eBay,3,58.46,refunded
+1232,41,1,2025-03-09,Amazon,5,58.46,completed
+1233,263,12,2025-10-05,Amazon,5,71.75,completed
+1234,203,6,2025-12-19,Amazon,3,78.01,refunded
+1235,499,2,2025-12-02,Amazon,2,40.62,completed
+1236,332,12,2025-10-13,Website,1,71.75,completed
+1237,157,14,2025-03-16,Website,3,86.37,completed
+1238,475,12,2025-07-30,eBay,4,71.75,refunded
+1239,484,12,2025-03-19,Amazon,3,71.75,completed
+1240,260,14,2025-04-05,Website,2,86.37,cancelled
+1241,374,8,2025-05-17,Amazon,5,68.99,cancelled
+1242,351,13,2025-04-29,Website,2,21.93,completed
+1243,270,12,2025-12-19,Offline Trade,1,71.75,completed
+1244,180,16,2025-11-06,Offline Trade,5,17.01,completed
+1245,174,7,2025-07-18,Offline Trade,2,112.57,refunded
+1246,140,5,2025-03-25,Amazon,2,111.48,completed
+1247,386,8,2025-07-29,Website,1,68.99,completed
+1248,338,15,2025-04-24,Amazon,4,64.05,completed
+1249,231,3,2025-04-01,Offline Trade,1,87.18,cancelled
+1250,245,6,2025-12-19,eBay,4,78.01,refunded
+1251,248,4,2025-08-07,Offline Trade,2,58.85,completed
+1252,293,14,2025-07-14,eBay,5,86.37,refunded
+1253,383,1,2025-10-20,Website,5,58.46,cancelled
+1254,320,2,2025-08-20,Offline Trade,1,40.62,completed
+1255,357,9,2025-09-23,Offline Trade,2,109.74,completed
+1256,197,5,2025-07-18,Website,5,111.48,completed
+1257,157,6,2025-08-14,Offline Trade,3,78.01,completed
+1258,440,16,2025-08-25,Amazon,3,17.01,refunded
+1259,381,6,2025-11-10,Website,3,78.01,cancelled
+1260,381,8,2025-08-26,Offline Trade,2,68.99,completed
+1261,446,1,2025-02-27,Amazon,5,58.46,cancelled
+1262,270,2,2025-03-11,Offline Trade,5,40.62,refunded
+1263,110,10,2025-08-19,Website,3,16.0,completed
+1264,387,14,2025-10-30,Amazon,4,86.37,refunded
+1265,275,2,2025-05-09,eBay,1,40.62,completed
+1266,296,1,2025-02-16,Website,1,58.46,refunded
+1267,329,7,2025-02-13,Offline Trade,3,112.57,cancelled
+1268,55,12,2025-03-23,Offline Trade,5,71.75,cancelled
+1269,136,7,2025-01-23,Amazon,4,112.57,completed
+1270,126,13,2025-12-04,Amazon,5,21.93,completed
+1271,315,9,2025-04-02,Website,2,109.74,refunded
+1272,97,13,2025-06-08,Offline Trade,3,21.93,completed
+1273,471,10,2025-03-02,Amazon,2,16.0,completed
+1274,393,8,2025-11-15,eBay,1,68.99,completed
+1275,357,10,2025-09-12,Offline Trade,4,16.0,cancelled
+1276,253,5,2025-11-08,Offline Trade,1,111.48,completed
+1277,428,15,2025-10-29,Offline Trade,2,64.05,refunded
+1278,481,11,2025-08-15,Website,4,42.45,cancelled
+1279,184,1,2025-01-04,Amazon,5,58.46,cancelled
+1280,282,8,2025-11-14,Amazon,3,68.99,completed
+1281,215,11,2025-03-17,Website,2,42.45,completed
+1282,26,3,2025-03-16,Website,1,87.18,cancelled
+1283,473,8,2025-06-02,eBay,5,68.99,completed
+1284,219,9,2025-02-25,Offline Trade,1,109.74,completed
+1285,415,15,2025-12-11,eBay,2,64.05,cancelled
+1286,335,15,2025-10-21,Amazon,5,64.05,refunded
+1287,213,15,2025-07-04,Website,5,64.05,completed
+1288,359,2,2025-06-15,eBay,3,40.62,refunded
+1289,261,4,2025-08-07,Website,1,58.85,completed
+1290,458,9,2025-03-10,Website,4,109.74,completed
+1291,431,3,2025-09-27,Offline Trade,3,87.18,cancelled
+1292,270,16,2025-12-23,Amazon,2,17.01,cancelled
+1293,478,5,2025-02-25,Website,1,111.48,refunded
+1294,54,15,2025-12-28,eBay,5,64.05,refunded
+1295,256,15,2025-06-12,eBay,5,64.05,cancelled
+1296,166,8,2025-11-16,eBay,5,68.99,completed
+1297,116,7,2025-10-16,Offline Trade,5,112.57,cancelled
+1298,232,13,2025-09-10,Amazon,4,21.93,cancelled
+1299,454,2,2025-12-29,eBay,2,40.62,completed
+1300,99,13,2025-03-02,Website,1,21.93,refunded
+1301,268,15,2025-04-17,Offline Trade,1,64.05,refunded
+1302,201,9,2025-06-20,eBay,1,109.74,cancelled
+1303,350,14,2025-01-06,Amazon,2,86.37,completed
+1304,367,11,2025-02-04,eBay,3,42.45,completed
+1305,263,11,2025-10-09,eBay,5,42.45,completed
+1306,465,16,2025-12-18,eBay,1,17.01,completed
+1307,376,7,2025-10-19,Website,4,112.57,completed
+1308,354,12,2025-06-19,eBay,2,71.75,refunded
+1309,269,5,2025-01-19,Amazon,4,111.48,refunded
+1310,406,3,2025-11-18,Offline Trade,2,87.18,cancelled
+1311,360,3,2025-08-25,Offline Trade,3,87.18,completed
+1312,97,12,2025-06-03,eBay,5,71.75,cancelled
+1313,240,8,2025-01-10,Amazon,5,68.99,cancelled
+1314,105,5,2025-07-01,Website,3,111.48,completed
+1315,211,1,2025-01-16,eBay,3,58.46,refunded
+1316,166,4,2025-03-26,Offline Trade,5,58.85,completed
+1317,153,1,2025-03-01,eBay,5,58.46,completed
+1318,387,15,2025-05-20,Offline Trade,1,64.05,completed
+1319,124,3,2025-05-02,eBay,4,87.18,refunded
+1320,379,8,2025-04-21,eBay,3,68.99,completed
+1321,65,10,2025-07-11,Website,1,16.0,completed
+1322,109,11,2025-08-16,Website,1,42.45,refunded
+1323,434,15,2025-03-20,Amazon,5,64.05,completed
+1324,2,2,2025-09-26,eBay,4,40.62,completed
+1325,131,2,2025-02-20,Amazon,2,40.62,completed
+1326,63,8,2025-08-24,Offline Trade,1,68.99,cancelled
+1327,435,2,2025-01-03,eBay,1,40.62,completed
+1328,377,16,2025-02-14,eBay,5,17.01,refunded
+1329,130,14,2025-02-22,eBay,1,86.37,completed
+1330,30,16,2025-06-09,Amazon,5,17.01,completed
+1331,275,12,2025-04-09,eBay,2,71.75,completed
+1332,71,5,2025-06-13,Offline Trade,5,111.48,completed
+1333,431,5,2025-03-18,Amazon,3,111.48,completed
+1334,203,14,2025-01-08,Website,1,86.37,completed
+1335,73,9,2025-06-29,eBay,5,109.74,completed
+1336,194,3,2025-12-27,eBay,2,87.18,cancelled
+1337,465,15,2025-03-29,Website,2,64.05,completed
+1338,431,7,2025-06-23,Offline Trade,5,112.57,completed
+1339,324,9,2025-01-15,Offline Trade,2,109.74,completed
+1340,94,3,2025-07-16,Website,1,87.18,completed
+1341,243,16,2025-07-20,Amazon,4,17.01,cancelled
+1342,185,12,2025-11-19,Offline Trade,5,71.75,cancelled
+1343,390,6,2025-06-09,eBay,3,78.01,completed
+1344,24,11,2025-02-10,Offline Trade,5,42.45,cancelled
+1345,489,13,2025-02-17,Offline Trade,2,21.93,completed
+1346,227,7,2025-06-08,Offline Trade,4,112.57,refunded
+1347,260,16,2025-04-25,Amazon,2,17.01,cancelled
+1348,401,16,2025-07-06,Offline Trade,3,17.01,completed
+1349,434,9,2025-06-16,Offline Trade,3,109.74,refunded
+1350,28,4,2025-02-03,Offline Trade,1,58.85,completed
+1351,315,10,2025-09-03,Offline Trade,3,16.0,completed
+1352,33,11,2025-06-28,Amazon,3,42.45,cancelled
+1353,210,4,2025-07-27,Website,1,58.85,completed
+1354,238,7,2025-11-29,Website,5,112.57,completed
+1355,288,2,2025-08-25,Offline Trade,5,40.62,cancelled
+1356,240,13,2025-05-03,Amazon,4,21.93,cancelled
+1357,302,9,2025-09-04,Offline Trade,2,109.74,completed
+1358,95,3,2025-04-17,Offline Trade,3,87.18,refunded
+1359,49,11,2025-06-25,Amazon,5,42.45,completed
+1360,389,5,2025-12-31,Offline Trade,1,111.48,completed
+1361,372,4,2025-11-02,Offline Trade,5,58.85,completed
+1362,393,3,2025-02-19,Offline Trade,5,87.18,completed
+1363,435,7,2025-07-27,Website,3,112.57,cancelled
+1364,241,8,2025-12-17,Offline Trade,1,68.99,completed
+1365,160,6,2025-11-27,Website,4,78.01,completed
+1366,141,3,2025-03-13,Website,2,87.18,completed
+1367,481,6,2025-08-20,eBay,2,78.01,refunded
+1368,168,8,2025-10-23,Offline Trade,5,68.99,completed
+1369,443,1,2025-12-15,eBay,2,58.46,completed
+1370,194,6,2025-12-14,eBay,5,78.01,refunded
+1371,373,3,2025-02-15,Website,3,87.18,cancelled
+1372,342,2,2025-07-26,Amazon,5,40.62,completed
+1373,164,1,2025-07-09,Website,1,58.46,completed
+1374,304,10,2025-07-03,Website,5,16.0,completed
+1375,51,13,2025-05-01,Offline Trade,1,21.93,cancelled
+1376,483,10,2025-11-17,eBay,4,16.0,refunded
+1377,498,9,2025-07-15,Offline Trade,4,109.74,cancelled
+1378,342,15,2025-12-06,Amazon,2,64.05,refunded
+1379,19,16,2025-04-07,Offline Trade,2,17.01,completed
+1380,208,3,2025-03-20,eBay,4,87.18,completed
+1381,92,4,2025-01-06,Website,2,58.85,completed
+1382,283,16,2025-09-07,Offline Trade,2,17.01,completed
+1383,497,2,2025-03-12,Offline Trade,1,40.62,refunded
+1384,485,9,2025-08-06,Amazon,5,109.74,refunded
+1385,166,1,2025-08-06,Offline Trade,5,58.46,refunded
+1386,461,7,2025-04-26,Amazon,3,112.57,refunded
+1387,404,12,2025-01-04,Offline Trade,5,71.75,completed
+1388,319,6,2025-05-18,Offline Trade,5,78.01,cancelled
+1389,376,12,2025-07-07,Website,5,71.75,completed
+1390,442,4,2025-09-05,eBay,5,58.85,completed
+1391,175,5,2025-09-04,Website,5,111.48,completed
+1392,489,10,2025-05-24,Offline Trade,5,16.0,cancelled
+1393,127,6,2025-09-25,Website,1,78.01,completed
+1394,4,9,2025-11-19,Website,4,109.74,cancelled
+1395,76,12,2025-06-09,Website,5,71.75,completed
+1396,450,13,2025-01-06,Offline Trade,5,21.93,refunded
+1397,62,1,2025-08-29,eBay,5,58.46,refunded
+1398,31,5,2025-05-31,eBay,3,111.48,completed
+1399,51,12,2025-12-22,eBay,1,71.75,cancelled
+1400,89,15,2025-02-01,Offline Trade,3,64.05,cancelled
+1401,476,12,2025-10-21,Website,2,71.75,completed
+1402,264,3,2025-01-14,eBay,5,87.18,refunded
+1403,214,7,2025-03-06,Website,1,112.57,completed
+1404,479,16,2025-03-09,eBay,3,17.01,completed
+1405,248,14,2025-01-08,Website,3,86.37,cancelled
+1406,197,15,2025-10-30,Amazon,2,64.05,refunded
+1407,93,3,2025-03-31,eBay,3,87.18,completed
+1408,492,5,2025-04-03,Website,4,111.48,completed
+1409,360,12,2025-03-16,Amazon,1,71.75,refunded
+1410,481,8,2025-07-16,Amazon,4,68.99,refunded
+1411,361,1,2025-04-18,eBay,2,58.46,completed
+1412,415,5,2025-03-01,Website,3,111.48,completed
+1413,338,6,2025-07-24,Offline Trade,4,78.01,completed
+1414,59,4,2025-09-30,Amazon,4,58.85,refunded
+1415,264,7,2025-08-31,eBay,4,112.57,completed
+1416,301,8,2025-08-11,Website,5,68.99,completed
+1417,401,16,2025-07-15,eBay,4,17.01,cancelled
+1418,126,7,2025-02-19,eBay,1,112.57,refunded
+1419,337,8,2025-11-30,eBay,5,68.99,completed
+1420,289,14,2025-05-17,Website,3,86.37,completed
+1421,242,9,2025-07-20,Offline Trade,5,109.74,completed
+1422,81,9,2025-04-10,eBay,5,109.74,completed
+1423,119,8,2025-10-08,Website,3,68.99,completed
+1424,293,15,2025-01-07,Offline Trade,1,64.05,completed
+1425,236,9,2025-02-23,Offline Trade,5,109.74,completed
+1426,140,15,2025-05-26,eBay,2,64.05,completed
+1427,454,1,2025-01-13,Website,1,58.46,completed
+1428,486,16,2025-12-03,Amazon,5,17.01,cancelled
+1429,295,5,2025-12-29,Website,1,111.48,completed
+1430,338,8,2025-03-08,Offline Trade,5,68.99,cancelled
+1431,297,1,2025-02-26,Amazon,2,58.46,completed
+1432,199,14,2025-08-28,Website,3,86.37,refunded
+1433,247,16,2025-08-07,eBay,3,17.01,completed
+1434,38,11,2025-02-07,eBay,2,42.45,completed
+1435,442,9,2025-07-18,eBay,4,109.74,completed
+1436,245,3,2025-05-16,Amazon,3,87.18,refunded
+1437,341,10,2025-09-09,Amazon,1,16.0,cancelled
+1438,300,12,2025-04-02,Offline Trade,4,71.75,completed
+1439,35,2,2025-10-04,Offline Trade,2,40.62,completed
+1440,128,9,2025-11-26,Website,5,109.74,refunded
+1441,401,11,2025-02-22,Website,3,42.45,completed
+1442,325,1,2025-10-20,eBay,1,58.46,refunded
+1443,334,14,2025-09-12,Amazon,1,86.37,completed
+1444,323,5,2025-12-07,Offline Trade,1,111.48,completed
+1445,26,7,2025-12-25,eBay,2,112.57,refunded
+1446,84,13,2025-01-02,Offline Trade,5,21.93,refunded
+1447,75,12,2025-07-26,Website,4,71.75,cancelled
+1448,402,13,2025-01-02,Offline Trade,2,21.93,refunded
+1449,402,10,2025-10-18,eBay,1,16.0,completed
+1450,266,3,2025-07-25,Website,3,87.18,completed
+1451,30,1,2025-10-01,eBay,3,58.46,completed
+1452,92,10,2025-05-29,Amazon,4,16.0,completed
+1453,294,14,2025-01-21,Offline Trade,5,86.37,completed
+1454,304,4,2025-12-23,Offline Trade,3,58.85,completed
+1455,174,7,2025-09-07,Website,3,112.57,refunded
+1456,84,4,2025-03-13,Website,2,58.85,completed
+1457,440,1,2025-10-31,Amazon,1,58.46,refunded
+1458,248,16,2025-02-02,eBay,4,17.01,refunded
+1459,299,13,2025-08-19,Website,5,21.93,completed
+1460,290,15,2025-01-29,eBay,3,64.05,completed
+1461,432,9,2025-03-02,Amazon,4,109.74,cancelled
+1462,181,5,2025-12-14,Amazon,4,111.48,cancelled
+1463,267,2,2025-02-06,Website,2,40.62,completed
+1464,138,5,2025-12-01,Website,4,111.48,refunded
+1465,119,4,2025-01-24,Amazon,5,58.85,completed
+1466,323,13,2025-03-30,Website,1,21.93,completed
+1467,457,4,2025-08-22,Amazon,1,58.85,cancelled
+1468,17,11,2025-02-24,Website,1,42.45,refunded
+1469,79,7,2025-11-12,Amazon,5,112.57,completed
+1470,196,5,2025-08-07,eBay,2,111.48,refunded
+1471,40,15,2025-03-03,Amazon,3,64.05,completed
+1472,29,9,2025-01-24,Amazon,2,109.74,completed
+1473,26,6,2025-03-03,eBay,1,78.01,completed
+1474,328,13,2025-03-28,eBay,4,21.93,cancelled
+1475,270,9,2025-08-13,Amazon,2,109.74,cancelled
+1476,51,4,2025-03-10,Website,1,58.85,cancelled
+1477,247,5,2025-03-22,Website,4,111.48,refunded
+1478,335,13,2025-01-04,Website,1,21.93,completed
+1479,41,5,2025-12-28,eBay,1,111.48,refunded
+1480,253,4,2025-12-21,Amazon,4,58.85,completed
+1481,249,6,2025-11-24,eBay,2,78.01,cancelled
+1482,109,16,2025-07-30,Amazon,4,17.01,completed
+1483,372,1,2025-12-21,Website,5,58.46,cancelled
+1484,173,6,2025-09-13,Website,2,78.01,completed
+1485,51,7,2025-08-03,Website,3,112.57,cancelled
+1486,376,9,2025-04-09,Website,2,109.74,cancelled
+1487,269,14,2025-11-13,eBay,1,86.37,cancelled
+1488,236,3,2025-04-23,Offline Trade,5,87.18,completed
+1489,317,6,2025-01-28,Amazon,3,78.01,completed
+1490,462,10,2025-12-17,Offline Trade,2,16.0,refunded
+1491,484,16,2025-03-23,Website,2,17.01,completed
+1492,166,13,2025-05-26,Amazon,3,21.93,refunded
+1493,313,1,2025-06-21,Offline Trade,3,58.46,completed
+1494,106,16,2025-01-27,Amazon,1,17.01,completed
+1495,312,15,2025-09-06,Website,1,64.05,completed
+1496,268,14,2025-08-16,eBay,2,86.37,refunded
+1497,223,3,2025-12-13,eBay,2,87.18,completed
+1498,51,11,2025-06-16,Amazon,1,42.45,completed
+1499,41,4,2025-07-31,Amazon,2,58.85,refunded
+1500,228,11,2025-02-07,Offline Trade,2,42.45,cancelled
+1501,498,9,2025-01-28,Offline Trade,4,109.74,completed
+1502,350,10,2025-11-09,Offline Trade,2,16.0,completed
+1503,325,5,2025-07-11,Amazon,4,111.48,refunded
+1504,41,15,2025-11-20,eBay,2,64.05,completed
+1505,292,12,2025-06-21,Amazon,2,71.75,completed
+1506,120,2,2025-01-31,eBay,5,40.62,completed
+1507,199,16,2025-08-27,Offline Trade,1,17.01,refunded
+1508,162,11,2025-06-25,Amazon,2,42.45,completed
+1509,210,11,2025-03-22,Amazon,5,42.45,cancelled
+1510,155,5,2025-04-28,Website,5,111.48,refunded
+1511,70,5,2025-09-08,Amazon,5,111.48,cancelled
+1512,187,11,2025-08-25,eBay,4,42.45,completed
+1513,66,11,2025-05-07,Amazon,4,42.45,completed
+1514,188,1,2025-10-24,Amazon,4,58.46,cancelled
+1515,113,11,2025-10-21,Website,2,42.45,refunded
+1516,142,3,2025-01-21,Offline Trade,1,87.18,cancelled
+1517,476,9,2025-08-06,Offline Trade,1,109.74,refunded
+1518,392,1,2025-08-20,Offline Trade,1,58.46,completed
+1519,407,15,2025-10-13,Website,1,64.05,refunded
+1520,172,14,2025-03-09,eBay,2,86.37,completed
+1521,23,6,2025-11-28,Website,2,78.01,completed
+1522,26,5,2025-12-09,eBay,4,111.48,completed
+1523,281,5,2025-10-20,Website,4,111.48,refunded
+1524,366,5,2025-03-12,Offline Trade,4,111.48,completed
+1525,375,13,2025-11-17,Offline Trade,3,21.93,completed
+1526,339,3,2025-07-17,eBay,1,87.18,cancelled
+1527,127,2,2025-06-01,Offline Trade,1,40.62,completed
+1528,122,9,2025-10-05,Amazon,5,109.74,completed
+1529,220,6,2025-06-21,Website,5,78.01,cancelled
+1530,453,9,2025-01-27,Website,3,109.74,refunded
+1531,178,15,2025-08-27,Website,3,64.05,completed
+1532,259,15,2025-03-31,Website,3,64.05,cancelled
+1533,411,10,2025-03-12,eBay,2,16.0,completed
+1534,341,1,2025-02-28,Offline Trade,5,58.46,cancelled
+1535,75,10,2025-04-26,eBay,2,16.0,completed
+1536,461,11,2025-09-15,Offline Trade,3,42.45,completed
+1537,339,9,2025-02-02,eBay,1,109.74,completed
+1538,473,14,2025-09-06,Website,4,86.37,refunded
+1539,123,4,2025-12-14,eBay,5,58.85,refunded
+1540,346,5,2025-07-08,Website,5,111.48,completed
+1541,416,1,2025-02-14,Website,4,58.46,refunded
+1542,264,11,2025-05-28,Website,2,42.45,completed
+1543,103,7,2025-05-22,Website,2,112.57,completed
+1544,261,7,2025-03-19,Amazon,4,112.57,cancelled
+1545,353,1,2025-05-31,Offline Trade,1,58.46,cancelled
+1546,417,7,2025-08-31,eBay,2,112.57,refunded
+1547,410,4,2025-11-27,Website,4,58.85,completed
+1548,443,16,2025-02-02,Website,2,17.01,completed
+1549,450,13,2025-11-27,eBay,5,21.93,refunded
+1550,148,12,2025-06-25,eBay,5,71.75,refunded
+1551,219,7,2025-12-07,Offline Trade,5,112.57,refunded
+1552,414,3,2025-10-18,Amazon,3,87.18,completed
+1553,242,5,2025-05-14,Amazon,2,111.48,refunded
+1554,384,1,2025-05-28,Website,3,58.46,completed
+1555,336,7,2025-05-26,Offline Trade,3,112.57,completed
+1556,162,10,2025-03-24,eBay,5,16.0,completed
+1557,83,13,2025-12-29,Amazon,2,21.93,completed
+1558,90,6,2025-03-01,Website,2,78.01,completed
+1559,179,1,2025-03-06,Offline Trade,5,58.46,completed
+1560,234,12,2025-04-05,Amazon,3,71.75,cancelled
+1561,228,3,2025-12-07,eBay,1,87.18,completed
+1562,333,8,2025-07-10,Offline Trade,2,68.99,cancelled
+1563,133,11,2025-10-01,eBay,2,42.45,completed
+1564,390,5,2025-07-27,Offline Trade,1,111.48,completed
+1565,290,16,2025-06-13,Amazon,4,17.01,completed
+1566,161,2,2025-09-17,eBay,5,40.62,completed
+1567,214,6,2025-05-29,Amazon,4,78.01,cancelled
+1568,318,16,2025-06-23,Website,4,17.01,refunded
+1569,145,13,2025-03-13,Website,1,21.93,completed
+1570,224,9,2025-07-25,Amazon,1,109.74,refunded
+1571,279,12,2025-02-17,eBay,3,71.75,completed
+1572,350,5,2025-11-25,Amazon,5,111.48,cancelled
+1573,48,3,2025-04-24,eBay,5,87.18,completed
+1574,52,5,2025-02-12,Offline Trade,1,111.48,completed
+1575,67,9,2025-07-21,Amazon,5,109.74,refunded
+1576,242,15,2025-11-05,Website,3,64.05,completed
+1577,347,14,2025-03-17,Offline Trade,4,86.37,completed
+1578,245,6,2025-07-10,Website,4,78.01,completed
+1579,428,11,2025-06-29,eBay,3,42.45,refunded
+1580,47,9,2025-02-14,Amazon,5,109.74,refunded
+1581,394,4,2025-08-15,eBay,4,58.85,completed
+1582,40,15,2025-08-01,Amazon,4,64.05,cancelled
+1583,474,11,2025-02-14,Amazon,5,42.45,completed
+1584,163,7,2025-09-01,eBay,3,112.57,completed
+1585,357,14,2025-07-12,Website,5,86.37,completed
+1586,161,7,2025-11-24,eBay,4,112.57,refunded
+1587,243,10,2025-10-12,Offline Trade,2,16.0,cancelled
+1588,198,5,2025-04-13,Amazon,2,111.48,refunded
+1589,120,7,2025-10-11,Offline Trade,3,112.57,completed
+1590,188,9,2025-10-27,eBay,3,109.74,refunded
+1591,57,7,2025-08-26,Amazon,5,112.57,completed
+1592,29,3,2025-03-20,eBay,1,87.18,completed
+1593,25,11,2025-03-05,eBay,4,42.45,refunded
+1594,314,12,2025-09-09,Amazon,2,71.75,completed
+1595,269,10,2025-05-22,Offline Trade,1,16.0,completed
+1596,99,5,2025-07-05,Offline Trade,5,111.48,cancelled
+1597,403,2,2025-05-13,Offline Trade,4,40.62,completed
+1598,59,16,2025-09-20,Website,3,17.01,completed
+1599,120,6,2025-10-25,Website,2,78.01,completed
+1600,213,15,2025-08-25,Amazon,3,64.05,completed
+1601,418,1,2025-01-28,eBay,2,58.46,completed
+1602,145,2,2025-11-22,eBay,4,40.62,completed
+1603,352,11,2025-05-30,Website,3,42.45,cancelled
+1604,99,16,2025-11-18,Amazon,2,17.01,completed
+1605,438,1,2025-03-27,eBay,5,58.46,completed
+1606,84,14,2025-05-19,eBay,3,86.37,completed
+1607,177,5,2025-10-24,eBay,5,111.48,completed
+1608,463,11,2025-03-12,eBay,1,42.45,completed
+1609,35,14,2025-07-30,eBay,4,86.37,completed
+1610,197,9,2025-04-22,Amazon,1,109.74,cancelled
+1611,49,7,2025-04-07,Website,2,112.57,refunded
+1612,199,14,2025-02-09,Website,4,86.37,completed
+1613,284,3,2025-09-03,eBay,1,87.18,completed
+1614,347,9,2025-03-13,Offline Trade,3,109.74,cancelled
+1615,442,6,2025-06-25,Amazon,5,78.01,completed
+1616,140,10,2025-03-02,Amazon,1,16.0,completed
+1617,39,7,2025-12-19,Amazon,2,112.57,completed
+1618,245,7,2025-04-18,Amazon,2,112.57,completed
+1619,475,1,2025-12-20,Website,4,58.46,completed
+1620,173,15,2025-09-05,Offline Trade,1,64.05,completed
+1621,26,15,2025-02-25,Website,2,64.05,cancelled
+1622,331,9,2025-01-31,Offline Trade,5,109.74,completed
+1623,26,16,2025-01-23,Website,3,17.01,completed
+1624,254,16,2025-02-19,Website,1,17.01,cancelled
+1625,87,13,2025-10-28,Amazon,2,21.93,completed
+1626,368,4,2025-01-15,Website,3,58.85,completed
+1627,262,14,2025-10-24,eBay,3,86.37,completed
+1628,486,2,2025-09-14,Amazon,2,40.62,cancelled
+1629,412,5,2025-02-04,Website,5,111.48,cancelled
+1630,212,3,2025-09-28,Amazon,1,87.18,completed
+1631,58,11,2025-03-29,Website,3,42.45,completed
+1632,472,5,2025-09-16,Offline Trade,2,111.48,completed
+1633,247,2,2025-04-05,Offline Trade,5,40.62,completed
+1634,71,11,2025-07-01,Offline Trade,2,42.45,refunded
+1635,372,1,2025-09-21,Amazon,2,58.46,refunded
+1636,187,13,2025-06-10,Website,1,21.93,refunded
+1637,177,7,2025-09-24,Amazon,1,112.57,refunded
+1638,21,7,2025-12-27,eBay,3,112.57,cancelled
+1639,441,11,2025-02-12,eBay,1,42.45,refunded
+1640,148,3,2025-07-17,eBay,1,87.18,refunded
+1641,375,16,2025-06-09,Offline Trade,5,17.01,completed
+1642,24,12,2025-07-28,eBay,5,71.75,refunded
+1643,341,11,2025-02-05,Offline Trade,2,42.45,completed
+1644,81,12,2025-01-07,Offline Trade,2,71.75,completed
+1645,272,12,2025-08-13,Website,4,71.75,completed
+1646,372,3,2025-07-22,Offline Trade,2,87.18,cancelled
+1647,362,14,2025-03-28,Website,1,86.37,completed
+1648,353,4,2025-06-23,Amazon,2,58.85,cancelled
+1649,418,3,2025-03-04,Amazon,4,87.18,refunded
+1650,270,13,2025-05-23,eBay,4,21.93,refunded
+1651,181,4,2025-09-01,Offline Trade,3,58.85,refunded
+1652,363,12,2025-05-23,Amazon,5,71.75,refunded
+1653,339,8,2025-03-04,eBay,1,68.99,refunded
+1654,65,2,2025-04-29,Amazon,4,40.62,completed
+1655,492,5,2025-01-28,Website,1,111.48,refunded
+1656,219,11,2025-04-02,Offline Trade,1,42.45,cancelled
+1657,30,9,2025-03-20,eBay,3,109.74,cancelled
+1658,364,4,2025-02-19,Website,5,58.85,cancelled
+1659,45,9,2025-08-27,Amazon,4,109.74,completed
+1660,8,15,2025-09-09,eBay,4,64.05,cancelled
+1661,372,9,2025-10-04,Website,3,109.74,completed
+1662,127,15,2025-03-02,Offline Trade,4,64.05,refunded
+1663,261,3,2025-07-12,Offline Trade,3,87.18,refunded
+1664,28,11,2025-01-17,Amazon,1,42.45,cancelled
+1665,499,6,2025-12-28,Amazon,3,78.01,refunded
+1666,426,13,2025-03-10,eBay,4,21.93,refunded
+1667,117,14,2025-02-26,Offline Trade,4,86.37,cancelled
+1668,76,6,2025-10-20,Offline Trade,5,78.01,refunded
+1669,303,6,2025-03-22,Website,5,78.01,refunded
+1670,151,11,2025-09-11,Offline Trade,3,42.45,cancelled
+1671,169,15,2025-05-26,eBay,3,64.05,completed
+1672,297,5,2025-10-30,Website,1,111.48,completed
+1673,5,6,2025-06-28,Website,3,78.01,completed
+1674,324,11,2025-02-19,Offline Trade,4,42.45,completed
+1675,444,2,2025-07-30,eBay,3,40.62,completed
+1676,146,13,2025-05-07,Amazon,2,21.93,completed
+1677,122,11,2025-02-13,Website,5,42.45,completed
+1678,450,4,2025-06-22,Amazon,1,58.85,completed
+1679,44,12,2025-06-16,Website,5,71.75,refunded
+1680,97,1,2025-10-18,Offline Trade,4,58.46,completed
+1681,161,14,2025-12-23,Offline Trade,1,86.37,cancelled
+1682,242,13,2025-06-12,Offline Trade,1,21.93,cancelled
+1683,497,9,2025-06-15,Website,4,109.74,refunded
+1684,3,2,2025-12-20,Amazon,1,40.62,completed
+1685,207,1,2025-09-15,eBay,4,58.46,completed
+1686,259,1,2025-06-03,eBay,5,58.46,refunded
+1687,95,9,2025-09-12,Website,2,109.74,cancelled
+1688,47,8,2025-05-28,eBay,2,68.99,completed
+1689,174,7,2025-10-21,Offline Trade,3,112.57,completed
+1690,335,12,2025-02-17,Website,5,71.75,cancelled
+1691,331,1,2025-05-20,Website,3,58.46,cancelled
+1692,175,7,2025-09-01,Offline Trade,5,112.57,completed
+1693,261,4,2025-02-09,eBay,3,58.85,cancelled
+1694,404,4,2025-08-10,eBay,3,58.85,completed
+1695,301,8,2025-07-25,eBay,4,68.99,cancelled
+1696,343,5,2025-08-21,Amazon,5,111.48,completed
+1697,105,6,2025-04-06,Offline Trade,5,78.01,completed
+1698,348,16,2025-05-18,Offline Trade,4,17.01,cancelled
+1699,120,3,2025-09-25,Amazon,1,87.18,completed
+1700,9,3,2025-03-17,Amazon,4,87.18,completed
+1701,442,2,2025-08-11,Offline Trade,3,40.62,completed
+1702,345,6,2025-11-21,Amazon,1,78.01,refunded
+1703,144,15,2025-05-27,Amazon,3,64.05,completed
+1704,201,2,2025-05-01,Offline Trade,5,40.62,completed
+1705,326,6,2025-03-18,Amazon,1,78.01,completed
+1706,232,12,2025-06-08,Offline Trade,2,71.75,refunded
+1707,114,13,2025-08-12,Offline Trade,5,21.93,completed
+1708,262,1,2025-03-23,eBay,2,58.46,completed
+1709,53,4,2025-05-13,eBay,1,58.85,cancelled
+1710,479,10,2025-11-26,Website,2,16.0,refunded
+1711,476,4,2025-01-29,Website,1,58.85,completed
+1712,415,14,2025-06-02,Website,5,86.37,refunded
+1713,421,15,2025-12-10,Website,3,64.05,refunded
+1714,296,13,2025-05-01,Website,2,21.93,cancelled
+1715,446,9,2025-03-03,eBay,5,109.74,refunded
+1716,28,7,2025-05-02,Website,1,112.57,completed
+1717,343,14,2025-10-27,Offline Trade,3,86.37,completed
+1718,363,11,2025-04-22,Amazon,4,42.45,completed
+1719,365,6,2025-04-20,eBay,2,78.01,refunded
+1720,207,3,2025-05-11,Website,4,87.18,refunded
+1721,227,2,2025-07-11,Website,5,40.62,completed
+1722,212,16,2025-08-05,Offline Trade,5,17.01,completed
+1723,411,11,2025-03-16,eBay,3,42.45,refunded
+1724,462,4,2025-06-07,Website,3,58.85,cancelled
+1725,51,3,2025-12-06,Website,1,87.18,completed
+1726,351,13,2025-10-10,Offline Trade,3,21.93,completed
+1727,46,9,2025-12-17,Website,3,109.74,cancelled
+1728,243,10,2025-08-15,Offline Trade,2,16.0,completed
+1729,317,3,2025-05-11,eBay,4,87.18,completed
+1730,438,6,2025-06-02,Amazon,2,78.01,completed
+1731,417,14,2025-11-20,eBay,4,86.37,refunded
+1732,2,9,2025-05-21,Website,1,109.74,refunded
+1733,270,13,2025-07-31,eBay,4,21.93,refunded
+1734,192,11,2025-03-24,eBay,1,42.45,cancelled
+1735,91,16,2025-06-30,Offline Trade,1,17.01,cancelled
+1736,249,13,2025-06-17,Offline Trade,5,21.93,completed
+1737,173,15,2025-11-25,Amazon,1,64.05,refunded
+1738,13,10,2025-01-02,Offline Trade,2,16.0,completed
+1739,403,10,2025-06-10,Website,3,16.0,completed
+1740,362,3,2025-05-08,Amazon,2,87.18,cancelled
+1741,160,14,2025-06-13,Offline Trade,4,86.37,refunded
+1742,457,16,2025-05-14,Amazon,2,17.01,cancelled
+1743,477,7,2025-05-25,Amazon,3,112.57,completed
+1744,390,10,2025-07-08,Amazon,4,16.0,refunded
+1745,136,2,2025-10-20,Amazon,4,40.62,completed
+1746,12,13,2025-10-13,Amazon,1,21.93,completed
+1747,198,5,2025-04-12,eBay,4,111.48,completed
+1748,43,3,2025-07-25,Offline Trade,1,87.18,cancelled
+1749,334,10,2025-03-18,Website,3,16.0,completed
+1750,142,16,2025-10-18,Website,2,17.01,completed
+1751,100,4,2025-08-11,Offline Trade,5,58.85,refunded
+1752,235,16,2025-04-25,Amazon,1,17.01,completed
+1753,485,8,2025-05-28,Offline Trade,3,68.99,refunded
+1754,110,6,2025-08-09,Amazon,2,78.01,cancelled
+1755,262,16,2025-05-25,Amazon,2,17.01,refunded
+1756,112,10,2025-07-29,Amazon,2,16.0,completed
+1757,350,1,2025-05-15,Amazon,3,58.46,cancelled
+1758,141,14,2025-05-08,eBay,4,86.37,cancelled
+1759,405,7,2025-02-13,Website,4,112.57,refunded
+1760,378,9,2025-06-15,Offline Trade,2,109.74,completed
+1761,74,2,2025-12-29,Offline Trade,4,40.62,cancelled
+1762,233,2,2025-02-07,Website,3,40.62,cancelled
+1763,286,7,2025-01-27,eBay,1,112.57,completed
+1764,495,11,2025-07-01,Website,4,42.45,completed
+1765,395,4,2025-09-16,Offline Trade,3,58.85,completed
+1766,196,6,2025-12-10,eBay,4,78.01,completed
+1767,432,2,2025-01-22,Amazon,5,40.62,completed
+1768,431,12,2025-09-15,Offline Trade,2,71.75,completed
+1769,363,14,2025-03-09,Website,4,86.37,completed
+1770,387,11,2025-08-10,Amazon,5,42.45,completed
+1771,117,16,2025-06-10,Website,1,17.01,completed
+1772,14,6,2025-05-24,eBay,4,78.01,refunded
+1773,19,13,2025-05-15,eBay,3,21.93,cancelled
+1774,482,4,2025-08-12,Amazon,3,58.85,completed
+1775,349,14,2025-03-19,Offline Trade,4,86.37,completed
+1776,21,6,2025-03-18,Website,2,78.01,completed
+1777,253,4,2025-01-19,Offline Trade,2,58.85,completed
+1778,491,3,2025-12-28,Offline Trade,2,87.18,refunded
+1779,303,8,2025-09-11,Website,1,68.99,refunded
+1780,10,7,2025-12-30,Offline Trade,3,112.57,refunded
+1781,147,8,2025-02-27,Amazon,4,68.99,completed
+1782,295,14,2025-02-17,Amazon,3,86.37,completed
+1783,477,12,2025-03-28,eBay,2,71.75,cancelled
+1784,122,4,2025-04-19,Website,5,58.85,cancelled
+1785,14,9,2025-04-03,Offline Trade,5,109.74,completed
+1786,114,1,2025-09-13,Website,2,58.46,completed
+1787,390,10,2025-05-26,Website,1,16.0,refunded
+1788,42,13,2025-10-30,Website,3,21.93,completed
+1789,304,8,2025-01-15,Website,2,68.99,refunded
+1790,415,8,2025-08-21,eBay,4,68.99,cancelled
+1791,209,2,2025-06-18,Website,1,40.62,cancelled
+1792,425,10,2025-06-16,Amazon,4,16.0,completed
+1793,120,7,2025-11-26,eBay,1,112.57,completed
+1794,432,1,2025-02-06,Offline Trade,1,58.46,completed
+1795,163,2,2025-05-11,Amazon,4,40.62,completed
+1796,429,14,2025-02-15,Website,4,86.37,completed
+1797,10,2,2025-07-18,Offline Trade,2,40.62,completed
+1798,245,9,2025-03-03,eBay,2,109.74,refunded
+1799,186,7,2025-06-08,Amazon,4,112.57,completed
+1800,53,6,2025-07-08,Amazon,1,78.01,refunded
+1801,337,12,2025-07-18,Offline Trade,4,71.75,completed
+1802,374,15,2025-11-04,Offline Trade,5,64.05,completed
+1803,16,2,2025-07-08,Amazon,4,40.62,refunded
+1804,445,11,2025-02-17,Website,4,42.45,cancelled
+1805,195,15,2025-08-26,Amazon,3,64.05,completed
+1806,321,7,2025-09-27,Website,4,112.57,completed
+1807,4,7,2025-08-12,Website,4,112.57,refunded
+1808,68,6,2025-03-18,Amazon,3,78.01,completed
+1809,451,3,2025-09-25,Offline Trade,2,87.18,completed
+1810,377,6,2025-01-25,Website,5,78.01,completed
+1811,46,8,2025-02-25,Offline Trade,5,68.99,refunded
+1812,173,14,2025-08-26,eBay,1,86.37,completed
+1813,483,4,2025-10-27,Website,3,58.85,cancelled
+1814,26,4,2025-02-28,Offline Trade,1,58.85,completed
+1815,106,15,2025-07-21,Website,2,64.05,completed
+1816,119,16,2025-12-27,eBay,4,17.01,completed
+1817,414,3,2025-08-21,Offline Trade,5,87.18,cancelled
+1818,322,5,2025-06-24,Amazon,3,111.48,completed
+1819,162,9,2025-02-10,eBay,2,109.74,completed
+1820,16,5,2025-10-01,Website,4,111.48,completed
+1821,93,3,2025-03-01,Website,4,87.18,completed
+1822,141,4,2025-08-24,Offline Trade,4,58.85,cancelled
+1823,470,3,2025-06-05,eBay,4,87.18,refunded
+1824,376,5,2025-02-14,Amazon,3,111.48,completed
+1825,306,7,2025-04-08,Website,1,112.57,completed
+1826,411,3,2025-01-14,Amazon,2,87.18,refunded
+1827,324,6,2025-11-29,Amazon,2,78.01,refunded
+1828,467,16,2025-04-08,Website,5,17.01,completed
+1829,416,8,2025-03-17,Offline Trade,4,68.99,refunded
+1830,348,11,2025-03-01,Amazon,1,42.45,completed
+1831,78,1,2025-09-06,Offline Trade,4,58.46,completed
+1832,207,13,2025-10-27,Amazon,4,21.93,completed
+1833,330,13,2025-10-19,Offline Trade,3,21.93,completed
+1834,172,15,2025-01-05,Website,3,64.05,refunded
+1835,484,3,2025-09-11,eBay,4,87.18,completed
+1836,64,9,2025-07-24,Offline Trade,4,109.74,cancelled
+1837,435,14,2025-11-10,Offline Trade,5,86.37,completed
+1838,137,13,2025-09-28,Website,1,21.93,refunded
+1839,391,13,2025-06-11,Website,5,21.93,completed
+1840,99,5,2025-08-31,Website,4,111.48,refunded
+1841,356,11,2025-11-27,eBay,5,42.45,refunded
+1842,133,11,2025-01-11,Amazon,4,42.45,completed
+1843,71,12,2025-08-29,eBay,2,71.75,refunded
+1844,52,10,2025-09-17,Amazon,2,16.0,cancelled
+1845,120,9,2025-11-05,Offline Trade,3,109.74,completed
+1846,132,7,2025-12-31,Offline Trade,3,112.57,refunded
+1847,424,1,2025-08-30,Amazon,3,58.46,cancelled
+1848,7,1,2025-05-25,Website,2,58.46,refunded
+1849,145,16,2025-03-30,Amazon,2,17.01,completed
+1850,324,7,2025-09-09,Website,5,112.57,refunded
+1851,74,8,2025-06-05,Amazon,4,68.99,completed
+1852,69,8,2025-01-25,Website,5,68.99,completed
+1853,481,13,2025-07-02,Amazon,3,21.93,completed
+1854,436,13,2025-01-17,Website,5,21.93,completed
+1855,454,15,2025-02-28,Amazon,4,64.05,completed
+1856,380,1,2025-04-25,Offline Trade,5,58.46,completed
+1857,20,7,2025-07-01,Website,3,112.57,cancelled
+1858,296,2,2025-03-19,Website,3,40.62,completed
+1859,237,10,2025-08-23,Website,4,16.0,completed
+1860,247,12,2025-11-09,Website,5,71.75,cancelled
+1861,492,1,2025-09-17,Website,1,58.46,completed
+1862,464,14,2025-04-16,eBay,1,86.37,completed
+1863,193,14,2025-12-29,Offline Trade,3,86.37,cancelled
+1864,152,3,2025-02-20,Amazon,4,87.18,completed
+1865,94,5,2025-03-12,Website,3,111.48,completed
+1866,459,5,2025-08-01,Website,4,111.48,completed
+1867,203,5,2025-06-24,eBay,4,111.48,cancelled
+1868,132,10,2025-02-13,eBay,2,16.0,completed
+1869,411,9,2025-07-04,Amazon,4,109.74,completed
+1870,199,9,2025-08-04,Amazon,5,109.74,completed
+1871,392,4,2025-07-31,Offline Trade,4,58.85,refunded
+1872,260,4,2025-12-16,eBay,5,58.85,completed
+1873,26,11,2025-03-16,Website,4,42.45,cancelled
+1874,439,5,2025-02-13,eBay,1,111.48,completed
+1875,337,12,2025-03-26,Offline Trade,4,71.75,completed
+1876,463,4,2025-01-19,Amazon,4,58.85,cancelled
+1877,356,13,2025-11-20,eBay,1,21.93,refunded
+1878,335,3,2025-12-15,eBay,4,87.18,completed
+1879,229,2,2025-01-05,eBay,3,40.62,cancelled
+1880,64,10,2025-03-17,Offline Trade,5,16.0,refunded
+1881,241,2,2025-10-06,Offline Trade,2,40.62,completed
+1882,193,6,2025-04-12,eBay,4,78.01,completed
+1883,282,16,2025-10-03,eBay,1,17.01,refunded
+1884,148,5,2025-09-24,eBay,2,111.48,completed
+1885,346,8,2025-09-19,eBay,1,68.99,cancelled
+1886,417,4,2025-11-22,Amazon,3,58.85,completed
+1887,354,3,2025-10-04,eBay,1,87.18,completed
+1888,476,7,2025-08-05,Website,3,112.57,completed
+1889,380,7,2025-05-13,eBay,3,112.57,completed
+1890,341,15,2025-11-30,Website,1,64.05,refunded
+1891,473,10,2025-10-21,Website,3,16.0,refunded
+1892,222,4,2025-05-01,Amazon,3,58.85,completed
+1893,465,14,2025-05-26,Amazon,3,86.37,refunded
+1894,178,15,2025-05-07,Website,5,64.05,completed
+1895,312,10,2025-10-26,Amazon,5,16.0,completed
+1896,317,9,2025-02-20,Amazon,4,109.74,refunded
+1897,97,6,2025-02-11,Website,4,78.01,completed
+1898,366,13,2025-03-08,Offline Trade,4,21.93,completed
+1899,54,14,2025-02-09,eBay,4,86.37,cancelled
+1900,354,1,2025-10-29,Offline Trade,4,58.46,completed
+1901,49,11,2025-09-13,Offline Trade,5,42.45,refunded
+1902,281,4,2025-08-02,Amazon,4,58.85,completed
+1903,218,11,2025-03-07,Offline Trade,5,42.45,refunded
+1904,454,7,2025-12-27,Website,2,112.57,completed
+1905,355,1,2025-08-31,Website,4,58.46,completed
+1906,100,14,2025-07-09,Website,5,86.37,cancelled
+1907,127,9,2025-02-26,Website,4,109.74,completed
+1908,268,5,2025-05-29,Website,5,111.48,cancelled
+1909,31,10,2025-03-02,eBay,2,16.0,completed
+1910,354,2,2025-06-05,eBay,3,40.62,refunded
+1911,283,15,2025-03-15,Amazon,1,64.05,cancelled
+1912,38,15,2025-01-25,eBay,4,64.05,completed
+1913,225,10,2025-04-04,Offline Trade,2,16.0,completed
+1914,343,12,2025-10-08,eBay,1,71.75,completed
+1915,252,4,2025-08-02,Offline Trade,1,58.85,cancelled
+1916,290,10,2025-10-17,Offline Trade,3,16.0,completed
+1917,295,4,2025-09-01,Amazon,4,58.85,completed
+1918,212,1,2025-11-22,Offline Trade,5,58.46,refunded
+1919,275,13,2025-03-18,eBay,4,21.93,completed
+1920,307,8,2025-12-07,Offline Trade,5,68.99,refunded
+1921,169,16,2025-07-22,eBay,2,17.01,cancelled
+1922,272,12,2025-12-10,Offline Trade,1,71.75,completed
+1923,71,12,2025-03-26,Website,1,71.75,cancelled
+1924,301,16,2025-10-15,Website,3,17.01,cancelled
+1925,13,12,2025-04-09,Website,1,71.75,cancelled
+1926,395,16,2025-04-07,Offline Trade,5,17.01,cancelled
+1927,195,3,2025-03-03,Amazon,1,87.18,completed
+1928,237,3,2025-04-16,Amazon,3,87.18,cancelled
+1929,48,9,2025-02-13,eBay,4,109.74,refunded
+1930,72,4,2025-01-24,Offline Trade,5,58.85,completed
+1931,351,12,2025-08-12,Amazon,3,71.75,refunded
+1932,295,13,2025-09-28,eBay,1,21.93,refunded
+1933,449,14,2025-02-16,Website,3,86.37,completed
+1934,86,2,2025-03-28,eBay,5,40.62,completed
+1935,379,13,2025-05-11,Website,2,21.93,completed
+1936,456,10,2025-07-28,Amazon,3,16.0,completed
+1937,227,4,2025-06-16,Amazon,5,58.85,completed
+1938,385,15,2025-06-02,Offline Trade,1,64.05,completed
+1939,328,3,2025-03-14,Offline Trade,3,87.18,completed
+1940,10,3,2025-07-12,Website,3,87.18,completed
+1941,273,4,2025-05-03,Amazon,2,58.85,refunded
+1942,264,14,2025-09-16,Offline Trade,5,86.37,completed
+1943,180,9,2025-02-01,eBay,3,109.74,refunded
+1944,85,9,2025-07-28,Website,5,109.74,refunded
+1945,140,2,2025-07-28,Amazon,1,40.62,completed
+1946,499,11,2025-10-11,Website,3,42.45,completed
+1947,131,6,2025-11-30,Amazon,5,78.01,completed
+1948,437,4,2025-07-28,Offline Trade,5,58.85,completed
+1949,46,3,2025-04-15,Amazon,5,87.18,completed
+1950,37,7,2025-03-28,Amazon,5,112.57,cancelled
+1951,25,3,2025-10-12,Offline Trade,4,87.18,completed
+1952,22,7,2025-08-26,eBay,1,112.57,completed
+1953,37,12,2025-01-31,Offline Trade,1,71.75,completed
+1954,463,10,2025-05-09,Offline Trade,5,16.0,completed
+1955,363,6,2025-10-27,eBay,2,78.01,completed
+1956,244,9,2025-10-01,Website,2,109.74,completed
+1957,147,6,2025-07-22,Website,1,78.01,completed
+1958,257,14,2025-05-24,Offline Trade,5,86.37,completed
+1959,284,11,2025-09-16,eBay,5,42.45,completed
+1960,173,7,2025-12-29,Offline Trade,3,112.57,completed
+1961,16,3,2025-12-06,eBay,2,87.18,completed
+1962,78,7,2025-08-24,eBay,2,112.57,completed
+1963,30,6,2025-11-27,Website,2,78.01,cancelled
+1964,378,1,2025-01-03,Website,4,58.46,completed
+1965,284,4,2025-10-12,Offline Trade,4,58.85,refunded
+1966,274,15,2025-02-11,Website,5,64.05,cancelled
+1967,13,16,2025-12-10,Offline Trade,1,17.01,completed
+1968,201,4,2025-07-12,eBay,3,58.85,refunded
+1969,178,4,2025-12-23,Website,2,58.85,completed
+1970,25,10,2025-07-09,Amazon,4,16.0,refunded
+1971,477,6,2025-04-24,Website,1,78.01,completed
+1972,110,2,2025-04-09,Website,3,40.62,cancelled
+1973,97,12,2025-04-24,Amazon,3,71.75,refunded
+1974,496,7,2025-01-19,eBay,3,112.57,refunded
+1975,34,11,2025-04-18,Website,5,42.45,completed
+1976,429,10,2025-02-26,eBay,4,16.0,cancelled
+1977,164,1,2025-09-10,Amazon,5,58.46,cancelled
+1978,336,3,2025-12-04,Amazon,2,87.18,completed
+1979,390,15,2025-03-07,Website,5,64.05,completed
+1980,363,9,2025-10-19,Amazon,3,109.74,cancelled
+1981,320,11,2025-04-09,Website,3,42.45,cancelled
+1982,135,10,2025-05-10,Offline Trade,5,16.0,completed
+1983,477,7,2025-11-25,Website,4,112.57,completed
+1984,460,2,2025-07-28,eBay,4,40.62,completed
+1985,137,8,2025-08-27,Offline Trade,5,68.99,completed
+1986,288,8,2025-01-23,Amazon,5,68.99,completed
+1987,113,9,2025-08-04,Offline Trade,3,109.74,completed
+1988,56,10,2025-07-20,Amazon,1,16.0,completed
+1989,220,15,2025-10-20,Website,1,64.05,completed
+1990,153,14,2025-02-08,Amazon,4,86.37,completed
+1991,144,8,2025-06-18,eBay,2,68.99,completed
+1992,347,11,2025-01-15,Offline Trade,1,42.45,refunded
+1993,487,15,2025-10-31,eBay,1,64.05,completed
+1994,409,2,2025-02-25,Offline Trade,2,40.62,completed
+1995,277,16,2025-01-28,eBay,3,17.01,cancelled
+1996,209,14,2025-02-07,Offline Trade,2,86.37,completed
+1997,89,5,2025-10-24,Website,4,111.48,completed
+1998,395,12,2025-01-18,Offline Trade,1,71.75,completed
+1999,286,11,2025-03-07,Website,1,42.45,refunded
+2000,255,4,2025-06-04,Offline Trade,1,58.85,completed
