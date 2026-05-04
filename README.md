@@ -21,6 +21,26 @@ Raw CSV/API data
 → GitHub Actions CI  
 → Docker/Terraform polish
 
+## SQL Files
+
+The `sql/` folder contains the Snowflake SQL used to create the initial cloud warehouse structure for this project.
+
+At this stage, the SQL is being written and run manually in Snowflake to build a proper understanding of the platform fundamentals: warehouses, databases, schemas, raw tables, and data loading.
+
+This manual setup is intentional. Later in the project, parts of the infrastructure will be automated with tools such as Terraform, and raw file storage will be moved into AWS S3 to reflect a more production-like cloud data workflow.
+
+The SQL files are included in the repo so the Snowflake setup is visible, documented, and version-controlled rather than only existing inside the Snowflake UI.
+
 ## Current Phase
 
-Phase 1: Generate realistic raw source data locally.
+Phase 1: Build the local-to-Snowflake foundation.
+
+Current work includes:
+
+- generating realistic raw retail source data locally
+- validating raw data with pandas
+- preparing standardised CSV files for warehouse loading
+- manually creating the initial Snowflake warehouse structure with SQL
+- creating raw Snowflake tables to receive the prepared data
+
+The manual Snowflake setup is intentional at this stage to build a clear understanding of the platform before adding AWS S3, dbt, Airflow, GitHub Actions, Docker, and Terraform later.
