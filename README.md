@@ -45,8 +45,6 @@ Current work includes:
 
 The manual Snowflake setup is intentional at this stage to build a clear understanding of the platform before adding AWS S3, dbt, Airflow, GitHub Actions, Docker, and Terraform later.
 
-## Current Pipeline Progress
-
 The project currently includes the first end-to-end local-to-Snowflake data loading flow:
 
 ```text
@@ -56,3 +54,4 @@ Raw generated CSVs
 → processed CSVs
 → Snowflake internal stage
 → Snowflake RAW tables
+```
