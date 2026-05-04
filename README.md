@@ -44,3 +44,15 @@ Current work includes:
 - creating raw Snowflake tables to receive the prepared data
 
 The manual Snowflake setup is intentional at this stage to build a clear understanding of the platform before adding AWS S3, dbt, Airflow, GitHub Actions, Docker, and Terraform later.
+
+## Current Pipeline Progress
+
+The project currently includes the first end-to-end local-to-Snowflake data loading flow:
+
+```text
+Raw generated CSVs
+→ pandas validation
+→ pandas preparation
+→ processed CSVs
+→ Snowflake internal stage
+→ Snowflake RAW tables
