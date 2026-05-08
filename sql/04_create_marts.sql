@@ -3,7 +3,6 @@ USE WAREHOUSE retailflow_wh;
 USE DATABASE retailflow_db;
 
 -- Create a customer dimension table for reporting.
--- Dimension tables describe business entities used to filter and group facts.
 CREATE OR REPLACE TABLE marts.dim_customers AS
 SELECT
     customer_id,
@@ -15,7 +14,6 @@ SELECT
 FROM staging.stg_customers;
 
 -- Create a product dimension table for reporting.
--- This table provides product attributes used to analyse sales performance.
 CREATE OR REPLACE TABLE marts.dim_products AS
 SELECT
     product_id,
@@ -28,7 +26,6 @@ SELECT
 FROM staging.stg_products;
 
 -- Create a date dimension table from all relevant business dates.
--- This supports time-based filtering, grouping, and reporting.
 CREATE OR REPLACE TABLE marts.dim_date AS
 WITH all_dates AS (
     SELECT order_date AS date_day FROM staging.stg_orders
@@ -50,7 +47,6 @@ SELECT
 FROM all_dates;
 
 -- Create an order fact table for sales reporting.
--- Fact tables store measurable business events and link to dimension tables.
 CREATE OR REPLACE TABLE marts.fact_orders AS
 SELECT
     orders.order_id,
@@ -72,14 +68,19 @@ SELECT
         ELSE 0
     END AS cancelled_revenue,
     orders.status,
-    ROUND(orders.quantity * products.unit_cost, 2) AS total_cost,
-    ROUND(orders.net_sales_revenue - (orders.quantity * products.unit_cost), 2) AS gross_profit
+    CASE
+        WHEN orders.status = 'completed' THEN ROUND(orders.quantity * products.unit_cost, 2)
+        ELSE 0
+    END AS total_cost,
+    CASE
+        WHEN orders.status = 'completed' THEN ROUND(orders.net_sales_revenue - (orders.quantity * products.unit_cost), 2)
+        ELSE 0
+    END AS gross_profit
 FROM staging.stg_orders AS orders
 LEFT JOIN staging.stg_products AS products
     ON orders.product_id = products.product_id;
 
 -- Create an advertising spend fact table for marketing reporting.
--- This keeps paid media metrics in a business-ready reporting table.
 CREATE OR REPLACE TABLE marts.fact_ad_spend AS
 SELECT
     spend_date,
@@ -93,7 +94,6 @@ SELECT
 FROM staging.stg_ad_spend;
 
 -- Create a refund fact table for refund reporting.
--- This can be linked back to orders for refund rate and product analysis.
 CREATE OR REPLACE TABLE marts.fact_refunds AS
 SELECT
     refunds.refund_id,
