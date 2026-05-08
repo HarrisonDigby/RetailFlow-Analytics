@@ -42,7 +42,7 @@ SELECT
     gross_revenue,
     CASE
         WHEN status = 'completed' THEN gross_revenue
-        ELSE 0
+        ELSE 0 -- Only completed orders contribute to net sales revenue in this simplified model.
     END AS net_sales_revenue
 FROM raw.orders;
 
