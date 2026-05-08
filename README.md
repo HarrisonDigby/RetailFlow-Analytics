@@ -47,7 +47,7 @@ The manual Snowflake setup is intentional at this stage to build a clear underst
 
 The project currently includes the first end-to-end local-to-Snowflake data loading flow:
 
-```text
+```
 Raw generated CSVs
 → pandas validation
 → pandas preparation
@@ -55,3 +55,16 @@ Raw generated CSVs
 → Snowflake internal stage
 → Snowflake RAW tables
 ```
+
+
+The Snowflake warehouse now includes a basic analytics modelling structure:
+
+```
+RAW tables
+→ STAGING views
+→ MARTS fact and dimension tables
+```
+
+The MARTS layer contains reporting-ready tables such as fact_orders, fact_ad_spend, fact_refunds, dim_customers, dim_products, and dim_date. These tables are designed for BI analysis and will later be connected to Power BI.
+
+The Snowflake marts layer now includes SQL-based data quality checks. These checks validate that reporting tables contain data, order IDs are unique, relationships between fact and dimension tables are intact, numeric business values are non-negative, and refund dates are logically valid.
