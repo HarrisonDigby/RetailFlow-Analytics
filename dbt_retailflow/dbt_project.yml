@@ -1,0 +1,16 @@
+name: "retailflow"
+version: "1.0.0"
+config-version: 2
+
+profile: "retailflow"
+
+model-paths: ["models"]
+
+models:
+  retailflow:
+    staging:
+      +schema: staging
+      +materialized: view
+    marts:
+      +schema: marts
+      +materialized: table

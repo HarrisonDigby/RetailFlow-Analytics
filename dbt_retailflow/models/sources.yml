@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: raw
+    database: RETAILFLOW_DB
+    schema: RAW
+    description: "First Snowflake layer containing data loaded from prepared CSV files."
+    tables:
+      - name: CUSTOMERS
+        description: "Customer records loaded from processed CSV data."
+
+      - name: PRODUCTS
+        description: "Product catalogue records loaded from processed CSV data."
+
+      - name: ORDERS
+        description: "Order records loaded from processed CSV data."
+
+      - name: AD_SPEND
+        description: "Advertising spend records loaded from processed CSV data."
+
+      - name: REFUNDS
+        description: "Refund records loaded from processed CSV data."
