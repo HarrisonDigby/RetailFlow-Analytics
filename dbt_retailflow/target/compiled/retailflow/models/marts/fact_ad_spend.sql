@@ -7,4 +7,4 @@ SELECT
     impressions,
     cost_per_click,
     click_through_rate
-FROM {{ ref('stg_ad_spend') }}
+FROM RETAILFLOW_DB.DBT_staging.stg_ad_spend

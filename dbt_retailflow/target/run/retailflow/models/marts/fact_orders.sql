@@ -1,4 +1,12 @@
-SELECT
+
+  
+    
+
+create or replace transient table RETAILFLOW_DB.DBT_marts.fact_orders
+    
+    
+    
+    as (SELECT
     orders.order_id,
     orders.customer_id,
     orders.product_id,
@@ -32,7 +40,12 @@ SELECT
         ELSE 0
     END AS gross_profit
 
-FROM {{ ref('stg_orders') }} AS orders
+FROM RETAILFLOW_DB.DBT_staging.stg_orders AS orders
 
-LEFT JOIN {{ ref('stg_products') }} AS products
+LEFT JOIN RETAILFLOW_DB.DBT_staging.stg_products AS products
     ON orders.product_id = products.product_id
+    )
+;
+
+
+  

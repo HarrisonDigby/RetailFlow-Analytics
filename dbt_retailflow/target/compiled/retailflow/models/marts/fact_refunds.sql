@@ -7,7 +7,7 @@ SELECT
     refunds.refund_reason,
     orders.gross_revenue AS refund_order_value
 
-FROM {{ ref('stg_refunds') }} AS refunds
+FROM RETAILFLOW_DB.DBT_staging.stg_refunds AS refunds
 
-LEFT JOIN {{ ref('stg_orders') }} AS orders
+LEFT JOIN RETAILFLOW_DB.DBT_staging.stg_orders AS orders
     ON refunds.order_id = orders.order_id

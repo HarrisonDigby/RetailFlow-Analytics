@@ -6,4 +6,4 @@ SELECT
     unit_cost,
     unit_margin,
     margin_rate
-FROM {{ ref('stg_products') }}
+FROM RETAILFLOW_DB.DBT_staging.stg_products

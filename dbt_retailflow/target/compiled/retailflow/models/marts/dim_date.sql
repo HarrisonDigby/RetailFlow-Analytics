@@ -1,17 +1,17 @@
 WITH all_dates AS (
 
     SELECT order_date AS date_day
-    FROM {{ ref('stg_orders') }}
+    FROM RETAILFLOW_DB.DBT_staging.stg_orders
 
     UNION
 
     SELECT spend_date AS date_day
-    FROM {{ ref('stg_ad_spend') }}
+    FROM RETAILFLOW_DB.DBT_staging.stg_ad_spend
 
     UNION
 
     SELECT refund_date AS date_day
-    FROM {{ ref('stg_refunds') }}
+    FROM RETAILFLOW_DB.DBT_staging.stg_refunds
 
 )
 

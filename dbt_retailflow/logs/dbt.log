@@ -1493,3 +1493,690 @@ FROM RETAILFLOW_DB.RAW.REFUNDS
 [0m13:38:15.265300 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019760643EF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001975FA1FC20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001975FA1FFB0>]}
 [0m13:38:15.265300 [debug] [MainThread]: Flushing usage events
 [0m13:38:15.984796 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:53:50.029654 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029D8BB3F110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029D8B50C140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029D8B50CEC0>]}
+
+
+============================== 13:53:50.032662 | d7ae5911-1547-4773-98d1-844757cbf7f2 ==============================
+[0m13:53:50.032662 [info ] [MainThread]: Running with dbt=1.11.9
+[0m13:53:50.032662 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\harry\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run --select dim_customers', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\harry\\Documents\\Job Skill Development\\RetailFlow-Analytics\\dbt_retailflow\\logs'}
+[0m13:53:50.645753 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m13:53:50.645753 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m13:53:50.646755 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m13:53:50.833160 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd7ae5911-1547-4773-98d1-844757cbf7f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DB009C1A0>]}
+[0m13:53:50.893090 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd7ae5911-1547-4773-98d1-844757cbf7f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DAFD46DB0>]}
+[0m13:53:50.894138 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m13:53:51.364783 [debug] [MainThread]: checksum: f8bb6a62265c70f2530bed05e52c2cee1c1844b101d398a67d5798350ab914c5, vars: {}, profile: , target: , version: 1.11.9
+[0m13:53:51.494950 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 6 files changed.
+[0m13:53:51.494950 [debug] [MainThread]: Partial parsing: updated file: retailflow://models\marts\dim_products.sql
+[0m13:53:51.496332 [debug] [MainThread]: Partial parsing: updated file: retailflow://models\marts\fact_refunds.sql
+[0m13:53:51.496332 [debug] [MainThread]: Partial parsing: updated file: retailflow://models\marts\dim_customers.sql
+[0m13:53:51.497699 [debug] [MainThread]: Partial parsing: updated file: retailflow://models\marts\dim_date.sql
+[0m13:53:51.497699 [debug] [MainThread]: Partial parsing: updated file: retailflow://models\marts\fact_ad_spend.sql
+[0m13:53:51.498706 [debug] [MainThread]: Partial parsing: updated file: retailflow://models\marts\fact_orders.sql
+[0m13:53:51.819394 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd7ae5911-1547-4773-98d1-844757cbf7f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DB0813320>]}
+[0m13:53:51.892296 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\manifest.json
+[0m13:53:51.895778 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\semantic_manifest.json
+[0m13:53:51.906868 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd7ae5911-1547-4773-98d1-844757cbf7f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DB07CE390>]}
+[0m13:53:51.906868 [info ] [MainThread]: Found 11 models, 5 sources, 525 macros
+[0m13:53:51.907871 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd7ae5911-1547-4773-98d1-844757cbf7f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DB07BA5D0>]}
+[0m13:53:51.908876 [info ] [MainThread]: 
+[0m13:53:51.909880 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m13:53:51.909880 [info ] [MainThread]: 
+[0m13:53:51.910882 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m13:53:51.911894 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB'
+[0m13:53:52.007177 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB"
+[0m13:53:52.008183 [debug] [ThreadPool]: On list_RETAILFLOW_DB: show terse schemas in database RETAILFLOW_DB
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB"} */
+[0m13:53:52.008183 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:53:52.562649 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 0.555 seconds
+[0m13:53:52.564684 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_RETAILFLOW_DB, now create_RETAILFLOW_DB_DBT_marts)
+[0m13:53:52.565689 [debug] [ThreadPool]: Creating schema "database: "RETAILFLOW_DB"
+schema: "DBT_marts"
+"
+[0m13:53:52.569710 [debug] [ThreadPool]: Using snowflake connection "create_RETAILFLOW_DB_DBT_marts"
+[0m13:53:52.570714 [debug] [ThreadPool]: On create_RETAILFLOW_DB_DBT_marts: create schema if not exists RETAILFLOW_DB.DBT_marts
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "create_RETAILFLOW_DB_DBT_marts"} */
+[0m13:53:52.656424 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.085 seconds
+[0m13:53:52.662876 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB_DBT_marts'
+[0m13:53:52.662876 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB_DBT_staging'
+[0m13:53:52.673163 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB_DBT_marts"
+[0m13:53:52.675611 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB_DBT_staging"
+[0m13:53:52.675611 [debug] [ThreadPool]: On list_RETAILFLOW_DB_DBT_marts: show objects in RETAILFLOW_DB.DBT_marts
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB_DBT_marts"} */;
+[0m13:53:52.676615 [debug] [ThreadPool]: On list_RETAILFLOW_DB_DBT_staging: show objects in RETAILFLOW_DB.DBT_staging
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB_DBT_staging"} */;
+[0m13:53:52.676615 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:53:52.677940 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:53:53.362719 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.686 seconds
+[0m13:53:53.372789 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.696 seconds
+[0m13:53:53.374816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd7ae5911-1547-4773-98d1-844757cbf7f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DB07B9DC0>]}
+[0m13:53:53.377833 [debug] [Thread-2 (]: Began running node model.retailflow.dim_customers
+[0m13:53:53.378836 [info ] [Thread-2 (]: 1 of 1 START sql table model DBT_marts.dim_customers ........................... [RUN]
+[0m13:53:53.378836 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.retailflow.dim_customers'
+[0m13:53:53.379838 [debug] [Thread-2 (]: Began compiling node model.retailflow.dim_customers
+[0m13:53:53.387112 [debug] [Thread-2 (]: Writing injected SQL for node "model.retailflow.dim_customers"
+[0m13:53:53.389124 [debug] [Thread-2 (]: Began executing node model.retailflow.dim_customers
+[0m13:53:53.414265 [debug] [Thread-2 (]: Writing runtime sql for node "model.retailflow.dim_customers"
+[0m13:53:53.416308 [debug] [Thread-2 (]: Using snowflake connection "model.retailflow.dim_customers"
+[0m13:53:53.416308 [debug] [Thread-2 (]: On model.retailflow.dim_customers: create or replace transient table RETAILFLOW_DB.DBT_marts.dim_customers
+    
+    
+    
+    as (SELECT
+    customer_id,
+    first_name,
+    last_name,
+    email,
+    country,
+    signup_date
+FROM RETAILFLOW_DB.DBT_staging.stg_customers
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "node_id": "model.retailflow.dim_customers"} */;
+[0m13:53:53.416308 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m13:53:55.020530 [debug] [Thread-2 (]: SQL status: SUCCESS 500 in 1.604 seconds
+[0m13:53:55.039666 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd7ae5911-1547-4773-98d1-844757cbf7f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029D8D3B7650>]}
+[0m13:53:55.040670 [info ] [Thread-2 (]: 1 of 1 OK created sql table model DBT_marts.dim_customers ...................... [[32mSUCCESS 500[0m in 1.66s]
+[0m13:53:55.040670 [debug] [Thread-2 (]: Finished running node model.retailflow.dim_customers
+[0m13:53:55.042676 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:53:55.042676 [debug] [MainThread]: Connection 'create_RETAILFLOW_DB_DBT_marts' was left open.
+[0m13:53:55.042676 [debug] [MainThread]: On create_RETAILFLOW_DB_DBT_marts: Close
+[0m13:53:55.109180 [debug] [MainThread]: Connection 'list_RETAILFLOW_DB_DBT_marts' was left open.
+[0m13:53:55.109180 [debug] [MainThread]: On list_RETAILFLOW_DB_DBT_marts: Close
+[0m13:53:55.172654 [debug] [MainThread]: Connection 'list_RETAILFLOW_DB_DBT_staging' was left open.
+[0m13:53:55.173658 [debug] [MainThread]: On list_RETAILFLOW_DB_DBT_staging: Close
+[0m13:53:55.243527 [debug] [MainThread]: Connection 'model.retailflow.dim_customers' was left open.
+[0m13:53:55.244530 [debug] [MainThread]: On model.retailflow.dim_customers: Close
+[0m13:53:55.316042 [info ] [MainThread]: 
+[0m13:53:55.316042 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 3.40 seconds (3.40s).
+[0m13:53:55.317043 [debug] [MainThread]: Command end result
+[0m13:53:55.345251 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\manifest.json
+[0m13:53:55.347349 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\semantic_manifest.json
+[0m13:53:55.354763 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\run_results.json
+[0m13:53:55.354763 [info ] [MainThread]: 
+[0m13:53:55.355766 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:53:55.355766 [info ] [MainThread]: 
+[0m13:53:55.356767 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m13:53:55.358024 [debug] [MainThread]: Command `dbt run` succeeded at 13:53:55.356767 after 5.49 seconds
+[0m13:53:55.358024 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029D8D3164E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029D8B963200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DB07AD970>]}
+[0m13:53:55.358024 [debug] [MainThread]: Flushing usage events
+[0m13:53:56.130820 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:53:58.543749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230B9FB7D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230BD1E7BC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230BA14C770>]}
+
+
+============================== 13:53:58.546828 | b19b274c-c5f8-40f8-bf47-5f0dd1fd71be ==============================
+[0m13:53:58.546828 [info ] [MainThread]: Running with dbt=1.11.9
+[0m13:53:58.547831 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\harry\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt run --select dim_products', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\harry\\Documents\\Job Skill Development\\RetailFlow-Analytics\\dbt_retailflow\\logs'}
+[0m13:53:59.167336 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m13:53:59.168340 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m13:53:59.168340 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m13:53:59.352497 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b19b274c-c5f8-40f8-bf47-5f0dd1fd71be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230E1D625A0>]}
+[0m13:53:59.409274 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b19b274c-c5f8-40f8-bf47-5f0dd1fd71be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230DD5F1B80>]}
+[0m13:53:59.411337 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m13:53:59.873802 [debug] [MainThread]: checksum: f8bb6a62265c70f2530bed05e52c2cee1c1844b101d398a67d5798350ab914c5, vars: {}, profile: , target: , version: 1.11.9
+[0m13:54:00.005149 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:54:00.005149 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m13:54:00.006151 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:54:00.039601 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b19b274c-c5f8-40f8-bf47-5f0dd1fd71be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230E1C70E90>]}
+[0m13:54:00.167535 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\manifest.json
+[0m13:54:00.169930 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\semantic_manifest.json
+[0m13:54:00.181017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b19b274c-c5f8-40f8-bf47-5f0dd1fd71be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230E21ECC50>]}
+[0m13:54:00.182020 [info ] [MainThread]: Found 11 models, 5 sources, 525 macros
+[0m13:54:00.182020 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b19b274c-c5f8-40f8-bf47-5f0dd1fd71be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230E23D2660>]}
+[0m13:54:00.184025 [info ] [MainThread]: 
+[0m13:54:00.184025 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m13:54:00.184025 [info ] [MainThread]: 
+[0m13:54:00.185028 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m13:54:00.186032 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB'
+[0m13:54:00.286793 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB"
+[0m13:54:00.286793 [debug] [ThreadPool]: On list_RETAILFLOW_DB: show terse schemas in database RETAILFLOW_DB
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB"} */
+[0m13:54:00.287802 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:00.540643 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 0.253 seconds
+[0m13:54:00.547536 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB_DBT_marts'
+[0m13:54:00.547536 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB_DBT_staging'
+[0m13:54:00.557579 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB_DBT_marts"
+[0m13:54:00.559589 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB_DBT_staging"
+[0m13:54:00.560595 [debug] [ThreadPool]: On list_RETAILFLOW_DB_DBT_marts: show objects in RETAILFLOW_DB.DBT_marts
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB_DBT_marts"} */;
+[0m13:54:00.560595 [debug] [ThreadPool]: On list_RETAILFLOW_DB_DBT_staging: show objects in RETAILFLOW_DB.DBT_staging
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB_DBT_staging"} */;
+[0m13:54:00.560595 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:00.561632 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:00.822726 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.262 seconds
+[0m13:54:01.200100 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.639 seconds
+[0m13:54:01.203304 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b19b274c-c5f8-40f8-bf47-5f0dd1fd71be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230E25BB560>]}
+[0m13:54:01.206682 [debug] [Thread-2 (]: Began running node model.retailflow.dim_products
+[0m13:54:01.207777 [info ] [Thread-2 (]: 1 of 1 START sql table model DBT_marts.dim_products ............................ [RUN]
+[0m13:54:01.207777 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.retailflow.dim_products'
+[0m13:54:01.208780 [debug] [Thread-2 (]: Began compiling node model.retailflow.dim_products
+[0m13:54:01.214831 [debug] [Thread-2 (]: Writing injected SQL for node "model.retailflow.dim_products"
+[0m13:54:01.215840 [debug] [Thread-2 (]: Began executing node model.retailflow.dim_products
+[0m13:54:01.241841 [debug] [Thread-2 (]: Writing runtime sql for node "model.retailflow.dim_products"
+[0m13:54:01.242844 [debug] [Thread-2 (]: Using snowflake connection "model.retailflow.dim_products"
+[0m13:54:01.243918 [debug] [Thread-2 (]: On model.retailflow.dim_products: create or replace transient table RETAILFLOW_DB.DBT_marts.dim_products
+    
+    
+    
+    as (SELECT
+    product_id,
+    product_name,
+    category,
+    unit_price,
+    unit_cost,
+    unit_margin,
+    margin_rate
+FROM RETAILFLOW_DB.DBT_staging.stg_products
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "node_id": "model.retailflow.dim_products"} */;
+[0m13:54:01.243918 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m13:54:02.386481 [debug] [Thread-2 (]: SQL status: SUCCESS 16 in 1.142 seconds
+[0m13:54:02.407736 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b19b274c-c5f8-40f8-bf47-5f0dd1fd71be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230BF11B380>]}
+[0m13:54:02.407736 [info ] [Thread-2 (]: 1 of 1 OK created sql table model DBT_marts.dim_products ....................... [[32mSUCCESS 16[0m in 1.20s]
+[0m13:54:02.408739 [debug] [Thread-2 (]: Finished running node model.retailflow.dim_products
+[0m13:54:02.409742 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:54:02.410745 [debug] [MainThread]: Connection 'list_RETAILFLOW_DB' was left open.
+[0m13:54:02.410745 [debug] [MainThread]: On list_RETAILFLOW_DB: Close
+[0m13:54:02.473995 [debug] [MainThread]: Connection 'list_RETAILFLOW_DB_DBT_marts' was left open.
+[0m13:54:02.474998 [debug] [MainThread]: On list_RETAILFLOW_DB_DBT_marts: Close
+[0m13:54:02.550938 [debug] [MainThread]: Connection 'list_RETAILFLOW_DB_DBT_staging' was left open.
+[0m13:54:02.551943 [debug] [MainThread]: On list_RETAILFLOW_DB_DBT_staging: Close
+[0m13:54:02.620374 [debug] [MainThread]: Connection 'model.retailflow.dim_products' was left open.
+[0m13:54:02.621392 [debug] [MainThread]: On model.retailflow.dim_products: Close
+[0m13:54:02.696311 [info ] [MainThread]: 
+[0m13:54:02.697326 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 2.51 seconds (2.51s).
+[0m13:54:02.698331 [debug] [MainThread]: Command end result
+[0m13:54:02.721334 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\manifest.json
+[0m13:54:02.724624 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\semantic_manifest.json
+[0m13:54:02.730665 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\run_results.json
+[0m13:54:02.731668 [info ] [MainThread]: 
+[0m13:54:02.731668 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:54:02.732709 [info ] [MainThread]: 
+[0m13:54:02.732709 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m13:54:02.733713 [debug] [MainThread]: Command `dbt run` succeeded at 13:54:02.733713 after 4.30 seconds
+[0m13:54:02.734715 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230BDE8D0A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230BF0F86B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230BF0F8590>]}
+[0m13:54:02.734715 [debug] [MainThread]: Flushing usage events
+[0m13:54:03.486415 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:54:05.794085 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002737CE77D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002737D00C9B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002737DF961B0>]}
+
+
+============================== 13:54:05.798377 | fdfeb19a-6d58-48ce-aa57-973dad122a82 ==============================
+[0m13:54:05.798377 [info ] [MainThread]: Running with dbt=1.11.9
+[0m13:54:05.798377 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\harry\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt run --select dim_date', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\harry\\Documents\\Job Skill Development\\RetailFlow-Analytics\\dbt_retailflow\\logs'}
+[0m13:54:06.412710 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m13:54:06.413713 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m13:54:06.413713 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m13:54:06.594459 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'fdfeb19a-6d58-48ce-aa57-973dad122a82', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002737DA15820>]}
+[0m13:54:06.651101 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'fdfeb19a-6d58-48ce-aa57-973dad122a82', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027324983590>]}
+[0m13:54:06.652106 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m13:54:07.109913 [debug] [MainThread]: checksum: f8bb6a62265c70f2530bed05e52c2cee1c1844b101d398a67d5798350ab914c5, vars: {}, profile: , target: , version: 1.11.9
+[0m13:54:07.239211 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:54:07.240213 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m13:54:07.240213 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:54:07.273623 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'fdfeb19a-6d58-48ce-aa57-973dad122a82', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027324F3C440>]}
+[0m13:54:07.404581 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\manifest.json
+[0m13:54:07.406583 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\semantic_manifest.json
+[0m13:54:07.418118 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'fdfeb19a-6d58-48ce-aa57-973dad122a82', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002732515CD40>]}
+[0m13:54:07.418118 [info ] [MainThread]: Found 11 models, 5 sources, 525 macros
+[0m13:54:07.419122 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fdfeb19a-6d58-48ce-aa57-973dad122a82', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002732510DF70>]}
+[0m13:54:07.420126 [info ] [MainThread]: 
+[0m13:54:07.421130 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m13:54:07.421130 [info ] [MainThread]: 
+[0m13:54:07.422146 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m13:54:07.423149 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB'
+[0m13:54:07.526825 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB"
+[0m13:54:07.527829 [debug] [ThreadPool]: On list_RETAILFLOW_DB: show terse schemas in database RETAILFLOW_DB
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB"} */
+[0m13:54:07.527829 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:07.813187 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 0.285 seconds
+[0m13:54:07.819266 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB_DBT_staging'
+[0m13:54:07.820268 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB_DBT_marts'
+[0m13:54:07.832918 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB_DBT_staging"
+[0m13:54:07.834925 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB_DBT_marts"
+[0m13:54:07.835929 [debug] [ThreadPool]: On list_RETAILFLOW_DB_DBT_staging: show objects in RETAILFLOW_DB.DBT_staging
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB_DBT_staging"} */;
+[0m13:54:07.835929 [debug] [ThreadPool]: On list_RETAILFLOW_DB_DBT_marts: show objects in RETAILFLOW_DB.DBT_marts
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB_DBT_marts"} */;
+[0m13:54:07.836937 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:07.836937 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:08.082597 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.246 seconds
+[0m13:54:08.120202 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 0.283 seconds
+[0m13:54:08.122592 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fdfeb19a-6d58-48ce-aa57-973dad122a82', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027324E7ACC0>]}
+[0m13:54:08.126914 [debug] [Thread-2 (]: Began running node model.retailflow.dim_date
+[0m13:54:08.127942 [info ] [Thread-2 (]: 1 of 1 START sql table model DBT_marts.dim_date ................................ [RUN]
+[0m13:54:08.127942 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.retailflow.dim_date'
+[0m13:54:08.128998 [debug] [Thread-2 (]: Began compiling node model.retailflow.dim_date
+[0m13:54:08.138682 [debug] [Thread-2 (]: Writing injected SQL for node "model.retailflow.dim_date"
+[0m13:54:08.139833 [debug] [Thread-2 (]: Began executing node model.retailflow.dim_date
+[0m13:54:08.168129 [debug] [Thread-2 (]: Writing runtime sql for node "model.retailflow.dim_date"
+[0m13:54:08.170142 [debug] [Thread-2 (]: Using snowflake connection "model.retailflow.dim_date"
+[0m13:54:08.170142 [debug] [Thread-2 (]: On model.retailflow.dim_date: create or replace transient table RETAILFLOW_DB.DBT_marts.dim_date
+    
+    
+    
+    as (WITH all_dates AS (
+
+    SELECT order_date AS date_day
+    FROM RETAILFLOW_DB.DBT_staging.stg_orders
+
+    UNION
+
+    SELECT spend_date AS date_day
+    FROM RETAILFLOW_DB.DBT_staging.stg_ad_spend
+
+    UNION
+
+    SELECT refund_date AS date_day
+    FROM RETAILFLOW_DB.DBT_staging.stg_refunds
+
+)
+
+SELECT
+    date_day,
+    YEAR(date_day) AS year,
+    QUARTER(date_day) AS quarter,
+    MONTH(date_day) AS month,
+    MONTHNAME(date_day) AS month_name,
+    WEEK(date_day) AS week_of_year,
+    DAYOFMONTH(date_day) AS day_of_month,
+    DAYOFWEEK(date_day) AS day_of_week
+FROM all_dates
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "node_id": "model.retailflow.dim_date"} */;
+[0m13:54:08.171172 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m13:54:09.377355 [debug] [Thread-2 (]: SQL status: SUCCESS 381 in 1.206 seconds
+[0m13:54:09.395133 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'fdfeb19a-6d58-48ce-aa57-973dad122a82', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002730207B4A0>]}
+[0m13:54:09.396136 [info ] [Thread-2 (]: 1 of 1 OK created sql table model DBT_marts.dim_date ........................... [[32mSUCCESS 381[0m in 1.27s]
+[0m13:54:09.397140 [debug] [Thread-2 (]: Finished running node model.retailflow.dim_date
+[0m13:54:09.398142 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:54:09.398142 [debug] [MainThread]: Connection 'list_RETAILFLOW_DB' was left open.
+[0m13:54:09.398142 [debug] [MainThread]: On list_RETAILFLOW_DB: Close
+[0m13:54:09.456106 [debug] [MainThread]: Connection 'list_RETAILFLOW_DB_DBT_staging' was left open.
+[0m13:54:09.457563 [debug] [MainThread]: On list_RETAILFLOW_DB_DBT_staging: Close
+[0m13:54:09.522103 [debug] [MainThread]: Connection 'list_RETAILFLOW_DB_DBT_marts' was left open.
+[0m13:54:09.522103 [debug] [MainThread]: On list_RETAILFLOW_DB_DBT_marts: Close
+[0m13:54:09.592990 [debug] [MainThread]: Connection 'model.retailflow.dim_date' was left open.
+[0m13:54:09.592990 [debug] [MainThread]: On model.retailflow.dim_date: Close
+[0m13:54:09.660555 [info ] [MainThread]: 
+[0m13:54:09.660555 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 2.24 seconds (2.24s).
+[0m13:54:09.661569 [debug] [MainThread]: Command end result
+[0m13:54:09.685938 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\manifest.json
+[0m13:54:09.688155 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\semantic_manifest.json
+[0m13:54:09.694188 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\run_results.json
+[0m13:54:09.694188 [info ] [MainThread]: 
+[0m13:54:09.695188 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:54:09.695188 [info ] [MainThread]: 
+[0m13:54:09.696240 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m13:54:09.696240 [debug] [MainThread]: Command `dbt run` succeeded at 13:54:09.696240 after 4.01 seconds
+[0m13:54:09.697362 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027300ED5CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027300307440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027324EC7BF0>]}
+[0m13:54:09.697362 [debug] [MainThread]: Flushing usage events
+[0m13:54:10.425691 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:54:12.663451 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AD1C84FE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AD195C050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AD195C1A0>]}
+
+
+============================== 13:54:12.666569 | 7d448e6e-1107-418f-8b7b-7caf392520d0 ==============================
+[0m13:54:12.666569 [info ] [MainThread]: Running with dbt=1.11.9
+[0m13:54:12.667575 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\harry\\.dbt', 'invocation_command': 'dbt run --select fact_orders', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\harry\\Documents\\Job Skill Development\\RetailFlow-Analytics\\dbt_retailflow\\logs'}
+[0m13:54:13.261885 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m13:54:13.261885 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m13:54:13.262894 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m13:54:13.447389 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7d448e6e-1107-418f-8b7b-7caf392520d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AF4882930>]}
+[0m13:54:13.501977 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7d448e6e-1107-418f-8b7b-7caf392520d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AF3F663C0>]}
+[0m13:54:13.502983 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m13:54:13.959664 [debug] [MainThread]: checksum: f8bb6a62265c70f2530bed05e52c2cee1c1844b101d398a67d5798350ab914c5, vars: {}, profile: , target: , version: 1.11.9
+[0m13:54:14.085216 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:54:14.085216 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m13:54:14.085216 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:54:14.116580 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7d448e6e-1107-418f-8b7b-7caf392520d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AF66DEB10>]}
+[0m13:54:14.234712 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\manifest.json
+[0m13:54:14.237726 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\semantic_manifest.json
+[0m13:54:14.248093 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7d448e6e-1107-418f-8b7b-7caf392520d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AF6900DD0>]}
+[0m13:54:14.249098 [info ] [MainThread]: Found 11 models, 5 sources, 525 macros
+[0m13:54:14.249098 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7d448e6e-1107-418f-8b7b-7caf392520d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AF43B9760>]}
+[0m13:54:14.250103 [info ] [MainThread]: 
+[0m13:54:14.251107 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m13:54:14.251107 [info ] [MainThread]: 
+[0m13:54:14.252110 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m13:54:14.253115 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB'
+[0m13:54:14.347621 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB"
+[0m13:54:14.347621 [debug] [ThreadPool]: On list_RETAILFLOW_DB: show terse schemas in database RETAILFLOW_DB
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB"} */
+[0m13:54:14.347621 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:14.639735 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 0.292 seconds
+[0m13:54:14.645761 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB_DBT_marts'
+[0m13:54:14.646761 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB_DBT_staging'
+[0m13:54:14.656230 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB_DBT_marts"
+[0m13:54:14.658241 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB_DBT_staging"
+[0m13:54:14.658241 [debug] [ThreadPool]: On list_RETAILFLOW_DB_DBT_marts: show objects in RETAILFLOW_DB.DBT_marts
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB_DBT_marts"} */;
+[0m13:54:14.658241 [debug] [ThreadPool]: On list_RETAILFLOW_DB_DBT_staging: show objects in RETAILFLOW_DB.DBT_staging
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB_DBT_staging"} */;
+[0m13:54:14.659244 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:14.659244 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:14.878839 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 0.220 seconds
+[0m13:54:14.920796 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.262 seconds
+[0m13:54:14.922829 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7d448e6e-1107-418f-8b7b-7caf392520d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AF617A1B0>]}
+[0m13:54:14.925871 [debug] [Thread-2 (]: Began running node model.retailflow.fact_orders
+[0m13:54:14.926901 [info ] [Thread-2 (]: 1 of 1 START sql table model DBT_marts.fact_orders ............................. [RUN]
+[0m13:54:14.926901 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.retailflow.fact_orders'
+[0m13:54:14.927904 [debug] [Thread-2 (]: Began compiling node model.retailflow.fact_orders
+[0m13:54:14.933922 [debug] [Thread-2 (]: Writing injected SQL for node "model.retailflow.fact_orders"
+[0m13:54:14.935148 [debug] [Thread-2 (]: Began executing node model.retailflow.fact_orders
+[0m13:54:14.960182 [debug] [Thread-2 (]: Writing runtime sql for node "model.retailflow.fact_orders"
+[0m13:54:14.961651 [debug] [Thread-2 (]: Using snowflake connection "model.retailflow.fact_orders"
+[0m13:54:14.961651 [debug] [Thread-2 (]: On model.retailflow.fact_orders: create or replace transient table RETAILFLOW_DB.DBT_marts.fact_orders
+    
+    
+    
+    as (SELECT
+    orders.order_id,
+    orders.customer_id,
+    orders.product_id,
+    orders.order_date,
+    orders.sales_channel,
+    orders.quantity,
+    orders.unit_price,
+    products.unit_cost,
+    orders.gross_revenue,
+    orders.net_sales_revenue,
+
+    CASE
+        WHEN orders.status = 'refunded' THEN orders.gross_revenue
+        ELSE 0
+    END AS refunded_revenue,
+
+    CASE
+        WHEN orders.status = 'cancelled' THEN orders.gross_revenue
+        ELSE 0
+    END AS cancelled_revenue,
+
+    orders.status,
+
+    CASE
+        WHEN orders.status = 'completed' THEN ROUND(orders.quantity * products.unit_cost, 2)
+        ELSE 0
+    END AS total_cost,
+
+    CASE
+        WHEN orders.status = 'completed' THEN ROUND(orders.net_sales_revenue - (orders.quantity * products.unit_cost), 2)
+        ELSE 0
+    END AS gross_profit
+
+FROM RETAILFLOW_DB.DBT_staging.stg_orders AS orders
+
+LEFT JOIN RETAILFLOW_DB.DBT_staging.stg_products AS products
+    ON orders.product_id = products.product_id
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "node_id": "model.retailflow.fact_orders"} */;
+[0m13:54:14.962776 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m13:54:15.951302 [debug] [Thread-2 (]: SQL status: SUCCESS 2000 in 0.989 seconds
+[0m13:54:15.970610 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7d448e6e-1107-418f-8b7b-7caf392520d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AF66DCBF0>]}
+[0m13:54:15.970610 [info ] [Thread-2 (]: 1 of 1 OK created sql table model DBT_marts.fact_orders ........................ [[32mSUCCESS 2000[0m in 1.04s]
+[0m13:54:15.971614 [debug] [Thread-2 (]: Finished running node model.retailflow.fact_orders
+[0m13:54:15.972618 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:54:15.973621 [debug] [MainThread]: Connection 'list_RETAILFLOW_DB' was left open.
+[0m13:54:15.973621 [debug] [MainThread]: On list_RETAILFLOW_DB: Close
+[0m13:54:16.032365 [debug] [MainThread]: Connection 'list_RETAILFLOW_DB_DBT_marts' was left open.
+[0m13:54:16.032365 [debug] [MainThread]: On list_RETAILFLOW_DB_DBT_marts: Close
+[0m13:54:16.086310 [debug] [MainThread]: Connection 'list_RETAILFLOW_DB_DBT_staging' was left open.
+[0m13:54:16.087329 [debug] [MainThread]: On list_RETAILFLOW_DB_DBT_staging: Close
+[0m13:54:16.156848 [debug] [MainThread]: Connection 'model.retailflow.fact_orders' was left open.
+[0m13:54:16.158203 [debug] [MainThread]: On model.retailflow.fact_orders: Close
+[0m13:54:16.236886 [info ] [MainThread]: 
+[0m13:54:16.236886 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 1.98 seconds (1.98s).
+[0m13:54:16.237889 [debug] [MainThread]: Command end result
+[0m13:54:16.261033 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\manifest.json
+[0m13:54:16.264057 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\semantic_manifest.json
+[0m13:54:16.269380 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\run_results.json
+[0m13:54:16.270385 [info ] [MainThread]: 
+[0m13:54:16.270385 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:54:16.271389 [info ] [MainThread]: 
+[0m13:54:16.271389 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m13:54:16.272434 [debug] [MainThread]: Command `dbt run` succeeded at 13:54:16.272434 after 3.72 seconds
+[0m13:54:16.272434 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AD1846900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AD1846660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AD1847DD0>]}
+[0m13:54:16.273437 [debug] [MainThread]: Flushing usage events
+[0m13:54:16.998313 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:54:19.259085 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BEE9D4C6B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BEEA409DF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BEEA409760>]}
+
+
+============================== 13:54:19.262141 | fe5fe72e-b1de-4151-8ca7-ec2cf1d1ab1b ==============================
+[0m13:54:19.262141 [info ] [MainThread]: Running with dbt=1.11.9
+[0m13:54:19.262141 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\harry\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run --select fact_ad_spend', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\harry\\Documents\\Job Skill Development\\RetailFlow-Analytics\\dbt_retailflow\\logs'}
+[0m13:54:19.856817 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m13:54:19.857820 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m13:54:19.857820 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m13:54:20.038747 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'fe5fe72e-b1de-4151-8ca7-ec2cf1d1ab1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BE8E4E0FB0>]}
+[0m13:54:20.092714 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'fe5fe72e-b1de-4151-8ca7-ec2cf1d1ab1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BE8E3CB980>]}
+[0m13:54:20.093717 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m13:54:20.542751 [debug] [MainThread]: checksum: f8bb6a62265c70f2530bed05e52c2cee1c1844b101d398a67d5798350ab914c5, vars: {}, profile: , target: , version: 1.11.9
+[0m13:54:20.668206 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:54:20.669209 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m13:54:20.669209 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:54:20.702391 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'fe5fe72e-b1de-4151-8ca7-ec2cf1d1ab1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BE8C2B1130>]}
+[0m13:54:20.823889 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\manifest.json
+[0m13:54:20.825954 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\semantic_manifest.json
+[0m13:54:20.836995 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'fe5fe72e-b1de-4151-8ca7-ec2cf1d1ab1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BE8E7ECB90>]}
+[0m13:54:20.836995 [info ] [MainThread]: Found 11 models, 5 sources, 525 macros
+[0m13:54:20.837998 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fe5fe72e-b1de-4151-8ca7-ec2cf1d1ab1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BE8E9EA600>]}
+[0m13:54:20.839001 [info ] [MainThread]: 
+[0m13:54:20.839001 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m13:54:20.840004 [info ] [MainThread]: 
+[0m13:54:20.841009 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m13:54:20.841514 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB'
+[0m13:54:20.938663 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB"
+[0m13:54:20.938663 [debug] [ThreadPool]: On list_RETAILFLOW_DB: show terse schemas in database RETAILFLOW_DB
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB"} */
+[0m13:54:20.939666 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:21.201431 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 0.262 seconds
+[0m13:54:21.207522 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB_DBT_marts'
+[0m13:54:21.208663 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB_DBT_staging'
+[0m13:54:21.217936 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB_DBT_marts"
+[0m13:54:21.219942 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB_DBT_staging"
+[0m13:54:21.219942 [debug] [ThreadPool]: On list_RETAILFLOW_DB_DBT_marts: show objects in RETAILFLOW_DB.DBT_marts
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB_DBT_marts"} */;
+[0m13:54:21.220945 [debug] [ThreadPool]: On list_RETAILFLOW_DB_DBT_staging: show objects in RETAILFLOW_DB.DBT_staging
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB_DBT_staging"} */;
+[0m13:54:21.220945 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:21.220945 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:21.466245 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 0.246 seconds
+[0m13:54:21.469253 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.248 seconds
+[0m13:54:21.471419 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fe5fe72e-b1de-4151-8ca7-ec2cf1d1ab1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BE8E7D58B0>]}
+[0m13:54:21.474820 [debug] [Thread-2 (]: Began running node model.retailflow.fact_ad_spend
+[0m13:54:21.474820 [info ] [Thread-2 (]: 1 of 1 START sql table model DBT_marts.fact_ad_spend ........................... [RUN]
+[0m13:54:21.475852 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.retailflow.fact_ad_spend'
+[0m13:54:21.475852 [debug] [Thread-2 (]: Began compiling node model.retailflow.fact_ad_spend
+[0m13:54:21.481875 [debug] [Thread-2 (]: Writing injected SQL for node "model.retailflow.fact_ad_spend"
+[0m13:54:21.482878 [debug] [Thread-2 (]: Began executing node model.retailflow.fact_ad_spend
+[0m13:54:21.507047 [debug] [Thread-2 (]: Writing runtime sql for node "model.retailflow.fact_ad_spend"
+[0m13:54:21.507047 [debug] [Thread-2 (]: Using snowflake connection "model.retailflow.fact_ad_spend"
+[0m13:54:21.508425 [debug] [Thread-2 (]: On model.retailflow.fact_ad_spend: create or replace transient table RETAILFLOW_DB.DBT_marts.fact_ad_spend
+    
+    
+    
+    as (SELECT
+    spend_date,
+    platform,
+    campaign,
+    spend,
+    clicks,
+    impressions,
+    cost_per_click,
+    click_through_rate
+FROM RETAILFLOW_DB.DBT_staging.stg_ad_spend
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "node_id": "model.retailflow.fact_ad_spend"} */;
+[0m13:54:21.508425 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m13:54:22.246123 [debug] [Thread-2 (]: SQL status: SUCCESS 1095 in 0.737 seconds
+[0m13:54:22.264781 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'fe5fe72e-b1de-4151-8ca7-ec2cf1d1ab1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BEEB584500>]}
+[0m13:54:22.265783 [info ] [Thread-2 (]: 1 of 1 OK created sql table model DBT_marts.fact_ad_spend ...................... [[32mSUCCESS 1095[0m in 0.79s]
+[0m13:54:22.265783 [debug] [Thread-2 (]: Finished running node model.retailflow.fact_ad_spend
+[0m13:54:22.266825 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:54:22.267836 [debug] [MainThread]: Connection 'list_RETAILFLOW_DB' was left open.
+[0m13:54:22.267836 [debug] [MainThread]: On list_RETAILFLOW_DB: Close
+[0m13:54:22.329488 [debug] [MainThread]: Connection 'list_RETAILFLOW_DB_DBT_marts' was left open.
+[0m13:54:22.330493 [debug] [MainThread]: On list_RETAILFLOW_DB_DBT_marts: Close
+[0m13:54:22.400560 [debug] [MainThread]: Connection 'list_RETAILFLOW_DB_DBT_staging' was left open.
+[0m13:54:22.400560 [debug] [MainThread]: On list_RETAILFLOW_DB_DBT_staging: Close
+[0m13:54:22.461907 [debug] [MainThread]: Connection 'model.retailflow.fact_ad_spend' was left open.
+[0m13:54:22.461907 [debug] [MainThread]: On model.retailflow.fact_ad_spend: Close
+[0m13:54:22.519491 [info ] [MainThread]: 
+[0m13:54:22.520505 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 1.68 seconds (1.68s).
+[0m13:54:22.521518 [debug] [MainThread]: Command end result
+[0m13:54:22.544845 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\manifest.json
+[0m13:54:22.546851 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\semantic_manifest.json
+[0m13:54:22.553878 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\run_results.json
+[0m13:54:22.553878 [info ] [MainThread]: 
+[0m13:54:22.554881 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:54:22.554881 [info ] [MainThread]: 
+[0m13:54:22.554881 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m13:54:22.555885 [debug] [MainThread]: Command `dbt run` succeeded at 13:54:22.555885 after 3.41 seconds
+[0m13:54:22.556889 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BEE976C110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BEEA46B770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BEE96975C0>]}
+[0m13:54:22.556889 [debug] [MainThread]: Flushing usage events
+[0m13:54:23.284232 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:54:25.549067 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001840A2092B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000184088A7B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018408305DF0>]}
+
+
+============================== 13:54:25.552491 | 10759f5c-cf82-471a-b75c-cc9ce61874cc ==============================
+[0m13:54:25.552491 [info ] [MainThread]: Running with dbt=1.11.9
+[0m13:54:25.552491 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\harry\\.dbt', 'invocation_command': 'dbt run --select fact_refunds', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\harry\\Documents\\Job Skill Development\\RetailFlow-Analytics\\dbt_retailflow\\logs'}
+[0m13:54:26.143414 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m13:54:26.143414 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m13:54:26.143414 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m13:54:26.323129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '10759f5c-cf82-471a-b75c-cc9ce61874cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001842A9A5AC0>]}
+[0m13:54:26.377624 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '10759f5c-cf82-471a-b75c-cc9ce61874cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001842CDBB8F0>]}
+[0m13:54:26.379043 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m13:54:26.830563 [debug] [MainThread]: checksum: f8bb6a62265c70f2530bed05e52c2cee1c1844b101d398a67d5798350ab914c5, vars: {}, profile: , target: , version: 1.11.9
+[0m13:54:26.955184 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:54:26.956194 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m13:54:26.956194 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:54:26.987255 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '10759f5c-cf82-471a-b75c-cc9ce61874cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001842D15EB10>]}
+[0m13:54:27.105378 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\manifest.json
+[0m13:54:27.107397 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\semantic_manifest.json
+[0m13:54:27.117883 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '10759f5c-cf82-471a-b75c-cc9ce61874cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001842D37CD10>]}
+[0m13:54:27.117883 [info ] [MainThread]: Found 11 models, 5 sources, 525 macros
+[0m13:54:27.117883 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '10759f5c-cf82-471a-b75c-cc9ce61874cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018428973740>]}
+[0m13:54:27.119974 [info ] [MainThread]: 
+[0m13:54:27.119974 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m13:54:27.120990 [info ] [MainThread]: 
+[0m13:54:27.120990 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m13:54:27.121995 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB'
+[0m13:54:27.216306 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB"
+[0m13:54:27.216306 [debug] [ThreadPool]: On list_RETAILFLOW_DB: show terse schemas in database RETAILFLOW_DB
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB"} */
+[0m13:54:27.216306 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:27.507331 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 0.290 seconds
+[0m13:54:27.513451 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB_DBT_staging'
+[0m13:54:27.513451 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_RETAILFLOW_DB_DBT_marts'
+[0m13:54:27.523785 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB_DBT_staging"
+[0m13:54:27.525799 [debug] [ThreadPool]: Using snowflake connection "list_RETAILFLOW_DB_DBT_marts"
+[0m13:54:27.525799 [debug] [ThreadPool]: On list_RETAILFLOW_DB_DBT_staging: show objects in RETAILFLOW_DB.DBT_staging
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB_DBT_staging"} */;
+[0m13:54:27.526802 [debug] [ThreadPool]: On list_RETAILFLOW_DB_DBT_marts: show objects in RETAILFLOW_DB.DBT_marts
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "connection_name": "list_RETAILFLOW_DB_DBT_marts"} */;
+[0m13:54:27.526802 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:27.526802 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:27.809577 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.283 seconds
+[0m13:54:27.831909 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.305 seconds
+[0m13:54:27.835024 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '10759f5c-cf82-471a-b75c-cc9ce61874cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001842DA809E0>]}
+[0m13:54:27.838035 [debug] [Thread-2 (]: Began running node model.retailflow.fact_refunds
+[0m13:54:27.838035 [info ] [Thread-2 (]: 1 of 1 START sql table model DBT_marts.fact_refunds ............................ [RUN]
+[0m13:54:27.839039 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.retailflow.fact_refunds'
+[0m13:54:27.839039 [debug] [Thread-2 (]: Began compiling node model.retailflow.fact_refunds
+[0m13:54:27.845046 [debug] [Thread-2 (]: Writing injected SQL for node "model.retailflow.fact_refunds"
+[0m13:54:27.846355 [debug] [Thread-2 (]: Began executing node model.retailflow.fact_refunds
+[0m13:54:27.869782 [debug] [Thread-2 (]: Writing runtime sql for node "model.retailflow.fact_refunds"
+[0m13:54:27.870782 [debug] [Thread-2 (]: Using snowflake connection "model.retailflow.fact_refunds"
+[0m13:54:27.870782 [debug] [Thread-2 (]: On model.retailflow.fact_refunds: create or replace transient table RETAILFLOW_DB.DBT_marts.fact_refunds
+    
+    
+    
+    as (SELECT
+    refunds.refund_id,
+    refunds.order_id,
+    orders.customer_id,
+    orders.product_id,
+    refunds.refund_date,
+    refunds.refund_reason,
+    orders.gross_revenue AS refund_order_value
+
+FROM RETAILFLOW_DB.DBT_staging.stg_refunds AS refunds
+
+LEFT JOIN RETAILFLOW_DB.DBT_staging.stg_orders AS orders
+    ON refunds.order_id = orders.order_id
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "retailflow", "target_name": "dev", "node_id": "model.retailflow.fact_refunds"} */;
+[0m13:54:27.872184 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m13:54:28.524066 [debug] [Thread-2 (]: SQL status: SUCCESS 441 in 0.651 seconds
+[0m13:54:28.542458 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '10759f5c-cf82-471a-b75c-cc9ce61874cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001840A28B380>]}
+[0m13:54:28.543461 [info ] [Thread-2 (]: 1 of 1 OK created sql table model DBT_marts.fact_refunds ....................... [[32mSUCCESS 441[0m in 0.70s]
+[0m13:54:28.543461 [debug] [Thread-2 (]: Finished running node model.retailflow.fact_refunds
+[0m13:54:28.544464 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:54:28.545466 [debug] [MainThread]: Connection 'list_RETAILFLOW_DB' was left open.
+[0m13:54:28.545466 [debug] [MainThread]: On list_RETAILFLOW_DB: Close
+[0m13:54:28.606475 [debug] [MainThread]: Connection 'list_RETAILFLOW_DB_DBT_staging' was left open.
+[0m13:54:28.606475 [debug] [MainThread]: On list_RETAILFLOW_DB_DBT_staging: Close
+[0m13:54:28.669684 [debug] [MainThread]: Connection 'list_RETAILFLOW_DB_DBT_marts' was left open.
+[0m13:54:28.669684 [debug] [MainThread]: On list_RETAILFLOW_DB_DBT_marts: Close
+[0m13:54:28.746429 [debug] [MainThread]: Connection 'model.retailflow.fact_refunds' was left open.
+[0m13:54:28.746429 [debug] [MainThread]: On model.retailflow.fact_refunds: Close
+[0m13:54:28.811540 [info ] [MainThread]: 
+[0m13:54:28.811540 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 1.69 seconds (1.69s).
+[0m13:54:28.812561 [debug] [MainThread]: Command end result
+[0m13:54:28.835805 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\manifest.json
+[0m13:54:28.838814 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\semantic_manifest.json
+[0m13:54:28.844853 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\harry\Documents\Job Skill Development\RetailFlow-Analytics\dbt_retailflow\target\run_results.json
+[0m13:54:28.844853 [info ] [MainThread]: 
+[0m13:54:28.845856 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:54:28.845856 [info ] [MainThread]: 
+[0m13:54:28.846867 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m13:54:28.847870 [debug] [MainThread]: Command `dbt run` succeeded at 13:54:28.846867 after 3.41 seconds
+[0m13:54:28.847870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001840A22FF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000184087A7D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000184087A5040>]}
+[0m13:54:28.847870 [debug] [MainThread]: Flushing usage events
+[0m13:54:29.579888 [debug] [MainThread]: An error was encountered while trying to flush usage events

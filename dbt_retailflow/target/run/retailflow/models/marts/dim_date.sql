@@ -1,17 +1,25 @@
-WITH all_dates AS (
+
+  
+    
+
+create or replace transient table RETAILFLOW_DB.DBT_marts.dim_date
+    
+    
+    
+    as (WITH all_dates AS (
 
     SELECT order_date AS date_day
-    FROM {{ ref('stg_orders') }}
+    FROM RETAILFLOW_DB.DBT_staging.stg_orders
 
     UNION
 
     SELECT spend_date AS date_day
-    FROM {{ ref('stg_ad_spend') }}
+    FROM RETAILFLOW_DB.DBT_staging.stg_ad_spend
 
     UNION
 
     SELECT refund_date AS date_day
-    FROM {{ ref('stg_refunds') }}
+    FROM RETAILFLOW_DB.DBT_staging.stg_refunds
 
 )
 
@@ -25,3 +33,8 @@ SELECT
     DAYOFMONTH(date_day) AS day_of_month,
     DAYOFWEEK(date_day) AS day_of_week
 FROM all_dates
+    )
+;
+
+
+  

@@ -5,4 +5,4 @@ SELECT
     email,
     country,
     signup_date
-FROM {{ ref('stg_customers') }}
+FROM RETAILFLOW_DB.DBT_staging.stg_customers
