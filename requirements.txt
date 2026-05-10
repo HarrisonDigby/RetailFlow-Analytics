@@ -2,3 +2,4 @@ pandas
 faker
 snowflake-connector-python
 python-dotenv
+dbt-snowflakepip
