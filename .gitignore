@@ -13,3 +13,7 @@ tmp/
 # OS/editor
 .DS_Store
 .vscode/
+
+# dbt generated files
+dbt_retailflow/target/
+dbt_retailflow/logs/

@@ -88,6 +88,8 @@ The dbt project also includes schema tests and model documentation. These tests 
 
 Running `dbt test` currently executes 44 automated data tests across the staging and marts layers, all of which pass.
 
+The project can also generate local dbt documentation and a lineage graph using `dbt docs generate` and `dbt docs serve`. This provides a browsable view of the Snowflake sources, staging models, marts models, columns, tests, and model dependencies.
+
 
 ## Project Skillset
 
