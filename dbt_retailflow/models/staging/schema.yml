@@ -1,0 +1,103 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: "Cleaned customer records from the raw customer source table."
+    columns:
+      - name: customer_id
+        description: "Unique customer identifier."
+        tests:
+          - not_null
+          - unique
+
+      - name: email
+        description: "Customer email address, standardised to lowercase."
+        tests:
+          - not_null
+
+  - name: stg_products
+    description: "Cleaned product catalogue records from the raw product source table."
+    columns:
+      - name: product_id
+        description: "Unique product identifier."
+        tests:
+          - not_null
+          - unique
+
+      - name: unit_price
+        description: "Product selling price."
+        tests:
+          - not_null
+
+      - name: unit_cost
+        description: "Product cost."
+        tests:
+          - not_null
+
+  - name: stg_orders
+    description: "Cleaned order records from the raw order source table."
+    columns:
+      - name: order_id
+        description: "Unique order identifier."
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_id
+        description: "Customer associated with the order."
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_customers')
+                field: customer_id
+
+      - name: product_id
+        description: "Product associated with the order."
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_products')
+                field: product_id
+
+      - name: order_date
+        description: "Date the order was placed."
+        tests:
+          - not_null
+
+  - name: stg_ad_spend
+    description: "Cleaned advertising spend records from the raw advertising source table."
+    columns:
+      - name: spend_date
+        description: "Date of advertising spend."
+        tests:
+          - not_null
+
+      - name: platform
+        description: "Advertising platform."
+        tests:
+          - not_null
+
+  - name: stg_refunds
+    description: "Cleaned refund records from the raw refund source table."
+    columns:
+      - name: refund_id
+        description: "Unique refund identifier."
+        tests:
+          - not_null
+          - unique
+
+      - name: order_id
+        description: "Order associated with the refund."
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_orders')
+                field: order_id
+
+      - name: refund_date
+        description: "Date the refund was issued."
+        tests:
+          - not_null

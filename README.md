@@ -84,14 +84,19 @@ The staging models standardise source-level data from the Snowflake RAW schema, 
 
 This dbt layer demonstrates how SQL transformations can be version-controlled, organised into reusable models, and built into Snowflake from the command line rather than manually run in the Snowflake UI.
 
+The dbt project also includes schema tests and model documentation. These tests validate key assumptions such as unique IDs, non-null fields, and valid relationships between staging models, fact tables, and dimension tables.
+
+Running `dbt test` currently executes 44 automated data tests across the staging and marts layers, all of which pass.
+
 
 ## Project Skillset
 
-- Python project structure
-- pandas data generation, validation, and preparation
-- Snowflake warehouse, database, schema, table, stage, and file format setup
-- loading local CSV files into Snowflake using `PUT` and `COPY INTO`
-- SQL staging models, marts models, fact tables, dimension tables, and data quality checks
-- dbt Core with Snowflake for managed SQL transformations
-- Git/GitHub version control
-- environment-based credential management
+- Python project structure.
+- pandas data generation, validation, and preparation.
+- Snowflake warehouse, database, schema, table, stage, and file format setup.
+- loading local CSV files into Snowflake using `PUT` and `COPY INTO`.
+- SQL staging models, marts models, fact tables, dimension tables, and data quality checks.
+- dbt Core with Snowflake for managed SQL transformations.
+- Git/GitHub version control.
+- environment-based credential management.
+- dbt schema tests for uniqueness, non-null fields, and referential relationships.

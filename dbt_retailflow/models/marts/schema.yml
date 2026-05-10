@@ -1,0 +1,109 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: "Customer dimension table for reporting."
+    columns:
+      - name: customer_id
+        description: "Unique customer identifier."
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_products
+    description: "Product dimension table for reporting."
+    columns:
+      - name: product_id
+        description: "Unique product identifier."
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_date
+    description: "Date dimension table for time-based reporting."
+    columns:
+      - name: date_day
+        description: "Unique calendar date."
+        tests:
+          - not_null
+          - unique
+
+  - name: fact_orders
+    description: "Order fact table containing sales, revenue, cost, and profit metrics."
+    columns:
+      - name: order_id
+        description: "Unique order identifier."
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_id
+        description: "Customer associated with the order."
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_customers')
+                field: customer_id
+
+      - name: product_id
+        description: "Product associated with the order."
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_products')
+                field: product_id
+
+      - name: order_date
+        description: "Date the order was placed."
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date')
+                field: date_day
+
+  - name: fact_ad_spend
+    description: "Advertising spend fact table containing daily paid media metrics."
+    columns:
+      - name: spend_date
+        description: "Date of advertising spend."
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date')
+                field: date_day
+
+      - name: platform
+        description: "Advertising platform."
+        tests:
+          - not_null
+
+  - name: fact_refunds
+    description: "Refund fact table linked back to original orders."
+    columns:
+      - name: refund_id
+        description: "Unique refund identifier."
+        tests:
+          - not_null
+          - unique
+
+      - name: order_id
+        description: "Order associated with the refund."
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('fact_orders')
+                field: order_id
+
+      - name: refund_date
+        description: "Date the refund was issued."
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date')
+                field: date_day
