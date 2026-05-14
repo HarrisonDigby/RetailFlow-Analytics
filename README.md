@@ -91,6 +91,39 @@ Running `dbt test` currently executes 44 automated data tests across the staging
 The project can also generate local dbt documentation and a lineage graph using `dbt docs generate` and `dbt docs serve`. This provides a browsable view of the Snowflake sources, staging models, marts models, columns, tests, and model dependencies.
 
 
+## Phase 3: AWS S3 Data Lake Layer
+
+The project now includes an AWS S3 data lake layer.
+
+Processed CSV files are uploaded from the local project into a private S3 bucket using Python and `boto3`:
+
+```
+processed CSVs
+→ Python boto3 upload script
+→ AWS S3 bucket
+```
+
+This adds a cloud object storage layer to the pipeline and prepares the project for loading data from S3 into Snowflake using an external stage.
+
+Snowflake is now connected to the S3 processed-data layer using an external stage. The external stage points to the project’s S3 bucket and allows Snowflake to load the processed CSV files directly from cloud object storage into the `RAW` warehouse tables.
+
+The current cloud loading flow is:
+
+```
+processed CSVs
+→ Python boto3 upload script
+→ AWS S3 bucket
+→ Snowflake external stage
+→ Snowflake RAW tables
+→ dbt STAGING views
+→ dbt MARTS fact and dimension tables
+→ dbt tests
+```
+
+After loading from S3, the dbt transformation layer is rebuilt and tested. Running dbt run currently builds 11 models, and running dbt test executes 44 passing data tests.
+
+
+
 ## Project Skillset
 
 - Python project structure.
@@ -102,3 +135,6 @@ The project can also generate local dbt documentation and a lineage graph using 
 - Git/GitHub version control.
 - environment-based credential management.
 - dbt schema tests for uniqueness, non-null fields, and referential relationships.
+- AWS S3 object storage for cloud data lake file storage.
+- Python `boto3` for uploading local processed data to S3.
+- Snowflake external stages for loading data from AWS S3.
