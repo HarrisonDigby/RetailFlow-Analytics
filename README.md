@@ -123,6 +123,23 @@ processed CSVs
 After loading from S3, the dbt transformation layer is rebuilt and tested. Running dbt run currently builds 11 models, and running dbt test executes 44 passing data tests.
 
 
+## Phase 4: Local Pipeline Orchestration
+
+The project now includes a local orchestration script that runs the full pipeline end-to-end:
+
+```
+generate raw data
+→ validate raw data
+→ prepare processed CSVs
+→ upload processed files to AWS S3
+→ load Snowflake RAW tables from S3
+→ run dbt transformations
+→ run dbt tests
+```
+
+This provides a single command for rebuilding the full pipeline locally before moving orchestration into Airflow.
+
+
 
 ## Project Skillset
 
@@ -138,3 +155,4 @@ After loading from S3, the dbt transformation layer is rebuilt and tested. Runni
 - AWS S3 object storage for cloud data lake file storage.
 - Python `boto3` for uploading local processed data to S3.
 - Snowflake external stages for loading data from AWS S3.
+- Local pipeline orchestration using Python `subprocess` and Snowflake connector.
