@@ -1,0 +1,121 @@
+[2026-05-18T11:54:33.996+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-18T11:54:34.008+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: retailflow_pipeline.dbt_test manual__2026-05-18T11:54:04.467207+00:00 [queued]>
+[2026-05-18T11:54:34.013+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: retailflow_pipeline.dbt_test manual__2026-05-18T11:54:04.467207+00:00 [queued]>
+[2026-05-18T11:54:34.014+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2026-05-18T11:54:34.023+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): dbt_test> on 2026-05-18 11:54:04.467207+00:00
+[2026-05-18T11:54:34.029+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'retailflow_pipeline', 'dbt_test', 'manual__2026-05-18T11:54:04.467207+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/retailflow_pipeline_dag.py', '--cfg-path', '/tmp/tmp_r_56u0m']
+[2026-05-18T11:54:34.031+0000] {standard_task_runner.py:105} INFO - Job 11: Subtask dbt_test
+[2026-05-18T11:54:34.031+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=447) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-05-18T11:54:34.031+0000] {standard_task_runner.py:72} INFO - Started process 448 to run task
+[2026-05-18T11:54:34.064+0000] {task_command.py:467} INFO - Running <TaskInstance: retailflow_pipeline.dbt_test manual__2026-05-18T11:54:04.467207+00:00 [running]> on host 8858b3c39436
+[2026-05-18T11:54:34.117+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='retailflow_pipeline' AIRFLOW_CTX_TASK_ID='dbt_test' AIRFLOW_CTX_EXECUTION_DATE='2026-05-18T11:54:04.467207+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-18T11:54:04.467207+00:00'
+[2026-05-18T11:54:34.118+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-18T11:54:34.129+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-05-18T11:54:34.130+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/project/dbt_retailflow && dbt test']
+[2026-05-18T11:54:34.138+0000] {subprocess.py:99} INFO - Output:
+[2026-05-18T11:54:35.745+0000] {subprocess.py:106} INFO - [0m11:54:35  Running with dbt=1.11.10
+[2026-05-18T11:54:36.426+0000] {subprocess.py:106} INFO - [0m11:54:36  Registered adapter: snowflake=1.11.5
+[2026-05-18T11:54:36.937+0000] {subprocess.py:106} INFO - [0m11:54:36  Found 11 models, 44 data tests, 5 sources, 528 macros
+[2026-05-18T11:54:36.940+0000] {subprocess.py:106} INFO - [0m11:54:36
+[2026-05-18T11:54:36.940+0000] {subprocess.py:106} INFO - [0m11:54:36  Concurrency: 4 threads (target='dev')
+[2026-05-18T11:54:36.941+0000] {subprocess.py:106} INFO - [0m11:54:36
+[2026-05-18T11:54:37.665+0000] {subprocess.py:106} INFO - [0m11:54:37  1 of 44 START test not_null_dim_customers_customer_id .......................... [RUN]
+[2026-05-18T11:54:37.665+0000] {subprocess.py:106} INFO - [0m11:54:37  2 of 44 START test not_null_dim_date_date_day .................................. [RUN]
+[2026-05-18T11:54:37.666+0000] {subprocess.py:106} INFO - [0m11:54:37  3 of 44 START test not_null_dim_products_product_id ............................ [RUN]
+[2026-05-18T11:54:37.666+0000] {subprocess.py:106} INFO - [0m11:54:37  4 of 44 START test not_null_fact_ad_spend_platform ............................. [RUN]
+[2026-05-18T11:54:37.895+0000] {subprocess.py:106} INFO - [0m11:54:37  2 of 44 PASS not_null_dim_date_date_day ........................................ [[32mPASS[0m in 0.23s]
+[2026-05-18T11:54:37.897+0000] {subprocess.py:106} INFO - [0m11:54:37  5 of 44 START test not_null_fact_ad_spend_spend_date ........................... [RUN]
+[2026-05-18T11:54:37.977+0000] {subprocess.py:106} INFO - [0m11:54:37  1 of 44 PASS not_null_dim_customers_customer_id ................................ [[32mPASS[0m in 0.31s]
+[2026-05-18T11:54:37.979+0000] {subprocess.py:106} INFO - [0m11:54:37  6 of 44 START test not_null_fact_orders_customer_id ............................ [RUN]
+[2026-05-18T11:54:38.098+0000] {subprocess.py:106} INFO - [0m11:54:38  5 of 44 PASS not_null_fact_ad_spend_spend_date ................................. [[32mPASS[0m in 0.20s]
+[2026-05-18T11:54:38.101+0000] {subprocess.py:106} INFO - [0m11:54:38  4 of 44 PASS not_null_fact_ad_spend_platform ................................... [[32mPASS[0m in 0.43s]
+[2026-05-18T11:54:38.102+0000] {subprocess.py:106} INFO - [0m11:54:38  7 of 44 START test not_null_fact_orders_order_date ............................. [RUN]
+[2026-05-18T11:54:38.104+0000] {subprocess.py:106} INFO - [0m11:54:38  8 of 44 START test not_null_fact_orders_order_id ............................... [RUN]
+[2026-05-18T11:54:38.154+0000] {subprocess.py:106} INFO - [0m11:54:38  6 of 44 PASS not_null_fact_orders_customer_id .................................. [[32mPASS[0m in 0.17s]
+[2026-05-18T11:54:38.156+0000] {subprocess.py:106} INFO - [0m11:54:38  9 of 44 START test not_null_fact_orders_product_id ............................. [RUN]
+[2026-05-18T11:54:38.168+0000] {subprocess.py:106} INFO - [0m11:54:38  3 of 44 PASS not_null_dim_products_product_id .................................. [[32mPASS[0m in 0.50s]
+[2026-05-18T11:54:38.169+0000] {subprocess.py:106} INFO - [0m11:54:38  10 of 44 START test not_null_fact_refunds_order_id ............................. [RUN]
+[2026-05-18T11:54:38.199+0000] {subprocess.py:106} INFO - [0m11:54:38  7 of 44 PASS not_null_fact_orders_order_date ................................... [[32mPASS[0m in 0.10s]
+[2026-05-18T11:54:38.201+0000] {subprocess.py:106} INFO - [0m11:54:38  11 of 44 START test not_null_fact_refunds_refund_date .......................... [RUN]
+[2026-05-18T11:54:38.281+0000] {subprocess.py:106} INFO - [0m11:54:38  8 of 44 PASS not_null_fact_orders_order_id ..................................... [[32mPASS[0m in 0.18s]
+[2026-05-18T11:54:38.282+0000] {subprocess.py:106} INFO - [0m11:54:38  12 of 44 START test not_null_fact_refunds_refund_id ............................ [RUN]
+[2026-05-18T11:54:38.326+0000] {subprocess.py:106} INFO - [0m11:54:38  10 of 44 PASS not_null_fact_refunds_order_id ................................... [[32mPASS[0m in 0.15s]
+[2026-05-18T11:54:38.328+0000] {subprocess.py:106} INFO - [0m11:54:38  13 of 44 START test not_null_stg_ad_spend_platform ............................. [RUN]
+[2026-05-18T11:54:38.344+0000] {subprocess.py:106} INFO - [0m11:54:38  9 of 44 PASS not_null_fact_orders_product_id ................................... [[32mPASS[0m in 0.19s]
+[2026-05-18T11:54:38.345+0000] {subprocess.py:106} INFO - [0m11:54:38  14 of 44 START test not_null_stg_ad_spend_spend_date ........................... [RUN]
+[2026-05-18T11:54:38.390+0000] {subprocess.py:106} INFO - [0m11:54:38  11 of 44 PASS not_null_fact_refunds_refund_date ................................ [[32mPASS[0m in 0.19s]
+[2026-05-18T11:54:38.391+0000] {subprocess.py:106} INFO - [0m11:54:38  15 of 44 START test not_null_stg_customers_customer_id ......................... [RUN]
+[2026-05-18T11:54:38.426+0000] {subprocess.py:106} INFO - [0m11:54:38  12 of 44 PASS not_null_fact_refunds_refund_id .................................. [[32mPASS[0m in 0.14s]
+[2026-05-18T11:54:38.428+0000] {subprocess.py:106} INFO - [0m11:54:38  16 of 44 START test not_null_stg_customers_email ............................... [RUN]
+[2026-05-18T11:54:38.448+0000] {subprocess.py:106} INFO - [0m11:54:38  14 of 44 PASS not_null_stg_ad_spend_spend_date ................................. [[32mPASS[0m in 0.10s]
+[2026-05-18T11:54:38.449+0000] {subprocess.py:106} INFO - [0m11:54:38  17 of 44 START test not_null_stg_orders_customer_id ............................ [RUN]
+[2026-05-18T11:54:38.456+0000] {subprocess.py:106} INFO - [0m11:54:38  13 of 44 PASS not_null_stg_ad_spend_platform ................................... [[32mPASS[0m in 0.13s]
+[2026-05-18T11:54:38.459+0000] {subprocess.py:106} INFO - [0m11:54:38  18 of 44 START test not_null_stg_orders_order_date ............................. [RUN]
+[2026-05-18T11:54:38.495+0000] {subprocess.py:106} INFO - [0m11:54:38  15 of 44 PASS not_null_stg_customers_customer_id ............................... [[32mPASS[0m in 0.10s]
+[2026-05-18T11:54:38.496+0000] {subprocess.py:106} INFO - [0m11:54:38  19 of 44 START test not_null_stg_orders_order_id ............................... [RUN]
+[2026-05-18T11:54:38.576+0000] {subprocess.py:106} INFO - [0m11:54:38  18 of 44 PASS not_null_stg_orders_order_date ................................... [[32mPASS[0m in 0.12s]
+[2026-05-18T11:54:38.577+0000] {subprocess.py:106} INFO - [0m11:54:38  20 of 44 START test not_null_stg_orders_product_id ............................. [RUN]
+[2026-05-18T11:54:38.612+0000] {subprocess.py:106} INFO - [0m11:54:38  17 of 44 PASS not_null_stg_orders_customer_id .................................. [[32mPASS[0m in 0.16s]
+[2026-05-18T11:54:38.614+0000] {subprocess.py:106} INFO - [0m11:54:38  21 of 44 START test not_null_stg_products_product_id ........................... [RUN]
+[2026-05-18T11:54:38.626+0000] {subprocess.py:106} INFO - [0m11:54:38  16 of 44 PASS not_null_stg_customers_email ..................................... [[32mPASS[0m in 0.20s]
+[2026-05-18T11:54:38.627+0000] {subprocess.py:106} INFO - [0m11:54:38  22 of 44 START test not_null_stg_products_unit_cost ............................ [RUN]
+[2026-05-18T11:54:38.676+0000] {subprocess.py:106} INFO - [0m11:54:38  19 of 44 PASS not_null_stg_orders_order_id ..................................... [[32mPASS[0m in 0.18s]
+[2026-05-18T11:54:38.678+0000] {subprocess.py:106} INFO - [0m11:54:38  23 of 44 START test not_null_stg_products_unit_price ........................... [RUN]
+[2026-05-18T11:54:38.695+0000] {subprocess.py:106} INFO - [0m11:54:38  20 of 44 PASS not_null_stg_orders_product_id ................................... [[32mPASS[0m in 0.12s]
+[2026-05-18T11:54:38.697+0000] {subprocess.py:106} INFO - [0m11:54:38  24 of 44 START test not_null_stg_refunds_order_id .............................. [RUN]
+[2026-05-18T11:54:38.847+0000] {subprocess.py:106} INFO - [0m11:54:38  21 of 44 PASS not_null_stg_products_product_id ................................. [[32mPASS[0m in 0.23s]
+[2026-05-18T11:54:38.850+0000] {subprocess.py:106} INFO - [0m11:54:38  22 of 44 PASS not_null_stg_products_unit_cost .................................. [[32mPASS[0m in 0.22s]
+[2026-05-18T11:54:38.850+0000] {subprocess.py:106} INFO - [0m11:54:38  25 of 44 START test not_null_stg_refunds_refund_date ........................... [RUN]
+[2026-05-18T11:54:38.853+0000] {subprocess.py:106} INFO - [0m11:54:38  26 of 44 START test not_null_stg_refunds_refund_id ............................. [RUN]
+[2026-05-18T11:54:38.862+0000] {subprocess.py:106} INFO - [0m11:54:38  23 of 44 PASS not_null_stg_products_unit_price ................................. [[32mPASS[0m in 0.18s]
+[2026-05-18T11:54:38.868+0000] {subprocess.py:106} INFO - [0m11:54:38  27 of 44 START test relationships_fact_ad_spend_spend_date__date_day__ref_dim_date_  [RUN]
+[2026-05-18T11:54:38.874+0000] {subprocess.py:106} INFO - [0m11:54:38  24 of 44 PASS not_null_stg_refunds_order_id .................................... [[32mPASS[0m in 0.18s]
+[2026-05-18T11:54:38.886+0000] {subprocess.py:106} INFO - [0m11:54:38  28 of 44 START test relationships_fact_orders_customer_id__customer_id__ref_dim_customers_  [RUN]
+[2026-05-18T11:54:39.008+0000] {subprocess.py:106} INFO - [0m11:54:39  25 of 44 PASS not_null_stg_refunds_refund_date ................................. [[32mPASS[0m in 0.16s]
+[2026-05-18T11:54:39.010+0000] {subprocess.py:106} INFO - [0m11:54:39  29 of 44 START test relationships_fact_orders_order_date__date_day__ref_dim_date_  [RUN]
+[2026-05-18T11:54:39.029+0000] {subprocess.py:106} INFO - [0m11:54:39  26 of 44 PASS not_null_stg_refunds_refund_id ................................... [[32mPASS[0m in 0.17s]
+[2026-05-18T11:54:39.031+0000] {subprocess.py:106} INFO - [0m11:54:39  30 of 44 START test relationships_fact_orders_product_id__product_id__ref_dim_products_  [RUN]
+[2026-05-18T11:54:39.049+0000] {subprocess.py:106} INFO - [0m11:54:39  28 of 44 PASS relationships_fact_orders_customer_id__customer_id__ref_dim_customers_  [[32mPASS[0m in 0.16s]
+[2026-05-18T11:54:39.051+0000] {subprocess.py:106} INFO - [0m11:54:39  31 of 44 START test relationships_fact_refunds_order_id__order_id__ref_fact_orders_  [RUN]
+[2026-05-18T11:54:39.068+0000] {subprocess.py:106} INFO - [0m11:54:39  27 of 44 PASS relationships_fact_ad_spend_spend_date__date_day__ref_dim_date_ .. [[32mPASS[0m in 0.20s]
+[2026-05-18T11:54:39.070+0000] {subprocess.py:106} INFO - [0m11:54:39  32 of 44 START test relationships_fact_refunds_refund_date__date_day__ref_dim_date_  [RUN]
+[2026-05-18T11:54:39.144+0000] {subprocess.py:106} INFO - [0m11:54:39  29 of 44 PASS relationships_fact_orders_order_date__date_day__ref_dim_date_ .... [[32mPASS[0m in 0.13s]
+[2026-05-18T11:54:39.145+0000] {subprocess.py:106} INFO - [0m11:54:39  33 of 44 START test relationships_stg_orders_customer_id__customer_id__ref_stg_customers_  [RUN]
+[2026-05-18T11:54:39.158+0000] {subprocess.py:106} INFO - [0m11:54:39  30 of 44 PASS relationships_fact_orders_product_id__product_id__ref_dim_products_  [[32mPASS[0m in 0.13s]
+[2026-05-18T11:54:39.160+0000] {subprocess.py:106} INFO - [0m11:54:39  34 of 44 START test relationships_stg_orders_product_id__product_id__ref_stg_products_  [RUN]
+[2026-05-18T11:54:39.243+0000] {subprocess.py:106} INFO - [0m11:54:39  32 of 44 PASS relationships_fact_refunds_refund_date__date_day__ref_dim_date_ .. [[32mPASS[0m in 0.17s]
+[2026-05-18T11:54:39.245+0000] {subprocess.py:106} INFO - [0m11:54:39  35 of 44 START test relationships_stg_refunds_order_id__order_id__ref_stg_orders_  [RUN]
+[2026-05-18T11:54:39.255+0000] {subprocess.py:106} INFO - [0m11:54:39  31 of 44 PASS relationships_fact_refunds_order_id__order_id__ref_fact_orders_ .. [[32mPASS[0m in 0.20s]
+[2026-05-18T11:54:39.256+0000] {subprocess.py:106} INFO - [0m11:54:39  36 of 44 START test unique_dim_customers_customer_id ........................... [RUN]
+[2026-05-18T11:54:39.339+0000] {subprocess.py:106} INFO - [0m11:54:39  34 of 44 PASS relationships_stg_orders_product_id__product_id__ref_stg_products_  [[32mPASS[0m in 0.18s]
+[2026-05-18T11:54:39.340+0000] {subprocess.py:106} INFO - [0m11:54:39  37 of 44 START test unique_dim_date_date_day ................................... [RUN]
+[2026-05-18T11:54:39.401+0000] {subprocess.py:106} INFO - [0m11:54:39  33 of 44 PASS relationships_stg_orders_customer_id__customer_id__ref_stg_customers_  [[32mPASS[0m in 0.26s]
+[2026-05-18T11:54:39.403+0000] {subprocess.py:106} INFO - [0m11:54:39  38 of 44 START test unique_dim_products_product_id ............................. [RUN]
+[2026-05-18T11:54:39.410+0000] {subprocess.py:106} INFO - [0m11:54:39  36 of 44 PASS unique_dim_customers_customer_id ................................. [[32mPASS[0m in 0.15s]
+[2026-05-18T11:54:39.411+0000] {subprocess.py:106} INFO - [0m11:54:39  39 of 44 START test unique_fact_orders_order_id ................................ [RUN]
+[2026-05-18T11:54:39.552+0000] {subprocess.py:106} INFO - [0m11:54:39  39 of 44 PASS unique_fact_orders_order_id ...................................... [[32mPASS[0m in 0.14s]
+[2026-05-18T11:54:39.555+0000] {subprocess.py:106} INFO - [0m11:54:39  40 of 44 START test unique_fact_refunds_refund_id .............................. [RUN]
+[2026-05-18T11:54:39.556+0000] {subprocess.py:106} INFO - [0m11:54:39  35 of 44 PASS relationships_stg_refunds_order_id__order_id__ref_stg_orders_ .... [[32mPASS[0m in 0.31s]
+[2026-05-18T11:54:39.562+0000] {subprocess.py:106} INFO - [0m11:54:39  41 of 44 START test unique_stg_customers_customer_id ........................... [RUN]
+[2026-05-18T11:54:39.569+0000] {subprocess.py:106} INFO - [0m11:54:39  38 of 44 PASS unique_dim_products_product_id ................................... [[32mPASS[0m in 0.17s]
+[2026-05-18T11:54:39.571+0000] {subprocess.py:106} INFO - [0m11:54:39  42 of 44 START test unique_stg_orders_order_id ................................. [RUN]
+[2026-05-18T11:54:39.610+0000] {subprocess.py:106} INFO - [0m11:54:39  37 of 44 PASS unique_dim_date_date_day ......................................... [[32mPASS[0m in 0.27s]
+[2026-05-18T11:54:39.612+0000] {subprocess.py:106} INFO - [0m11:54:39  43 of 44 START test unique_stg_products_product_id ............................. [RUN]
+[2026-05-18T11:54:39.683+0000] {subprocess.py:106} INFO - [0m11:54:39  41 of 44 PASS unique_stg_customers_customer_id ................................. [[32mPASS[0m in 0.12s]
+[2026-05-18T11:54:39.684+0000] {subprocess.py:106} INFO - [0m11:54:39  44 of 44 START test unique_stg_refunds_refund_id ............................... [RUN]
+[2026-05-18T11:54:39.693+0000] {subprocess.py:106} INFO - [0m11:54:39  42 of 44 PASS unique_stg_orders_order_id ....................................... [[32mPASS[0m in 0.12s]
+[2026-05-18T11:54:39.702+0000] {subprocess.py:106} INFO - [0m11:54:39  40 of 44 PASS unique_fact_refunds_refund_id .................................... [[32mPASS[0m in 0.14s]
+[2026-05-18T11:54:39.737+0000] {subprocess.py:106} INFO - [0m11:54:39  43 of 44 PASS unique_stg_products_product_id ................................... [[32mPASS[0m in 0.12s]
+[2026-05-18T11:54:39.916+0000] {subprocess.py:106} INFO - [0m11:54:39  44 of 44 PASS unique_stg_refunds_refund_id ..................................... [[32mPASS[0m in 0.23s]
+[2026-05-18T11:54:40.212+0000] {subprocess.py:106} INFO - [0m11:54:40
+[2026-05-18T11:54:40.213+0000] {subprocess.py:106} INFO - [0m11:54:40  Finished running 44 data tests in 0 hours 0 minutes and 3.27 seconds (3.27s).
+[2026-05-18T11:54:40.273+0000] {subprocess.py:106} INFO - [0m11:54:40
+[2026-05-18T11:54:40.273+0000] {subprocess.py:106} INFO - [0m11:54:40  [32mCompleted successfully[0m
+[2026-05-18T11:54:40.274+0000] {subprocess.py:106} INFO - [0m11:54:40
+[2026-05-18T11:54:40.274+0000] {subprocess.py:106} INFO - [0m11:54:40  Done. PASS=44 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=44
+[2026-05-18T11:54:41.185+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-05-18T11:54:41.206+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-18T11:54:41.206+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=retailflow_pipeline, task_id=dbt_test, run_id=manual__2026-05-18T11:54:04.467207+00:00, execution_date=20260518T115404, start_date=20260518T115434, end_date=20260518T115441
+[2026-05-18T11:54:41.256+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-18T11:54:41.267+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-18T11:54:41.270+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

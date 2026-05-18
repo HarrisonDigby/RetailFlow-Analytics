@@ -140,19 +140,41 @@ generate raw data
 This provides a single command for rebuilding the full pipeline locally before moving orchestration into Airflow.
 
 
+## Phase 5: Airflow Orchestration with Docker
+
+The project now includes an Airflow orchestration layer running locally through Docker Compose.
+
+The Airflow DAG runs the full data pipeline end-to-end:
+
+```
+generate raw data
+→ validate raw data
+→ prepare processed CSVs
+→ upload processed files to AWS S3
+→ load Snowflake RAW tables from S3
+→ run dbt transformations
+→ run dbt tests
+```
+
+Airflow provides a monitored workflow with task dependencies, task status, logs, and manual triggering through the local Airflow UI at localhost:8080.
+
+The Airflow environment is containerised using Docker Compose, with separate services for the Airflow webserver, scheduler, metadata database, and setup task.
+
 
 ## Project Skillset
 
 - Python project structure.
 - pandas data generation, validation, and preparation.
 - Snowflake warehouse, database, schema, table, stage, and file format setup.
-- loading local CSV files into Snowflake using `PUT` and `COPY INTO`.
+- Loading local CSV files into Snowflake.
 - SQL staging models, marts models, fact tables, dimension tables, and data quality checks.
 - dbt Core with Snowflake for managed SQL transformations.
 - Git/GitHub version control.
-- environment-based credential management.
+- Environment-based credential management.
 - dbt schema tests for uniqueness, non-null fields, and referential relationships.
 - AWS S3 object storage for cloud data lake file storage.
 - Python `boto3` for uploading local processed data to S3.
 - Snowflake external stages for loading data from AWS S3.
 - Local pipeline orchestration using Python `subprocess` and Snowflake connector.
+- Docker Compose for running a local Airflow environment.
+- Airflow DAG orchestration for the end-to-end data pipeline.
