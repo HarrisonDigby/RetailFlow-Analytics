@@ -2,34 +2,57 @@
 
 End-to-end data engineering portfolio project.
 
+
 ## Goal
 
 Build a realistic cloud data platform for a fake retail/e-commerce business.
 
 The project will ingest raw business data, store it in a data lake, load it into a cloud data warehouse, transform it into analytics-ready models, validate data quality, and visualise business KPIs in Power BI.
 
-## Planned Architecture
+
+## Project Screenshots
+
+### Power BI Executive Dashboard
+
+![Power BI Executive Dashboard](screenshots/powerbi-dashboard.png)
+
+### Airflow Pipeline Run
+
+![Airflow DAG Success](screenshots/airflow-dag-success.png)
+
+### dbt Lineage Graph
+
+![dbt Lineage Graph](screenshots/dbt-lineage.png)
+
+### AWS S3 Data Lake
+
+![S3 Processed Files](screenshots/s3-processed-files.png)
+
+### Snowflake Marts Layer
+
+![Snowflake Marts Tables](screenshots/snowflake-marts-tables.png)
+
+
+## Architecture
 
 Raw CSV/API data  
-→ AWS S3 data lake  
-→ Snowflake cloud data warehouse  
-→ dbt transformations  
-→ fact/dimension data model  
-→ data quality checks  
-→ Power BI dashboard  
-→ Airflow orchestration  
-→ GitHub Actions CI  
-→ Docker/Terraform polish
+→ AWS S3 data lake.
+→ Snowflake cloud data warehouse.
+→ dbt transformations.
+→ fact/dimension data model.
+→ data quality checks.
+→ Airflow orchestration (running locally in Docker via Docker Compose).
+→ Power BI dashboard.
+
 
 ## SQL Files
 
-The `sql/` folder contains the Snowflake SQL used to create the initial cloud warehouse structure for this project.
+The `sql/` folder contains the Snowflake SQL used to create and document the warehouse setup for this project.
 
-At this stage, the SQL is being written and run manually in Snowflake to build a proper understanding of the platform fundamentals: warehouses, databases, schemas, raw tables, and data loading.
+The early SQL files were written and run manually in Snowflake to build a clear understanding of warehouses, databases, schemas, raw tables, stages, file formats, and data loading.
 
-This manual setup is intentional. Later in the project, parts of the infrastructure will be automated with tools such as Terraform, and raw file storage will be moved into AWS S3 to reflect a more production-like cloud data workflow.
+Later SQL files define the S3 external stage and the S3-to-Snowflake loading process. These files are included so the Snowflake setup is visible, documented, and version-controlled rather than only existing inside the Snowflake UI.
 
-The SQL files are included in the repo so the Snowflake setup is visible, documented, and version-controlled rather than only existing inside the Snowflake UI.
 
 ## Phase 1: Build the local-to-Snowflake foundation
 
@@ -41,7 +64,7 @@ Work includes:
 - manually creating the initial Snowflake warehouse structure with SQL
 - creating raw Snowflake tables to receive the prepared data
 
-The manual Snowflake setup was intentional at this stage to build a clear understanding of the platform before moving the transformation layer into dbt and later adding AWS S3, Airflow, GitHub Actions, Docker, and Terraform.
+The manual Snowflake setup was intentional at this stage to build a clear understanding of the platform before moving the transformation layer into dbt and later adding AWS S3, Airflow, Docker, and Power BI.
 
 The project currently includes the first end-to-end local-to-Snowflake data loading flow:
 
@@ -120,7 +143,7 @@ processed CSVs
 → dbt tests
 ```
 
-After loading from S3, the dbt transformation layer is rebuilt and tested. Running dbt run currently builds 11 models, and running dbt test executes 44 passing data tests.
+After loading from S3, the dbt transformation layer is rebuilt and tested. Running `dbt run` currently builds 11 models, and running `dbt test` executes 44 passing data tests.
 
 
 ## Phase 4: Local Pipeline Orchestration
@@ -156,9 +179,18 @@ generate raw data
 → run dbt tests
 ```
 
-Airflow provides a monitored workflow with task dependencies, task status, logs, and manual triggering through the local Airflow UI at localhost:8080.
+Airflow provides a monitored workflow with task dependencies, task status, logs, and manual triggering through the local Airflow UI at `localhost:8080`.
 
 The Airflow environment is containerised using Docker Compose, with separate services for the Airflow webserver, scheduler, metadata database, and setup task.
+
+
+## Phase 6: Power BI Reporting Layer
+
+The project includes a simple Power BI executive dashboard connected to the Snowflake `DBT_MARTS` reporting layer.
+
+The dashboard demonstrates that the transformed marts tables can support business reporting across sales, profit, product categories, advertising spend, and refunds.
+
+This reporting layer is intentionally lightweight because the main focus of the project is the data engineering pipeline rather than dashboard development.
 
 
 ## Project Skillset
@@ -166,7 +198,7 @@ The Airflow environment is containerised using Docker Compose, with separate ser
 - Python project structure.
 - pandas data generation, validation, and preparation.
 - Snowflake warehouse, database, schema, table, stage, and file format setup.
-- Loading local CSV files into Snowflake.
+- Loading local CSV files into Snowflake using internal stages.
 - SQL staging models, marts models, fact tables, dimension tables, and data quality checks.
 - dbt Core with Snowflake for managed SQL transformations.
 - Git/GitHub version control.
@@ -178,3 +210,5 @@ The Airflow environment is containerised using Docker Compose, with separate ser
 - Local pipeline orchestration using Python `subprocess` and Snowflake connector.
 - Docker Compose for running a local Airflow environment.
 - Airflow DAG orchestration for the end-to-end data pipeline.
+- Power BI reporting from Snowflake marts tables.
+- Basic business KPI modelling across revenue, profit, ad spend, and refunds.
